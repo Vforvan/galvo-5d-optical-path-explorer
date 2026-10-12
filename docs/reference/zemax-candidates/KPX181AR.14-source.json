@@ -1,0 +1,4970 @@
+{
+  "accessoryTables": [
+    {
+      "itemType": "OrderTableComponent",
+      "productRows": [
+        {
+          "label": "SPX040AR.14",
+          "product": {
+            "allowInstantQuotes": true,
+            "alwaysShowFamily": false,
+            "availabilityThreshold": 7,
+            "availableInSAP": true,
+            "baseOptions": [
+              {
+                "selected": {
+                  "code": "SPX040AR.14",
+                  "priceData": {
+                    "currencyIso": "USD",
+                    "formattedValue": "$324",
+                    "priceType": "BUY",
+                    "value": 324.0
+                  },
+                  "stock": {
+                    "isValueRounded": false,
+                    "stockLevel": 0,
+                    "stockLevelStatus": "inStock"
+                  },
+                  "url": "/p/SPX040AR.14",
+                  "variantOptionQualifiers": []
+                },
+                "variantType": "NewPortVariantProduct"
+              }
+            ],
+            "baseProduct": "ar14-uvfs-plano-convex-lenses",
+            "baseProductHasNewVariant": false,
+            "baseProductImageUrl": "/medias/sys_master/DefaultCelumAssetsFolder/h48/h6c/9911252156446/AR-14-Reflectance_100w/AR-14-Reflectance-100w.gif",
+            "baseProductName": "Visible UVFS Plano-Convex Lenses",
+            "baseProductTitle": "Visible UV Fused Silica Plano-Convex Lens",
+            "brand": "Newport",
+            "cad2DAvailable": true,
+            "cad3DAvailable": true,
+            "classifications": [
+              {
+                "code": "Spherical_Lenses_Classification",
+                "features": [
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.lensshape",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "Plano-Convex"
+                      }
+                    ],
+                    "name": "Lens Shape",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.diameter",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "50.8 mm"
+                      }
+                    ],
+                    "name": "Diameter",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.lensmaterial",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "UV Fused Silica"
+                      }
+                    ],
+                    "name": "Lens Material",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.antireflectioncoating",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "430-700 nm"
+                      }
+                    ],
+                    "name": "Antireflection Coating",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.coatingtype",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "Visible Multilayer"
+                      }
+                    ],
+                    "name": "Coating Type",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.coatingcode",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "AR.14"
+                      }
+                    ],
+                    "name": "Coating Code",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.damagethreshold",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "7.5 J/cm<sup>2</sup>, 10 ns pulses, 10 Hz at 532 nm"
+                      }
+                    ],
+                    "name": "Damage Threshold",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.surfacequality",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "20-10 scratch-dig"
+                      }
+                    ],
+                    "name": "Surface Quality",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.surfaceflatness",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "&lambda;/2"
+                      }
+                    ],
+                    "name": "Surface Flatness",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.surfaceaccuracyirregularity",
+                    "comparable": true,
+                    "description": "Relative to the test plate",
+                    "featureValues": [
+                      {
+                        "value": "&lambda;/8"
+                      }
+                    ],
+                    "name": "Surface Accuracy, Irregularity",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.surfaceaccuracypower",
+                    "comparable": true,
+                    "description": "Relative to the test plate",
+                    "featureValues": [
+                      {
+                        "value": "1.5 &lambda;"
+                      }
+                    ],
+                    "name": "Surface Accuracy, Power",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.fnumber",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "1.5"
+                      }
+                    ],
+                    "name": "F/#",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.effectivefocallength",
+                    "comparable": true,
+                    "description": "The distance from the front or rear principal plane of an optical lens to the corresponding focal point",
+                    "featureValues": [
+                      {
+                        "value": "75.6 mm"
+                      }
+                    ],
+                    "name": "Effective Focal Length (EFL)",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.focallengthback",
+                    "comparable": true,
+                    "description": "The distance from the vertex of the last surface of an optical lens to its rear focal point",
+                    "featureValues": [
+                      {
+                        "value": "65.96 mm"
+                      }
+                    ],
+                    "name": "Back Focal Length (BFL)",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.radiusofcurvature",
+                    "comparable": true,
+                    "description": "The directed distance from the vertex of a surface to the center of curvature.",
+                    "featureValues": [
+                      {
+                        "value": "34.700 mm"
+                      }
+                    ],
+                    "name": "Radius of Curvature (R)",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.edgethickness",
+                    "comparable": true,
+                    "description": "The width of the flat side edge of an optic.",
+                    "featureValues": [
+                      {
+                        "value": "3.0 mm"
+                      }
+                    ],
+                    "name": "Edge Thickness (T<sub>e</sub>)",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.centerthickness",
+                    "comparable": true,
+                    "description": "The distance between vertices of two surfaces of an optical lens",
+                    "featureValues": [
+                      {
+                        "value": "14.058 mm"
+                      }
+                    ],
+                    "name": "Center Thickness (T<sub>c</sub>)",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.principleplane2",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "-9.63 mm"
+                      }
+                    ],
+                    "name": "Principal Plane 2 (P<sub>2</sub>)",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.designwavelength",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "589 nm"
+                      }
+                    ],
+                    "name": "Design Wavelength",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.centration",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "&le;3 arc min"
+                      }
+                    ],
+                    "name": "Centration",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.chamfers",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "0–0.8 mm face width"
+                      }
+                    ],
+                    "name": "Chamfers",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.chamfersangle/tolerance",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "45° ±15°, typical"
+                      }
+                    ],
+                    "name": "Chamfers Angle/Tolerance",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.focallengthtolerance",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "±1 %"
+                      }
+                    ],
+                    "name": "Focal Length Tolerance",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.diametertolerance",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "+0/-0.1 mm"
+                      }
+                    ],
+                    "name": "Diameter Tolerance",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.centerthicknesstolerance",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "±0.1 mm"
+                      }
+                    ],
+                    "name": "Center Thickness Tolerance",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.clearaperture",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "&ge;central 90% of diameter"
+                      }
+                    ],
+                    "name": "Clear Aperture",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.cleaning",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "See <a href=\"https://www.newport.com/n/how-to-clean-optics\">How to Clean Optics</a>"
+                      }
+                    ],
+                    "name": "Cleaning",
+                    "range": false
+                  }
+                ],
+                "name": "Spherical Lenses"
+              }
+            ],
+            "code": "SPX040AR.14",
+            "compatibility": "UNIVERSAL",
+            "configurable": false,
+            "crossPlantMaterialStatus": "03",
+            "displayFaqs": false,
+            "displayOrder": 0.0,
+            "emailQuote": false,
+            "excludedCountries": [],
+            "familyBullets": [],
+            "familyProduct": false,
+            "favourite": false,
+            "footnotes": [],
+            "images": [
+              {
+                "format": "zoom800",
+                "imageType": "PRIMARY",
+                "url": "/medias/sys_master/DefaultCelumAssetsFolder/h8e/hbd/9901595426846/OP-spxlens-S-6_800w/OP-spxlens-S-6-800w.jpg"
+              }
+            ],
+            "isConfigurable": false,
+            "isNew": false,
+            "isObsolete": false,
+            "modelNumber": "SPX040AR.14",
+            "neverShowPDP": false,
+            "order": 0.0,
+            "orderTableDisplay": 0.0,
+            "originalProductCode": "SPX040AR.14",
+            "owner": "Anna Wang",
+            "potentialPromotions": [],
+            "price": {
+              "currencyIso": "USD",
+              "formattedValue": "$324",
+              "priceType": "BUY",
+              "value": 324.0
+            },
+            "productFeatures": [],
+            "productReferences": [],
+            "purchasable": true,
+            "quickShip": false,
+            "referenceComponent": [],
+            "relatedProductsSection": [],
+            "revisedmodelCode": "SPX040AR-14",
+            "revisedproductCode": "SPX040AR-14",
+            "sapUnit": {
+              "availabilityCode": "EA",
+              "code": "EA",
+              "name": "EA"
+            },
+            "showCart": true,
+            "showPrice": true,
+            "showQuote": false,
+            "showUSD": true,
+            "specialHandlingReqd": false,
+            "specifications": [
+              {
+                "key": "Lens Shape",
+                "value": [
+                  "Plano-Convex "
+                ]
+              },
+              {
+                "key": "Diameter",
+                "value": [
+                  "50.8 mm "
+                ]
+              },
+              {
+                "key": "Lens Material",
+                "value": [
+                  "UV Fused Silica "
+                ]
+              },
+              {
+                "key": "Antireflection Coating",
+                "value": [
+                  "430-700 nm "
+                ]
+              },
+              {
+                "key": "Coating Type",
+                "value": [
+                  "Visible Multilayer "
+                ]
+              },
+              {
+                "key": "Coating Code",
+                "value": [
+                  "AR.14 "
+                ]
+              },
+              {
+                "key": "Damage Threshold",
+                "value": [
+                  "7.5 J/cm<sup>2</sup>, 10 ns pulses, 10 Hz at 532 nm "
+                ]
+              },
+              {
+                "key": "Surface Quality",
+                "value": [
+                  "20-10 scratch-dig "
+                ]
+              },
+              {
+                "key": "Surface Flatness",
+                "value": [
+                  "&lambda;/2 "
+                ]
+              },
+              {
+                "key": "Surface Accuracy, Irregularity",
+                "value": [
+                  "&lambda;/8 ",
+                  "Relative to the test plate"
+                ]
+              },
+              {
+                "key": "Surface Accuracy, Power",
+                "value": [
+                  "1.5 &lambda; ",
+                  "Relative to the test plate"
+                ]
+              },
+              {
+                "key": "F/#",
+                "value": [
+                  "1.5 &nbsp;"
+                ]
+              },
+              {
+                "key": "Effective Focal Length (EFL)",
+                "value": [
+                  "75.6 mm &nbsp;",
+                  "The distance from the front or rear principal plane of an optical lens to the corresponding focal point"
+                ]
+              },
+              {
+                "key": "Back Focal Length (BFL)",
+                "value": [
+                  "65.96 mm &nbsp;",
+                  "The distance from the vertex of the last surface of an optical lens to its rear focal point"
+                ]
+              },
+              {
+                "key": "Radius of Curvature (R)",
+                "value": [
+                  "34.700 mm &nbsp;",
+                  "The directed distance from the vertex of a surface to the center of curvature."
+                ]
+              },
+              {
+                "key": "Edge Thickness (T<sub>e</sub>)",
+                "value": [
+                  "3.0 mm &nbsp;",
+                  "The width of the flat side edge of an optic."
+                ]
+              },
+              {
+                "key": "Center Thickness (T<sub>c</sub>)",
+                "value": [
+                  "14.058 mm &nbsp;",
+                  "The distance between vertices of two surfaces of an optical lens"
+                ]
+              },
+              {
+                "key": "Principal Plane 2 (P<sub>2</sub>)",
+                "value": [
+                  "-9.63 mm &nbsp;"
+                ]
+              },
+              {
+                "key": "Design Wavelength",
+                "value": [
+                  "589 nm "
+                ]
+              },
+              {
+                "key": "Centration",
+                "value": [
+                  "&le;3 arc min "
+                ]
+              },
+              {
+                "key": "Chamfers",
+                "value": [
+                  "0–0.8 mm face width "
+                ]
+              },
+              {
+                "key": "Chamfers Angle/Tolerance",
+                "value": [
+                  "45° ±15°, typical "
+                ]
+              },
+              {
+                "key": "Focal Length Tolerance",
+                "value": [
+                  "±1 % "
+                ]
+              },
+              {
+                "key": "Diameter Tolerance",
+                "value": [
+                  "+0/-0.1 mm "
+                ]
+              },
+              {
+                "key": "Center Thickness Tolerance",
+                "value": [
+                  "±0.1 mm "
+                ]
+              },
+              {
+                "key": "Clear Aperture",
+                "value": [
+                  "&ge;central 90% of diameter "
+                ]
+              },
+              {
+                "key": "Cleaning",
+                "value": [
+                  "See <a href=\"https://www.newport.com/n/how-to-clean-optics\">How to Clean Optics</a> "
+                ]
+              }
+            ],
+            "stockAvailability": "In Stock",
+            "summary": "Plano-Convex Lens, Fused Silica, 50.8 mm, 75.6 mm EFL, 430-700 nm",
+            "suppress": false,
+            "technicalSpecifications": [],
+            "thumbnailsImages": [
+              {
+                "format": "product",
+                "imageType": "PRIMARY",
+                "url": "/medias/sys_master/DefaultCelumAssetsFolder/h52/h37/9894407602206/OP-spxlens-S-6_300w/OP-spxlens-S-6-300w.jpg"
+              },
+              {
+                "format": "thumbnail",
+                "imageType": "PRIMARY",
+                "url": "/medias/sys_master/DefaultCelumAssetsFolder/h39/he0/9896312176670/OP-spxlens-S-6_60w/OP-spxlens-S-6-60w.jpg"
+              },
+              {
+                "format": "thumbnail200",
+                "imageType": "PRIMARY",
+                "url": "/medias/sys_master/DefaultCelumAssetsFolder/h8b/h01/9905645420574/OP-spxlens-S-6_200w/OP-spxlens-S-6-200w.jpg"
+              },
+              {
+                "format": "thumbnail100",
+                "imageType": "PRIMARY",
+                "url": "/medias/sys_master/DefaultCelumAssetsFolder/h38/hff/9899265294366/OP-spxlens-S-6_100w/OP-spxlens-S-6-100w.jpg"
+              },
+              {
+                "format": "product",
+                "imageType": "PRIMARY",
+                "url": "/medias/sys_master/DefaultCelumAssetsFolder/h52/h37/9894407602206/OP-spxlens-S-6_300w/OP-spxlens-S-6-300w.jpg"
+              }
+            ],
+            "url": "/p/SPX040AR.14",
+            "variantAltLayout": "EXTENDED"
+          }
+        },
+        {
+          "label": "KPC079AR.14",
+          "product": {
+            "allowInstantQuotes": true,
+            "alwaysShowFamily": false,
+            "availabilityThreshold": 7,
+            "availableInSAP": true,
+            "baseOptions": [
+              {
+                "selected": {
+                  "code": "KPC079AR.14",
+                  "priceData": {
+                    "currencyIso": "USD",
+                    "formattedValue": "$101",
+                    "priceType": "BUY",
+                    "value": 101.0
+                  },
+                  "stock": {
+                    "isValueRounded": false,
+                    "stockLevel": 0,
+                    "stockLevelStatus": "inStock"
+                  },
+                  "url": "/p/KPC079AR.14",
+                  "variantOptionQualifiers": []
+                },
+                "variantType": "NewPortVariantProduct"
+              }
+            ],
+            "baseProduct": "ar14-n-bk7-plano-concave-lenses",
+            "baseProductHasNewVariant": false,
+            "baseProductImageUrl": "/medias/sys_master/DefaultCelumAssetsFolder/h48/h6c/9911252156446/AR-14-Reflectance_100w/AR-14-Reflectance-100w.gif",
+            "baseProductName": "Visible N-BK7 Plano-Concave Lenses",
+            "baseProductTitle": "Visible N-BK7 Plano-Concave Lens",
+            "brand": "Newport",
+            "cad2DAvailable": true,
+            "cad3DAvailable": true,
+            "classifications": [
+              {
+                "code": "Spherical_Lenses_Classification",
+                "features": [
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.lensshape",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "Plano-Concave"
+                      }
+                    ],
+                    "name": "Lens Shape",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.diameter",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "50.8 mm"
+                      }
+                    ],
+                    "name": "Diameter",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.lensmaterial",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "N-BK7"
+                      }
+                    ],
+                    "name": "Lens Material",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.antireflectioncoating",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "430-700 nm"
+                      }
+                    ],
+                    "name": "Antireflection Coating",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.coatingtype",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "Visible Multilayer"
+                      }
+                    ],
+                    "name": "Coating Type",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.coatingcode",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "AR.14"
+                      }
+                    ],
+                    "name": "Coating Code",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.damagethreshold",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "7.5 J/cm<sup>2</sup>, 10 ns pulses, 10 Hz at 532 nm"
+                      }
+                    ],
+                    "name": "Damage Threshold",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.surfacequality",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "40-20 scratch-dig"
+                      }
+                    ],
+                    "name": "Surface Quality",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.surfaceaccuracyirregularity",
+                    "comparable": true,
+                    "description": "Relative to the test plate",
+                    "featureValues": [
+                      {
+                        "value": "&lambda;/4"
+                      }
+                    ],
+                    "name": "Surface Accuracy, Irregularity",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.surfaceaccuracypower",
+                    "comparable": true,
+                    "description": "Relative to the test plate",
+                    "featureValues": [
+                      {
+                        "value": "1.5 &lambda;"
+                      }
+                    ],
+                    "name": "Surface Accuracy, Power",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.fnumber",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "-1.4"
+                      }
+                    ],
+                    "name": "F/#",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.effectivefocallength",
+                    "comparable": true,
+                    "description": "The distance from the front or rear principal plane of an optical lens to the corresponding focal point",
+                    "featureValues": [
+                      {
+                        "value": "-75 mm"
+                      }
+                    ],
+                    "name": "Effective Focal Length (EFL)",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.focallengthback",
+                    "comparable": true,
+                    "description": "The distance from the vertex of the last surface of an optical lens to its rear focal point",
+                    "featureValues": [
+                      {
+                        "value": "-76.64 mm"
+                      }
+                    ],
+                    "name": "Back Focal Length (BFL)",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.radiusofcurvature",
+                    "comparable": true,
+                    "description": "The directed distance from the vertex of a surface to the center of curvature.",
+                    "featureValues": [
+                      {
+                        "value": "-38.760 mm"
+                      }
+                    ],
+                    "name": "Radius of Curvature (R)",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.edgethickness",
+                    "comparable": true,
+                    "description": "The width of the flat side edge of an optic.",
+                    "featureValues": [
+                      {
+                        "value": "9.96 mm"
+                      }
+                    ],
+                    "name": "Edge Thickness (T<sub>e</sub>)",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.centerthickness",
+                    "comparable": true,
+                    "description": "The distance between vertices of two surfaces of an optical lens",
+                    "featureValues": [
+                      {
+                        "value": "2.5 mm"
+                      }
+                    ],
+                    "name": "Center Thickness (T<sub>c</sub>)",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.principleplane2",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "-1.64 mm"
+                      }
+                    ],
+                    "name": "Principal Plane 2 (P<sub>2</sub>)",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.designwavelength",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "589 nm"
+                      }
+                    ],
+                    "name": "Design Wavelength",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.centration",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "&le;3 arc min"
+                      }
+                    ],
+                    "name": "Centration",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.chamfers",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "0–0.8 mm face width"
+                      }
+                    ],
+                    "name": "Chamfers",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.chamfersangle/tolerance",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "45° ±15°, typical"
+                      }
+                    ],
+                    "name": "Chamfers Angle/Tolerance",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.focallengthtolerance",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "±1 %"
+                      }
+                    ],
+                    "name": "Focal Length Tolerance",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.diametertolerance",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "+0/-0.1 mm"
+                      }
+                    ],
+                    "name": "Diameter Tolerance",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.centerthicknesstolerance",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "±0.1 mm"
+                      }
+                    ],
+                    "name": "Center Thickness Tolerance",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.clearaperture",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "&ge;central 90% of diameter"
+                      }
+                    ],
+                    "name": "Clear Aperture",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.cleaning",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "See <a href=\"https://www.newport.com/n/how-to-clean-optics\">How to Clean Optics</a>"
+                      }
+                    ],
+                    "name": "Cleaning",
+                    "range": false
+                  }
+                ],
+                "name": "Spherical Lenses"
+              }
+            ],
+            "code": "KPC079AR.14",
+            "compatibility": "UNIVERSAL",
+            "configurable": false,
+            "crossPlantMaterialStatus": "03",
+            "displayFaqs": false,
+            "displayOrder": 0.0,
+            "emailQuote": false,
+            "excludedCountries": [],
+            "familyBullets": [],
+            "familyProduct": false,
+            "favourite": false,
+            "footnotes": [],
+            "images": [
+              {
+                "format": "zoom800",
+                "imageType": "PRIMARY",
+                "url": "/medias/sys_master/DefaultCelumAssetsFolder/h7a/h45/9901588742174/OP-kpclens-S-2_800w/OP-kpclens-S-2-800w.jpg"
+              }
+            ],
+            "isConfigurable": false,
+            "isNew": false,
+            "isObsolete": false,
+            "modelNumber": "KPC079AR.14",
+            "neverShowPDP": false,
+            "order": 0.0,
+            "orderTableDisplay": 0.0,
+            "originalProductCode": "KPC079AR.14",
+            "owner": "Anna Wang",
+            "potentialPromotions": [],
+            "price": {
+              "currencyIso": "USD",
+              "formattedValue": "$101",
+              "priceType": "BUY",
+              "value": 101.0
+            },
+            "productFeatures": [],
+            "productReferences": [],
+            "purchasable": true,
+            "quickShip": true,
+            "referenceComponent": [],
+            "relatedProductsSection": [],
+            "revisedmodelCode": "KPC079AR-14",
+            "revisedproductCode": "KPC079AR-14",
+            "sapUnit": {
+              "availabilityCode": "EA",
+              "code": "EA",
+              "name": "EA"
+            },
+            "showCart": true,
+            "showPrice": true,
+            "showQuote": false,
+            "showUSD": true,
+            "specialHandlingReqd": false,
+            "specifications": [
+              {
+                "key": "Lens Shape",
+                "value": [
+                  "Plano-Concave "
+                ]
+              },
+              {
+                "key": "Diameter",
+                "value": [
+                  "50.8 mm "
+                ]
+              },
+              {
+                "key": "Lens Material",
+                "value": [
+                  "N-BK7 "
+                ]
+              },
+              {
+                "key": "Antireflection Coating",
+                "value": [
+                  "430-700 nm "
+                ]
+              },
+              {
+                "key": "Coating Type",
+                "value": [
+                  "Visible Multilayer "
+                ]
+              },
+              {
+                "key": "Coating Code",
+                "value": [
+                  "AR.14 "
+                ]
+              },
+              {
+                "key": "Damage Threshold",
+                "value": [
+                  "7.5 J/cm<sup>2</sup>, 10 ns pulses, 10 Hz at 532 nm "
+                ]
+              },
+              {
+                "key": "Surface Quality",
+                "value": [
+                  "40-20 scratch-dig "
+                ]
+              },
+              {
+                "key": "Surface Accuracy, Irregularity",
+                "value": [
+                  "&lambda;/4 ",
+                  "Relative to the test plate"
+                ]
+              },
+              {
+                "key": "Surface Accuracy, Power",
+                "value": [
+                  "1.5 &lambda; &nbsp;",
+                  "Relative to the test plate"
+                ]
+              },
+              {
+                "key": "F/#",
+                "value": [
+                  "-1.4 &nbsp;"
+                ]
+              },
+              {
+                "key": "Effective Focal Length (EFL)",
+                "value": [
+                  "-75 mm &nbsp;",
+                  "The distance from the front or rear principal plane of an optical lens to the corresponding focal point"
+                ]
+              },
+              {
+                "key": "Back Focal Length (BFL)",
+                "value": [
+                  "-76.64 mm &nbsp;",
+                  "The distance from the vertex of the last surface of an optical lens to its rear focal point"
+                ]
+              },
+              {
+                "key": "Radius of Curvature (R)",
+                "value": [
+                  "-38.760 mm &nbsp;",
+                  "The directed distance from the vertex of a surface to the center of curvature."
+                ]
+              },
+              {
+                "key": "Edge Thickness (T<sub>e</sub>)",
+                "value": [
+                  "9.96 mm &nbsp;",
+                  "The width of the flat side edge of an optic."
+                ]
+              },
+              {
+                "key": "Center Thickness (T<sub>c</sub>)",
+                "value": [
+                  "2.5 mm &nbsp;",
+                  "The distance between vertices of two surfaces of an optical lens"
+                ]
+              },
+              {
+                "key": "Principal Plane 2 (P<sub>2</sub>)",
+                "value": [
+                  "-1.64 mm &nbsp;"
+                ]
+              },
+              {
+                "key": "Design Wavelength",
+                "value": [
+                  "589 nm "
+                ]
+              },
+              {
+                "key": "Centration",
+                "value": [
+                  "&le;3 arc min "
+                ]
+              },
+              {
+                "key": "Chamfers",
+                "value": [
+                  "0–0.8 mm face width "
+                ]
+              },
+              {
+                "key": "Chamfers Angle/Tolerance",
+                "value": [
+                  "45° ±15°, typical "
+                ]
+              },
+              {
+                "key": "Focal Length Tolerance",
+                "value": [
+                  "±1 % "
+                ]
+              },
+              {
+                "key": "Diameter Tolerance",
+                "value": [
+                  "+0/-0.1 mm "
+                ]
+              },
+              {
+                "key": "Center Thickness Tolerance",
+                "value": [
+                  "±0.1 mm "
+                ]
+              },
+              {
+                "key": "Clear Aperture",
+                "value": [
+                  "&ge;central 90% of diameter "
+                ]
+              },
+              {
+                "key": "Cleaning",
+                "value": [
+                  "See <a href=\"https://www.newport.com/n/how-to-clean-optics\">How to Clean Optics</a> "
+                ]
+              }
+            ],
+            "stockAvailability": "In Stock",
+            "summary": "Plano-Concave Lens, N-BK7, 50.8 mm Diameter, -75 mm EFL, 430-700 nm",
+            "suppress": false,
+            "technicalSpecifications": [],
+            "thumbnailsImages": [
+              {
+                "format": "product",
+                "imageType": "PRIMARY",
+                "url": "/medias/sys_master/DefaultCelumAssetsFolder/h0d/he8/9894400753694/OP-kpclens-S-2_300w/OP-kpclens-S-2-300w.jpg"
+              },
+              {
+                "format": "thumbnail",
+                "imageType": "PRIMARY",
+                "url": "/medias/sys_master/DefaultCelumAssetsFolder/hb6/he9/9896272723998/OP-kpclens-S-2_60w/OP-kpclens-S-2-60w.jpg"
+              },
+              {
+                "format": "thumbnail200",
+                "imageType": "PRIMARY",
+                "url": "/medias/sys_master/DefaultCelumAssetsFolder/h75/h76/9905638735902/OP-kpclens-S-2_200w/OP-kpclens-S-2-200w.jpg"
+              },
+              {
+                "format": "thumbnail100",
+                "imageType": "PRIMARY",
+                "url": "/medias/sys_master/DefaultCelumAssetsFolder/h56/h2a/9899225841694/OP-kpclens-S-2_100w/OP-kpclens-S-2-100w.jpg"
+              },
+              {
+                "format": "product",
+                "imageType": "PRIMARY",
+                "url": "/medias/sys_master/DefaultCelumAssetsFolder/h0d/he8/9894400753694/OP-kpclens-S-2_300w/OP-kpclens-S-2-300w.jpg"
+              }
+            ],
+            "url": "/p/KPC079AR.14",
+            "variantAltLayout": "EXTENDED"
+          }
+        },
+        {
+          "label": "SBX052AR.14",
+          "product": {
+            "allowInstantQuotes": true,
+            "alwaysShowFamily": false,
+            "availabilityThreshold": 7,
+            "availableInSAP": true,
+            "baseOptions": [
+              {
+                "selected": {
+                  "code": "SBX052AR.14",
+                  "priceData": {
+                    "currencyIso": "USD",
+                    "formattedValue": "$618",
+                    "priceType": "BUY",
+                    "value": 618.0
+                  },
+                  "stock": {
+                    "isValueRounded": false,
+                    "stockLevel": 0,
+                    "stockLevelStatus": "inStock"
+                  },
+                  "url": "/p/SBX052AR.14",
+                  "variantOptionQualifiers": []
+                },
+                "variantType": "NewPortVariantProduct"
+              }
+            ],
+            "baseProduct": "ar14-uvfs-bi-convex-lenses",
+            "baseProductHasNewVariant": false,
+            "baseProductImageUrl": "/medias/sys_master/DefaultCelumAssetsFolder/h48/h6c/9911252156446/AR-14-Reflectance_100w/AR-14-Reflectance-100w.gif",
+            "baseProductName": "Visible UVFS Bi-Convex Lenses",
+            "baseProductTitle": "Visible UVFS Bi-Convex Lenses",
+            "brand": "Newport",
+            "cad2DAvailable": true,
+            "cad3DAvailable": true,
+            "classifications": [
+              {
+                "code": "Spherical_Lenses_Classification",
+                "features": [
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.lensshape",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "Bi-Convex"
+                      }
+                    ],
+                    "name": "Lens Shape",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.diameter",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "50.8 mm"
+                      }
+                    ],
+                    "name": "Diameter",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.lensmaterial",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "UV Fused Silica"
+                      }
+                    ],
+                    "name": "Lens Material",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.antireflectioncoating",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "430-700 nm"
+                      }
+                    ],
+                    "name": "Antireflection Coating",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.coatingtype",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "Visible Multilayer"
+                      }
+                    ],
+                    "name": "Coating Type",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.coatingcode",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "AR.14"
+                      }
+                    ],
+                    "name": "Coating Code",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.damagethreshold",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "7.5 J/cm<sup>2</sup>, 10 ns pulses, 10 Hz at 532 nm"
+                      }
+                    ],
+                    "name": "Damage Threshold",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.surfacequality",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "20-10 scratch-dig"
+                      }
+                    ],
+                    "name": "Surface Quality",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.surfaceflatness",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "&lambda;/2"
+                      }
+                    ],
+                    "name": "Surface Flatness",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.surfaceaccuracyirregularity",
+                    "comparable": true,
+                    "description": "Relative to the test plate",
+                    "featureValues": [
+                      {
+                        "value": "&lambda;/8"
+                      }
+                    ],
+                    "name": "Surface Accuracy, Irregularity",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.surfaceaccuracypower",
+                    "comparable": true,
+                    "description": "Relative to the test plate",
+                    "featureValues": [
+                      {
+                        "value": "1.5 &lambda;"
+                      }
+                    ],
+                    "name": "Surface Accuracy, Power",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.fnumber",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "1.5"
+                      }
+                    ],
+                    "name": "F/#",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.effectivefocallength",
+                    "comparable": true,
+                    "description": "The distance from the front or rear principal plane of an optical lens to the corresponding focal point",
+                    "featureValues": [
+                      {
+                        "value": "75.6 mm"
+                      }
+                    ],
+                    "name": "Effective Focal Length (EFL)",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.focallengthback",
+                    "comparable": true,
+                    "description": "The distance from the vertex of the last surface of an optical lens to its rear focal point",
+                    "featureValues": [
+                      {
+                        "value": "71.02 mm"
+                      }
+                    ],
+                    "name": "Back Focal Length (BFL)",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.radiusofcurvature",
+                    "comparable": true,
+                    "description": "The directed distance from the vertex of a surface to the center of curvature.",
+                    "featureValues": [
+                      {
+                        "value": "67.302 mm"
+                      }
+                    ],
+                    "name": "Radius of Curvature (R)",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.edgethickness",
+                    "comparable": true,
+                    "description": "The width of the flat side edge of an optic.",
+                    "featureValues": [
+                      {
+                        "value": "3.0 mm"
+                      }
+                    ],
+                    "name": "Edge Thickness (T<sub>e</sub>)",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.centerthickness",
+                    "comparable": true,
+                    "description": "The distance between vertices of two surfaces of an optical lens",
+                    "featureValues": [
+                      {
+                        "value": "12.954 mm"
+                      }
+                    ],
+                    "name": "Center Thickness (T<sub>c</sub>)",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.principleplane1",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "4.57 mm"
+                      }
+                    ],
+                    "name": "Principal Plane 1 (P<sub>1</sub>)",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.principleplane2",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "-4.57 mm"
+                      }
+                    ],
+                    "name": "Principal Plane 2 (P<sub>2</sub>)",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.designwavelength",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "589 nm"
+                      }
+                    ],
+                    "name": "Design Wavelength",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.centration",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "&le;3 arc min"
+                      }
+                    ],
+                    "name": "Centration",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.chamfers",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "0–0.8 mm face width"
+                      }
+                    ],
+                    "name": "Chamfers",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.chamfersangle/tolerance",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "45° ±15°, typical"
+                      }
+                    ],
+                    "name": "Chamfers Angle/Tolerance",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.focallengthtolerance",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "±1 %"
+                      }
+                    ],
+                    "name": "Focal Length Tolerance",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.diametertolerance",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "+0/-0.1 mm"
+                      }
+                    ],
+                    "name": "Diameter Tolerance",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.centerthicknesstolerance",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "±0.1 mm"
+                      }
+                    ],
+                    "name": "Center Thickness Tolerance",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.clearaperture",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "&ge;central 90% of diameter"
+                      }
+                    ],
+                    "name": "Clear Aperture",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.cleaning",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "See <a href=\"https://www.newport.com/n/how-to-clean-optics\">How to Clean Optics</a>"
+                      }
+                    ],
+                    "name": "Cleaning",
+                    "range": false
+                  }
+                ],
+                "name": "Spherical Lenses"
+              }
+            ],
+            "code": "SBX052AR.14",
+            "compatibility": "UNIVERSAL",
+            "configurable": false,
+            "crossPlantMaterialStatus": "03",
+            "displayFaqs": false,
+            "displayOrder": 0.0,
+            "emailQuote": false,
+            "excludedCountries": [],
+            "familyBullets": [],
+            "familyProduct": false,
+            "favourite": false,
+            "footnotes": [],
+            "images": [
+              {
+                "format": "zoom800",
+                "imageType": "PRIMARY",
+                "url": "/medias/sys_master/DefaultCelumAssetsFolder/h99/h05/9901592477726/OP-sbxlens-S-1_800w/OP-sbxlens-S-1-800w.jpg"
+              }
+            ],
+            "isConfigurable": false,
+            "isNew": false,
+            "isObsolete": false,
+            "modelNumber": "SBX052AR.14",
+            "neverShowPDP": false,
+            "order": 0.0,
+            "orderTableDisplay": 0.0,
+            "originalProductCode": "SBX052AR.14",
+            "owner": "Anna Wang",
+            "potentialPromotions": [],
+            "price": {
+              "currencyIso": "USD",
+              "formattedValue": "$618",
+              "priceType": "BUY",
+              "value": 618.0
+            },
+            "productFeatures": [],
+            "productReferences": [],
+            "purchasable": true,
+            "quickShip": false,
+            "referenceComponent": [],
+            "relatedProductsSection": [],
+            "revisedmodelCode": "SBX052AR-14",
+            "revisedproductCode": "SBX052AR-14",
+            "sapUnit": {
+              "availabilityCode": "EA",
+              "code": "EA",
+              "name": "EA"
+            },
+            "showCart": true,
+            "showPrice": true,
+            "showQuote": false,
+            "showUSD": true,
+            "specialHandlingReqd": false,
+            "specifications": [
+              {
+                "key": "Lens Shape",
+                "value": [
+                  "Bi-Convex "
+                ]
+              },
+              {
+                "key": "Diameter",
+                "value": [
+                  "50.8 mm "
+                ]
+              },
+              {
+                "key": "Lens Material",
+                "value": [
+                  "UV Fused Silica "
+                ]
+              },
+              {
+                "key": "Antireflection Coating",
+                "value": [
+                  "430-700 nm "
+                ]
+              },
+              {
+                "key": "Coating Type",
+                "value": [
+                  "Visible Multilayer "
+                ]
+              },
+              {
+                "key": "Coating Code",
+                "value": [
+                  "AR.14 "
+                ]
+              },
+              {
+                "key": "Damage Threshold",
+                "value": [
+                  "7.5 J/cm<sup>2</sup>, 10 ns pulses, 10 Hz at 532 nm "
+                ]
+              },
+              {
+                "key": "Surface Quality",
+                "value": [
+                  "20-10 scratch-dig "
+                ]
+              },
+              {
+                "key": "Surface Flatness",
+                "value": [
+                  "&lambda;/2 "
+                ]
+              },
+              {
+                "key": "Surface Accuracy, Irregularity",
+                "value": [
+                  "&lambda;/8 ",
+                  "Relative to the test plate"
+                ]
+              },
+              {
+                "key": "Surface Accuracy, Power",
+                "value": [
+                  "1.5 &lambda; ",
+                  "Relative to the test plate"
+                ]
+              },
+              {
+                "key": "F/#",
+                "value": [
+                  "1.5 &nbsp;"
+                ]
+              },
+              {
+                "key": "Effective Focal Length (EFL)",
+                "value": [
+                  "75.6 mm &nbsp;",
+                  "The distance from the front or rear principal plane of an optical lens to the corresponding focal point"
+                ]
+              },
+              {
+                "key": "Back Focal Length (BFL)",
+                "value": [
+                  "71.02 mm &nbsp;",
+                  "The distance from the vertex of the last surface of an optical lens to its rear focal point"
+                ]
+              },
+              {
+                "key": "Radius of Curvature (R)",
+                "value": [
+                  "67.302 mm &nbsp;",
+                  "The directed distance from the vertex of a surface to the center of curvature."
+                ]
+              },
+              {
+                "key": "Edge Thickness (T<sub>e</sub>)",
+                "value": [
+                  "3.0 mm ",
+                  "The width of the flat side edge of an optic."
+                ]
+              },
+              {
+                "key": "Center Thickness (T<sub>c</sub>)",
+                "value": [
+                  "12.954 mm ",
+                  "The distance between vertices of two surfaces of an optical lens"
+                ]
+              },
+              {
+                "key": "Principal Plane 1 (P<sub>1</sub>)",
+                "value": [
+                  "4.57 mm &nbsp;"
+                ]
+              },
+              {
+                "key": "Principal Plane 2 (P<sub>2</sub>)",
+                "value": [
+                  "-4.57 mm &nbsp;"
+                ]
+              },
+              {
+                "key": "Design Wavelength",
+                "value": [
+                  "589 nm "
+                ]
+              },
+              {
+                "key": "Centration",
+                "value": [
+                  "&le;3 arc min "
+                ]
+              },
+              {
+                "key": "Chamfers",
+                "value": [
+                  "0–0.8 mm face width "
+                ]
+              },
+              {
+                "key": "Chamfers Angle/Tolerance",
+                "value": [
+                  "45° ±15°, typical "
+                ]
+              },
+              {
+                "key": "Focal Length Tolerance",
+                "value": [
+                  "±1 % "
+                ]
+              },
+              {
+                "key": "Diameter Tolerance",
+                "value": [
+                  "+0/-0.1 mm "
+                ]
+              },
+              {
+                "key": "Center Thickness Tolerance",
+                "value": [
+                  "±0.1 mm "
+                ]
+              },
+              {
+                "key": "Clear Aperture",
+                "value": [
+                  "&ge;central 90% of diameter "
+                ]
+              },
+              {
+                "key": "Cleaning",
+                "value": [
+                  "See <a href=\"https://www.newport.com/n/how-to-clean-optics\">How to Clean Optics</a> "
+                ]
+              }
+            ],
+            "stockAvailability": "In Stock",
+            "summary": "Bi-Convex Lens, Fused Silica, 50.8 mm Diameter, 75.6 mm EFL, 430-700nm",
+            "suppress": false,
+            "technicalSpecifications": [],
+            "thumbnailsImages": [
+              {
+                "format": "product",
+                "imageType": "PRIMARY",
+                "url": "/medias/sys_master/DefaultCelumAssetsFolder/hd5/h8b/9894404653086/OP-sbxlens-S-1_300w/OP-sbxlens-S-1-300w.jpg"
+              },
+              {
+                "format": "thumbnail",
+                "imageType": "PRIMARY",
+                "url": "/medias/sys_master/DefaultCelumAssetsFolder/h05/h87/9896276459550/OP-sbxlens-S-1_60w/OP-sbxlens-S-1-60w.jpg"
+              },
+              {
+                "format": "thumbnail200",
+                "imageType": "PRIMARY",
+                "url": "/medias/sys_master/DefaultCelumAssetsFolder/h9c/hc1/9905642471454/OP-sbxlens-S-1_200w/OP-sbxlens-S-1-200w.jpg"
+              },
+              {
+                "format": "thumbnail100",
+                "imageType": "PRIMARY",
+                "url": "/medias/sys_master/DefaultCelumAssetsFolder/hbf/h39/9899262345246/OP-sbxlens-S-1_100w/OP-sbxlens-S-1-100w.jpg"
+              },
+              {
+                "format": "product",
+                "imageType": "PRIMARY",
+                "url": "/medias/sys_master/DefaultCelumAssetsFolder/hd5/h8b/9894404653086/OP-sbxlens-S-1_300w/OP-sbxlens-S-1-300w.jpg"
+              }
+            ],
+            "url": "/p/SBX052AR.14",
+            "variantAltLayout": "EXTENDED"
+          }
+        },
+        {
+          "label": "KBX148AR.14",
+          "product": {
+            "allowInstantQuotes": true,
+            "alwaysShowFamily": false,
+            "availabilityThreshold": 7,
+            "availableInSAP": true,
+            "baseOptions": [
+              {
+                "selected": {
+                  "code": "KBX148AR.14",
+                  "priceData": {
+                    "currencyIso": "USD",
+                    "formattedValue": "$86",
+                    "priceType": "BUY",
+                    "value": 86.0
+                  },
+                  "stock": {
+                    "isValueRounded": false,
+                    "stockLevel": 0,
+                    "stockLevelStatus": "inStock"
+                  },
+                  "url": "/p/KBX148AR.14",
+                  "variantOptionQualifiers": []
+                },
+                "variantType": "NewPortVariantProduct"
+              }
+            ],
+            "baseProduct": "ar14-n-bk7-bi-convex-lenses",
+            "baseProductHasNewVariant": false,
+            "baseProductImageUrl": "/medias/sys_master/DefaultCelumAssetsFolder/h48/h6c/9911252156446/AR-14-Reflectance_100w/AR-14-Reflectance-100w.gif",
+            "baseProductName": "Visible N-BK7 Bi-Convex Lenses",
+            "baseProductTitle": "Visible N-BK7 Bi-Convex Lens",
+            "brand": "Newport",
+            "cad2DAvailable": true,
+            "cad3DAvailable": true,
+            "classifications": [
+              {
+                "code": "Spherical_Lenses_Classification",
+                "features": [
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.lensshape",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "Bi-Convex"
+                      }
+                    ],
+                    "name": "Lens Shape",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.diameter",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "50.8 mm"
+                      }
+                    ],
+                    "name": "Diameter",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.lensmaterial",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "N-BK7"
+                      }
+                    ],
+                    "name": "Lens Material",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.antireflectioncoating",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "430-700 nm"
+                      }
+                    ],
+                    "name": "Antireflection Coating",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.coatingtype",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "Visible Multilayer"
+                      }
+                    ],
+                    "name": "Coating Type",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.coatingcode",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "AR.14"
+                      }
+                    ],
+                    "name": "Coating Code",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.damagethreshold",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "7.5 J/cm<sup>2</sup>, 10 ns pulses, 10 Hz at 532 nm"
+                      }
+                    ],
+                    "name": "Damage Threshold",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.surfacequality",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "40-20 scratch-dig"
+                      }
+                    ],
+                    "name": "Surface Quality",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.surfaceaccuracyirregularity",
+                    "comparable": true,
+                    "description": "Relative to the test plate",
+                    "featureValues": [
+                      {
+                        "value": "&lambda;/4"
+                      }
+                    ],
+                    "name": "Surface Accuracy, Irregularity",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.surfaceaccuracypower",
+                    "comparable": true,
+                    "description": "Relative to the test plate",
+                    "featureValues": [
+                      {
+                        "value": "1.5 &lambda;"
+                      }
+                    ],
+                    "name": "Surface Accuracy, Power",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.fnumber",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "1.4"
+                      }
+                    ],
+                    "name": "F/#",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.effectivefocallength",
+                    "comparable": true,
+                    "description": "The distance from the front or rear principal plane of an optical lens to the corresponding focal point",
+                    "featureValues": [
+                      {
+                        "value": "75.6 mm"
+                      }
+                    ],
+                    "name": "Effective Focal Length (EFL)",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.focallengthback",
+                    "comparable": true,
+                    "description": "The distance from the vertex of the last surface of an optical lens to its rear focal point",
+                    "featureValues": [
+                      {
+                        "value": "71.63 mm"
+                      }
+                    ],
+                    "name": "Back Focal Length (BFL)",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.radiusofcurvature",
+                    "comparable": true,
+                    "description": "The directed distance from the vertex of a surface to the center of curvature.",
+                    "featureValues": [
+                      {
+                        "value": "76.090 mm"
+                      }
+                    ],
+                    "name": "Radius of Curvature (R)",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.edgethickness",
+                    "comparable": true,
+                    "description": "The width of the flat side edge of an optic.",
+                    "featureValues": [
+                      {
+                        "value": "3.0 mm"
+                      }
+                    ],
+                    "name": "Edge Thickness (T<sub>e</sub>)",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.centerthickness",
+                    "comparable": true,
+                    "description": "The distance between vertices of two surfaces of an optical lens",
+                    "featureValues": [
+                      {
+                        "value": "11.729 mm"
+                      }
+                    ],
+                    "name": "Center Thickness (T<sub>c</sub>)",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.principleplane1",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "3.97 mm"
+                      }
+                    ],
+                    "name": "Principal Plane 1 (P<sub>1</sub>)",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.principleplane2",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "-3.97 mm"
+                      }
+                    ],
+                    "name": "Principal Plane 2 (P<sub>2</sub>)",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.designwavelength",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "589 nm"
+                      }
+                    ],
+                    "name": "Design Wavelength",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.centration",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "&le;3 arc min"
+                      }
+                    ],
+                    "name": "Centration",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.chamfers",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "0–0.8 mm face width"
+                      }
+                    ],
+                    "name": "Chamfers",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.chamfersangle/tolerance",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "45° ±15°, typical"
+                      }
+                    ],
+                    "name": "Chamfers Angle/Tolerance",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.focallengthtolerance",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "±1 %"
+                      }
+                    ],
+                    "name": "Focal Length Tolerance",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.diametertolerance",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "+0/-0.1 mm"
+                      }
+                    ],
+                    "name": "Diameter Tolerance",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.centerthicknesstolerance",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "±0.1 mm"
+                      }
+                    ],
+                    "name": "Center Thickness Tolerance",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.clearaperture",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "&ge;central 90% of diameter"
+                      }
+                    ],
+                    "name": "Clear Aperture",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.cleaning",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "See <a href=\"https://www.newport.com/n/how-to-clean-optics\">How to Clean Optics</a>"
+                      }
+                    ],
+                    "name": "Cleaning",
+                    "range": false
+                  }
+                ],
+                "name": "Spherical Lenses"
+              }
+            ],
+            "code": "KBX148AR.14",
+            "compatibility": "UNIVERSAL",
+            "configurable": false,
+            "crossPlantMaterialStatus": "03",
+            "displayFaqs": false,
+            "displayOrder": 0.0,
+            "emailQuote": false,
+            "excludedCountries": [],
+            "familyBullets": [],
+            "familyProduct": false,
+            "favourite": false,
+            "footnotes": [],
+            "images": [
+              {
+                "format": "zoom800",
+                "imageType": "PRIMARY",
+                "url": "/medias/sys_master/DefaultCelumAssetsFolder/h8b/h48/9901588676638/OP-kbxlens-S-4_800w/OP-kbxlens-S-4-800w.jpg"
+              }
+            ],
+            "isConfigurable": false,
+            "isNew": false,
+            "isObsolete": false,
+            "modelNumber": "KBX148AR.14",
+            "neverShowPDP": false,
+            "order": 0.0,
+            "orderTableDisplay": 0.0,
+            "originalProductCode": "KBX148AR.14",
+            "owner": "Anna Wang",
+            "potentialPromotions": [],
+            "price": {
+              "currencyIso": "USD",
+              "formattedValue": "$86",
+              "priceType": "BUY",
+              "value": 86.0
+            },
+            "productFeatures": [],
+            "productReferences": [],
+            "purchasable": true,
+            "quickShip": false,
+            "referenceComponent": [],
+            "relatedProductsSection": [],
+            "revisedmodelCode": "KBX148AR-14",
+            "revisedproductCode": "KBX148AR-14",
+            "sapUnit": {
+              "availabilityCode": "EA",
+              "code": "EA",
+              "name": "EA"
+            },
+            "showCart": true,
+            "showPrice": true,
+            "showQuote": false,
+            "showUSD": true,
+            "specialHandlingReqd": false,
+            "specifications": [
+              {
+                "key": "Lens Shape",
+                "value": [
+                  "Bi-Convex "
+                ]
+              },
+              {
+                "key": "Diameter",
+                "value": [
+                  "50.8 mm "
+                ]
+              },
+              {
+                "key": "Lens Material",
+                "value": [
+                  "N-BK7 "
+                ]
+              },
+              {
+                "key": "Antireflection Coating",
+                "value": [
+                  "430-700 nm "
+                ]
+              },
+              {
+                "key": "Coating Type",
+                "value": [
+                  "Visible Multilayer "
+                ]
+              },
+              {
+                "key": "Coating Code",
+                "value": [
+                  "AR.14 "
+                ]
+              },
+              {
+                "key": "Damage Threshold",
+                "value": [
+                  "7.5 J/cm<sup>2</sup>, 10 ns pulses, 10 Hz at 532 nm "
+                ]
+              },
+              {
+                "key": "Surface Quality",
+                "value": [
+                  "40-20 scratch-dig "
+                ]
+              },
+              {
+                "key": "Surface Accuracy, Irregularity",
+                "value": [
+                  "&lambda;/4 ",
+                  "Relative to the test plate"
+                ]
+              },
+              {
+                "key": "Surface Accuracy, Power",
+                "value": [
+                  "1.5 &lambda; &nbsp;",
+                  "Relative to the test plate"
+                ]
+              },
+              {
+                "key": "F/#",
+                "value": [
+                  "1.4 &nbsp;"
+                ]
+              },
+              {
+                "key": "Effective Focal Length (EFL)",
+                "value": [
+                  "75.6 mm &nbsp;",
+                  "The distance from the front or rear principal plane of an optical lens to the corresponding focal point"
+                ]
+              },
+              {
+                "key": "Back Focal Length (BFL)",
+                "value": [
+                  "71.63 mm &nbsp;",
+                  "The distance from the vertex of the last surface of an optical lens to its rear focal point"
+                ]
+              },
+              {
+                "key": "Radius of Curvature (R)",
+                "value": [
+                  "76.090 mm &nbsp;",
+                  "The directed distance from the vertex of a surface to the center of curvature."
+                ]
+              },
+              {
+                "key": "Edge Thickness (T<sub>e</sub>)",
+                "value": [
+                  "3.0 mm &nbsp;",
+                  "The width of the flat side edge of an optic."
+                ]
+              },
+              {
+                "key": "Center Thickness (T<sub>c</sub>)",
+                "value": [
+                  "11.729 mm &nbsp;",
+                  "The distance between vertices of two surfaces of an optical lens"
+                ]
+              },
+              {
+                "key": "Principal Plane 1 (P<sub>1</sub>)",
+                "value": [
+                  "3.97 mm &nbsp;"
+                ]
+              },
+              {
+                "key": "Principal Plane 2 (P<sub>2</sub>)",
+                "value": [
+                  "-3.97 mm &nbsp;"
+                ]
+              },
+              {
+                "key": "Design Wavelength",
+                "value": [
+                  "589 nm "
+                ]
+              },
+              {
+                "key": "Centration",
+                "value": [
+                  "&le;3 arc min "
+                ]
+              },
+              {
+                "key": "Chamfers",
+                "value": [
+                  "0–0.8 mm face width "
+                ]
+              },
+              {
+                "key": "Chamfers Angle/Tolerance",
+                "value": [
+                  "45° ±15°, typical "
+                ]
+              },
+              {
+                "key": "Focal Length Tolerance",
+                "value": [
+                  "±1 % "
+                ]
+              },
+              {
+                "key": "Diameter Tolerance",
+                "value": [
+                  "+0/-0.1 mm "
+                ]
+              },
+              {
+                "key": "Center Thickness Tolerance",
+                "value": [
+                  "±0.1 mm "
+                ]
+              },
+              {
+                "key": "Clear Aperture",
+                "value": [
+                  "&ge;central 90% of diameter "
+                ]
+              },
+              {
+                "key": "Cleaning",
+                "value": [
+                  "See <a href=\"https://www.newport.com/n/how-to-clean-optics\">How to Clean Optics</a> "
+                ]
+              }
+            ],
+            "stockAvailability": "In Stock",
+            "summary": "Bi-Convex Lens, N-BK7, 50.8 mm Diameter, 75.6 mm EFL, 430-700nm",
+            "suppress": false,
+            "technicalSpecifications": [],
+            "thumbnailsImages": [
+              {
+                "format": "product",
+                "imageType": "PRIMARY",
+                "url": "/medias/sys_master/DefaultCelumAssetsFolder/hfd/he4/9894400688158/OP-kbxlens-S-4_300w/OP-kbxlens-S-4-300w.jpg"
+              },
+              {
+                "format": "thumbnail",
+                "imageType": "PRIMARY",
+                "url": "/medias/sys_master/DefaultCelumAssetsFolder/ha5/he6/9896272658462/OP-kbxlens-S-4_60w/OP-kbxlens-S-4-60w.jpg"
+              },
+              {
+                "format": "thumbnail200",
+                "imageType": "PRIMARY",
+                "url": "/medias/sys_master/DefaultCelumAssetsFolder/h77/h73/9905638670366/OP-kbxlens-S-4_200w/OP-kbxlens-S-4-200w.jpg"
+              },
+              {
+                "format": "thumbnail100",
+                "imageType": "PRIMARY",
+                "url": "/medias/sys_master/DefaultCelumAssetsFolder/h67/h2d/9899225776158/OP-kbxlens-S-4_100w/OP-kbxlens-S-4-100w.jpg"
+              },
+              {
+                "format": "product",
+                "imageType": "PRIMARY",
+                "url": "/medias/sys_master/DefaultCelumAssetsFolder/hfd/he4/9894400688158/OP-kbxlens-S-4_300w/OP-kbxlens-S-4-300w.jpg"
+              }
+            ],
+            "url": "/p/KBX148AR.14",
+            "variantAltLayout": "EXTENDED"
+          }
+        },
+        {
+          "label": "KBC085AR.14",
+          "product": {
+            "allowInstantQuotes": true,
+            "alwaysShowFamily": false,
+            "availabilityThreshold": 7,
+            "availableInSAP": true,
+            "baseOptions": [
+              {
+                "selected": {
+                  "code": "KBC085AR.14",
+                  "priceData": {
+                    "currencyIso": "USD",
+                    "formattedValue": "$104",
+                    "priceType": "BUY",
+                    "value": 104.0
+                  },
+                  "stock": {
+                    "isValueRounded": false,
+                    "stockLevel": 0,
+                    "stockLevelStatus": "inStock"
+                  },
+                  "url": "/p/KBC085AR.14",
+                  "variantOptionQualifiers": []
+                },
+                "variantType": "NewPortVariantProduct"
+              }
+            ],
+            "baseProduct": "ar14-n-bk7-bi-concave-lenses",
+            "baseProductHasNewVariant": false,
+            "baseProductImageUrl": "/medias/sys_master/DefaultCelumAssetsFolder/h48/h6c/9911252156446/AR-14-Reflectance_100w/AR-14-Reflectance-100w.gif",
+            "baseProductName": "Visible N-BK7 Bi-Concave Lenses",
+            "baseProductTitle": "Visible N-BK7 Bi-Concave Lens",
+            "brand": "Newport",
+            "cad2DAvailable": true,
+            "cad3DAvailable": true,
+            "classifications": [
+              {
+                "code": "Spherical_Lenses_Classification",
+                "features": [
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.lensshape",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "Bi-Concave"
+                      }
+                    ],
+                    "name": "Lens Shape",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.diameter",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "50.8 mm"
+                      }
+                    ],
+                    "name": "Diameter",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.lensmaterial",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "N-BK7"
+                      }
+                    ],
+                    "name": "Lens Material",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.antireflectioncoating",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "430-700 nm"
+                      }
+                    ],
+                    "name": "Antireflection Coating",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.coatingtype",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "Visible Multilayer"
+                      }
+                    ],
+                    "name": "Coating Type",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.coatingcode",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "AR.14"
+                      }
+                    ],
+                    "name": "Coating Code",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.damagethreshold",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "7.5 J/cm<sup>2</sup>, 10 ns pulses, 10 Hz at 532 nm"
+                      }
+                    ],
+                    "name": "Damage Threshold",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.surfacequality",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "40-20 scratch-dig"
+                      }
+                    ],
+                    "name": "Surface Quality",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.surfaceaccuracyirregularity",
+                    "comparable": true,
+                    "description": "Relative to the test plate",
+                    "featureValues": [
+                      {
+                        "value": "&lambda;/4"
+                      }
+                    ],
+                    "name": "Surface Accuracy, Irregularity",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.surfaceaccuracypower",
+                    "comparable": true,
+                    "description": "Relative to the test plate",
+                    "featureValues": [
+                      {
+                        "value": "1.5 &lambda;"
+                      }
+                    ],
+                    "name": "Surface Accuracy, Power",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.fnumber",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "-1.4"
+                      }
+                    ],
+                    "name": "F/#",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.effectivefocallength",
+                    "comparable": true,
+                    "description": "The distance from the front or rear principal plane of an optical lens to the corresponding focal point",
+                    "featureValues": [
+                      {
+                        "value": "-75 mm"
+                      }
+                    ],
+                    "name": "Effective Focal Length (EFL)",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.focallengthback",
+                    "comparable": true,
+                    "description": "The distance from the vertex of the last surface of an optical lens to its rear focal point",
+                    "featureValues": [
+                      {
+                        "value": "-75.82 mm"
+                      }
+                    ],
+                    "name": "Back Focal Length (BFL)",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.radiusofcurvature",
+                    "comparable": true,
+                    "description": "The directed distance from the vertex of a surface to the center of curvature.",
+                    "featureValues": [
+                      {
+                        "value": "-77.943 mm"
+                      }
+                    ],
+                    "name": "Radius of Curvature (R)",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.edgethickness",
+                    "comparable": true,
+                    "description": "The width of the flat side edge of an optic.",
+                    "featureValues": [
+                      {
+                        "value": "9.36 mm"
+                      }
+                    ],
+                    "name": "Edge Thickness (T<sub>e</sub>)",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.centerthickness",
+                    "comparable": true,
+                    "description": "The distance between vertices of two surfaces of an optical lens",
+                    "featureValues": [
+                      {
+                        "value": "2.5 mm"
+                      }
+                    ],
+                    "name": "Center Thickness (T<sub>c</sub>)",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.principleplane1",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "0.82 mm"
+                      }
+                    ],
+                    "name": "Principal Plane 1 (P<sub>1</sub>)",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.principleplane2",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "-0.82 mm"
+                      }
+                    ],
+                    "name": "Principal Plane 2 (P<sub>2</sub>)",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.designwavelength",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "589 nm"
+                      }
+                    ],
+                    "name": "Design Wavelength",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.centration",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "&le;3 arc min"
+                      }
+                    ],
+                    "name": "Centration",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.chamfers",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "0–0.8 mm face width"
+                      }
+                    ],
+                    "name": "Chamfers",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.chamfersangle/tolerance",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "45° ±15°, typical"
+                      }
+                    ],
+                    "name": "Chamfers Angle/Tolerance",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.focallengthtolerance",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "±1 %"
+                      }
+                    ],
+                    "name": "Focal Length Tolerance",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.diametertolerance",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "+0/-0.1 mm"
+                      }
+                    ],
+                    "name": "Diameter Tolerance",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.centerthicknesstolerance",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "±0.1 mm"
+                      }
+                    ],
+                    "name": "Center Thickness Tolerance",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.clearaperture",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "&ge;central 90% of diameter"
+                      }
+                    ],
+                    "name": "Clear Aperture",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Spherical_Lenses_Classification.cleaning",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "See <a href=\"https://www.newport.com/n/how-to-clean-optics\">How to Clean Optics</a>"
+                      }
+                    ],
+                    "name": "Cleaning",
+                    "range": false
+                  }
+                ],
+                "name": "Spherical Lenses"
+              }
+            ],
+            "code": "KBC085AR.14",
+            "compatibility": "UNIVERSAL",
+            "configurable": false,
+            "crossPlantMaterialStatus": "03",
+            "displayFaqs": false,
+            "displayOrder": 0.0,
+            "emailQuote": false,
+            "excludedCountries": [],
+            "familyBullets": [],
+            "familyProduct": false,
+            "favourite": false,
+            "footnotes": [],
+            "images": [
+              {
+                "format": "zoom800",
+                "imageType": "PRIMARY",
+                "url": "/medias/sys_master/DefaultCelumAssetsFolder/h4a/h4c/9901588545566/OP-kbclens-S-4_800w/OP-kbclens-S-4-800w.jpg"
+              }
+            ],
+            "isConfigurable": false,
+            "isNew": false,
+            "isObsolete": false,
+            "modelNumber": "KBC085AR.14",
+            "neverShowPDP": false,
+            "order": 0.0,
+            "orderTableDisplay": 0.0,
+            "originalProductCode": "KBC085AR.14",
+            "owner": "Anna Wang",
+            "potentialPromotions": [],
+            "price": {
+              "currencyIso": "USD",
+              "formattedValue": "$104",
+              "priceType": "BUY",
+              "value": 104.0
+            },
+            "productFeatures": [],
+            "productReferences": [],
+            "purchasable": true,
+            "quickShip": false,
+            "referenceComponent": [],
+            "relatedProductsSection": [],
+            "revisedmodelCode": "KBC085AR-14",
+            "revisedproductCode": "KBC085AR-14",
+            "sapUnit": {
+              "availabilityCode": "EA",
+              "code": "EA",
+              "name": "EA"
+            },
+            "showCart": true,
+            "showPrice": true,
+            "showQuote": false,
+            "showUSD": true,
+            "specialHandlingReqd": false,
+            "specifications": [
+              {
+                "key": "Lens Shape",
+                "value": [
+                  "Bi-Concave "
+                ]
+              },
+              {
+                "key": "Diameter",
+                "value": [
+                  "50.8 mm "
+                ]
+              },
+              {
+                "key": "Lens Material",
+                "value": [
+                  "N-BK7 "
+                ]
+              },
+              {
+                "key": "Antireflection Coating",
+                "value": [
+                  "430-700 nm "
+                ]
+              },
+              {
+                "key": "Coating Type",
+                "value": [
+                  "Visible Multilayer "
+                ]
+              },
+              {
+                "key": "Coating Code",
+                "value": [
+                  "AR.14 "
+                ]
+              },
+              {
+                "key": "Damage Threshold",
+                "value": [
+                  "7.5 J/cm<sup>2</sup>, 10 ns pulses, 10 Hz at 532 nm "
+                ]
+              },
+              {
+                "key": "Surface Quality",
+                "value": [
+                  "40-20 scratch-dig "
+                ]
+              },
+              {
+                "key": "Surface Accuracy, Irregularity",
+                "value": [
+                  "&lambda;/4 ",
+                  "Relative to the test plate"
+                ]
+              },
+              {
+                "key": "Surface Accuracy, Power",
+                "value": [
+                  "1.5 &lambda; &nbsp;",
+                  "Relative to the test plate"
+                ]
+              },
+              {
+                "key": "F/#",
+                "value": [
+                  "-1.4 &nbsp;"
+                ]
+              },
+              {
+                "key": "Effective Focal Length (EFL)",
+                "value": [
+                  "-75 mm &nbsp;",
+                  "The distance from the front or rear principal plane of an optical lens to the corresponding focal point"
+                ]
+              },
+              {
+                "key": "Back Focal Length (BFL)",
+                "value": [
+                  "-75.82 mm &nbsp;",
+                  "The distance from the vertex of the last surface of an optical lens to its rear focal point"
+                ]
+              },
+              {
+                "key": "Radius of Curvature (R)",
+                "value": [
+                  "-77.943 mm &nbsp;",
+                  "The directed distance from the vertex of a surface to the center of curvature."
+                ]
+              },
+              {
+                "key": "Edge Thickness (T<sub>e</sub>)",
+                "value": [
+                  "9.36 mm &nbsp;",
+                  "The width of the flat side edge of an optic."
+                ]
+              },
+              {
+                "key": "Center Thickness (T<sub>c</sub>)",
+                "value": [
+                  "2.5 mm &nbsp;",
+                  "The distance between vertices of two surfaces of an optical lens"
+                ]
+              },
+              {
+                "key": "Principal Plane 1 (P<sub>1</sub>)",
+                "value": [
+                  "0.82 mm &nbsp;"
+                ]
+              },
+              {
+                "key": "Principal Plane 2 (P<sub>2</sub>)",
+                "value": [
+                  "-0.82 mm &nbsp;"
+                ]
+              },
+              {
+                "key": "Design Wavelength",
+                "value": [
+                  "589 nm "
+                ]
+              },
+              {
+                "key": "Centration",
+                "value": [
+                  "&le;3 arc min "
+                ]
+              },
+              {
+                "key": "Chamfers",
+                "value": [
+                  "0–0.8 mm face width "
+                ]
+              },
+              {
+                "key": "Chamfers Angle/Tolerance",
+                "value": [
+                  "45° ±15°, typical "
+                ]
+              },
+              {
+                "key": "Focal Length Tolerance",
+                "value": [
+                  "±1 % "
+                ]
+              },
+              {
+                "key": "Diameter Tolerance",
+                "value": [
+                  "+0/-0.1 mm "
+                ]
+              },
+              {
+                "key": "Center Thickness Tolerance",
+                "value": [
+                  "±0.1 mm "
+                ]
+              },
+              {
+                "key": "Clear Aperture",
+                "value": [
+                  "&ge;central 90% of diameter "
+                ]
+              },
+              {
+                "key": "Cleaning",
+                "value": [
+                  "See <a href=\"https://www.newport.com/n/how-to-clean-optics\">How to Clean Optics</a> "
+                ]
+              }
+            ],
+            "stockAvailability": "2 Weeks",
+            "summary": "Bi-Concave Lens, N-BK7, 50.8 mm Diameter, -75 mm EFL, 430-700nm",
+            "suppress": false,
+            "technicalSpecifications": [],
+            "thumbnailsImages": [
+              {
+                "format": "product",
+                "imageType": "PRIMARY",
+                "url": "/medias/sys_master/DefaultCelumAssetsFolder/h3d/he1/9894400557086/OP-kbclens-S-4_300w/OP-kbclens-S-4-300w.jpg"
+              },
+              {
+                "format": "thumbnail",
+                "imageType": "PRIMARY",
+                "url": "/medias/sys_master/DefaultCelumAssetsFolder/he6/he2/9896272527390/OP-kbclens-S-4_60w/OP-kbclens-S-4-60w.jpg"
+              },
+              {
+                "format": "thumbnail200",
+                "imageType": "PRIMARY",
+                "url": "/medias/sys_master/DefaultCelumAssetsFolder/ha5/h6f/9905638539294/OP-kbclens-S-4_200w/OP-kbclens-S-4-200w.jpg"
+              },
+              {
+                "format": "thumbnail100",
+                "imageType": "PRIMARY",
+                "url": "/medias/sys_master/DefaultCelumAssetsFolder/h26/h31/9899225645086/OP-kbclens-S-4_100w/OP-kbclens-S-4-100w.jpg"
+              },
+              {
+                "format": "product",
+                "imageType": "PRIMARY",
+                "url": "/medias/sys_master/DefaultCelumAssetsFolder/h3d/he1/9894400557086/OP-kbclens-S-4_300w/OP-kbclens-S-4-300w.jpg"
+              }
+            ],
+            "url": "/p/KBC085AR.14",
+            "variantAltLayout": "EXTENDED"
+          }
+        }
+      ],
+      "title": "Similar",
+      "uid": "KPX181AR.14_Similar"
+    },
+    {
+      "itemType": "OrderTableComponent",
+      "productRows": [
+        {
+          "label": "AC-2A",
+          "product": {
+            "allowInstantQuotes": true,
+            "alwaysShowFamily": false,
+            "availabilityThreshold": 5,
+            "availableInSAP": true,
+            "baseOptions": [
+              {
+                "selected": {
+                  "code": "AC-2A",
+                  "priceData": {
+                    "currencyIso": "USD",
+                    "formattedValue": "$82",
+                    "priceType": "BUY",
+                    "value": 82.0
+                  },
+                  "stock": {
+                    "isValueRounded": false,
+                    "stockLevel": 0,
+                    "stockLevelStatus": "inStock"
+                  },
+                  "url": "/p/AC-2A",
+                  "variantOptionQualifiers": []
+                },
+                "variantType": "NewPortVariantProduct"
+              }
+            ],
+            "baseProduct": "universal-on-axis-lens-mounts",
+            "baseProductHasNewVariant": false,
+            "baseProductImageUrl": "/medias/sys_master/DefaultCelumAssetsFolder/h50/hef/9899105910814/OM-Std_Prec_adj_lens_mnt-S_100w/OM-Std-Prec-adj-lens-mnt-S-100w.jpg",
+            "baseProductName": "XY Adjustable Variable Size Lens Mounts",
+            "baseProductTitle": "XY Adjustable Variable Size Lens Mount",
+            "brand": "Newport",
+            "cad2DAvailable": true,
+            "cad3DAvailable": true,
+            "classifications": [
+              {
+                "code": "Lens_Mounts_Classification",
+                "features": [
+                  {
+                    "code": "npClassification/1.0/Lens_Mounts_Classification.type",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "Variable Size Lens Mount"
+                      }
+                    ],
+                    "name": "Type",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Lens_Mounts_Classification.opticdiameter",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "17.8-57.1 mm"
+                      }
+                    ],
+                    "name": "Optic Diameter",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Lens_Mounts_Classification.opticalaxisheight",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "38.1 mm"
+                      }
+                    ],
+                    "name": "Optical Axis Height",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Lens_Mounts_Classification.use",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "On-Axis Lens Mounting"
+                      }
+                    ],
+                    "name": "Use",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Lens_Mounts_Classification.adjustments",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "Fixed"
+                      }
+                    ],
+                    "name": "Adjustments",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Lens_Mounts_Classification.threadtype",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "8-32 (M4) CLR"
+                      }
+                    ],
+                    "name": "Thread Type",
+                    "range": false
+                  }
+                ],
+                "name": "Lens Mounts"
+              }
+            ],
+            "code": "AC-2A",
+            "compatibility": "UNIVERSAL",
+            "configurable": false,
+            "crossPlantMaterialStatus": "03",
+            "displayFaqs": false,
+            "displayOrder": 0.0,
+            "emailQuote": false,
+            "excludedCountries": [],
+            "familyBullets": [],
+            "familyProduct": false,
+            "favourite": false,
+            "footnotes": [],
+            "images": [
+              {
+                "format": "zoom800",
+                "imageType": "PRIMARY",
+                "url": "/medias/sys_master/DefaultCelumAssetsFolder/hcc/h78/9901520584734/AC-2A_800w/AC-2A-800w.jpg"
+              }
+            ],
+            "isConfigurable": false,
+            "isNew": false,
+            "isObsolete": false,
+            "modelNumber": "AC-2A",
+            "neverShowPDP": false,
+            "order": 0.0,
+            "orderTableDisplay": 0.0,
+            "originalProductCode": "AC-2A",
+            "owner": "Ryan Williamson",
+            "potentialPromotions": [],
+            "price": {
+              "currencyIso": "USD",
+              "formattedValue": "$82",
+              "priceType": "BUY",
+              "value": 82.0
+            },
+            "productFeatures": [],
+            "productReferences": [],
+            "purchasable": true,
+            "quickShip": true,
+            "referenceComponent": [],
+            "relatedProductsSection": [],
+            "revisedmodelCode": "AC-2A",
+            "revisedproductCode": "AC-2A",
+            "sapUnit": {
+              "availabilityCode": "EA",
+              "code": "EA",
+              "name": "EA"
+            },
+            "showCart": true,
+            "showPrice": true,
+            "showQuote": false,
+            "showUSD": true,
+            "specialHandlingReqd": false,
+            "specifications": [
+              {
+                "key": "Type",
+                "value": [
+                  "Variable Size Lens Mount "
+                ]
+              },
+              {
+                "key": "Optic Diameter",
+                "value": [
+                  "17.8-57.1 mm "
+                ]
+              },
+              {
+                "key": "Optical Axis Height",
+                "value": [
+                  "38.1 mm &nbsp;"
+                ]
+              },
+              {
+                "key": "Use",
+                "value": [
+                  "On-Axis Lens Mounting "
+                ]
+              },
+              {
+                "key": "Adjustments",
+                "value": [
+                  "Fixed "
+                ]
+              },
+              {
+                "key": "Thread Type",
+                "value": [
+                  "8-32 (M4) CLR "
+                ]
+              }
+            ],
+            "stockAvailability": "In Stock",
+            "summary": "Variable Size Lens Mount, 17.8-57.1 mm, Thumbscrew Support Arms",
+            "suppress": false,
+            "technicalSpecifications": [],
+            "thumbnailsImages": [
+              {
+                "format": "product",
+                "imageType": "PRIMARY",
+                "url": "/medias/sys_master/DefaultCelumAssetsFolder/hde/ha1/9894365397022/AC-2A_300w/AC-2A-300w.jpg"
+              },
+              {
+                "format": "thumbnail",
+                "imageType": "PRIMARY",
+                "url": "/medias/sys_master/DefaultCelumAssetsFolder/h53/haf/9896171536414/AC-2A_60w/AC-2A-60w.jpg"
+              },
+              {
+                "format": "thumbnail200",
+                "imageType": "PRIMARY",
+                "url": "/medias/sys_master/DefaultCelumAssetsFolder/h59/h17/9905603346462/AC-2A_200w/AC-2A-200w.jpg"
+              },
+              {
+                "format": "thumbnail100",
+                "imageType": "PRIMARY",
+                "url": "/medias/sys_master/DefaultCelumAssetsFolder/he8/h3c/9899190452254/AC-2A_100w/AC-2A-100w.jpg"
+              },
+              {
+                "format": "product",
+                "imageType": "PRIMARY",
+                "url": "/medias/sys_master/DefaultCelumAssetsFolder/hde/ha1/9894365397022/AC-2A_300w/AC-2A-300w.jpg"
+              }
+            ],
+            "url": "/p/AC-2A",
+            "variantAltLayout": "EXTENDED"
+          }
+        },
+        {
+          "label": "LCM-2",
+          "product": {
+            "allowInstantQuotes": true,
+            "alwaysShowFamily": false,
+            "availabilityThreshold": 5,
+            "availableInSAP": true,
+            "baseOptions": [
+              {
+                "selected": {
+                  "code": "LCM-2",
+                  "priceData": {
+                    "currencyIso": "USD",
+                    "formattedValue": "$320",
+                    "priceType": "BUY",
+                    "value": 320.0
+                  },
+                  "stock": {
+                    "isValueRounded": false,
+                    "stockLevel": 0,
+                    "stockLevelStatus": "inStock"
+                  },
+                  "url": "/p/LCM-2",
+                  "variantOptionQualifiers": []
+                },
+                "variantType": "NewPortVariantProduct"
+              }
+            ],
+            "baseProduct": "self-centering-lens-mounts",
+            "baseProductHasNewVariant": false,
+            "baseProductImageUrl": "/medias/sys_master/DefaultCelumAssetsFolder/hf8/hd2/9899099619358/OM-lcm_series-S_100w/OM-lcm-series-S-100w.jpg",
+            "baseProductName": "Spring-Loaded Self-Centering Variable Size Lens Mounts",
+            "brand": "Newport",
+            "cad2DAvailable": true,
+            "cad3DAvailable": true,
+            "classifications": [
+              {
+                "code": "Lens_Mounts_Classification",
+                "features": [
+                  {
+                    "code": "npClassification/1.0/Lens_Mounts_Classification.type",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "Variable Size Lens Mount"
+                      }
+                    ],
+                    "name": "Type",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Lens_Mounts_Classification.opticdiameter",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "3.2-60.3 mm"
+                      }
+                    ],
+                    "name": "Optic Diameter",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Lens_Mounts_Classification.edgethickness",
+                    "comparable": true,
+                    "description": "Maximum optic edge thickness the mount can hold",
+                    "featureValues": [
+                      {
+                        "value": "3.00 to 6.73 mm"
+                      }
+                    ],
+                    "name": "Edge Thickness (T<sub>e</sub>)",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Lens_Mounts_Classification.opticalaxisheight",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "58.9 mm"
+                      }
+                    ],
+                    "name": "Optical Axis Height",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Lens_Mounts_Classification.use",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "Self Centering Lenses"
+                      }
+                    ],
+                    "name": "Use",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Lens_Mounts_Classification.adjustments",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "Fixed"
+                      }
+                    ],
+                    "name": "Adjustments",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Lens_Mounts_Classification.threadtype",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "8-32 and 1/4-20"
+                      }
+                    ],
+                    "name": "Thread Type",
+                    "range": false
+                  }
+                ],
+                "name": "Lens Mounts"
+              }
+            ],
+            "code": "LCM-2",
+            "compatibility": "IMPERIAL",
+            "configurable": false,
+            "crossPlantMaterialStatus": "03",
+            "displayFaqs": false,
+            "displayOrder": 0.0,
+            "emailQuote": false,
+            "excludedCountries": [],
+            "familyBullets": [],
+            "familyProduct": false,
+            "favourite": false,
+            "footnotes": [],
+            "images": [
+              {
+                "format": "zoom800",
+                "imageType": "PRIMARY",
+                "url": "/medias/sys_master/DefaultCelumAssetsFolder/ha9/h13/9901534019614/LCM-2_800w/LCM-2-800w.jpg"
+              }
+            ],
+            "isConfigurable": false,
+            "isNew": false,
+            "isObsolete": false,
+            "modelNumber": "LCM-2",
+            "neverShowPDP": false,
+            "order": 0.0,
+            "orderTableDisplay": 0.0,
+            "originalProductCode": "LCM-2",
+            "owner": "Ryan Williamson",
+            "potentialPromotions": [],
+            "price": {
+              "currencyIso": "USD",
+              "formattedValue": "$320",
+              "priceType": "BUY",
+              "value": 320.0
+            },
+            "productFeatures": [],
+            "productReferences": [],
+            "purchasable": true,
+            "quickShip": true,
+            "referenceComponent": [],
+            "relatedProductsSection": [],
+            "revisedmodelCode": "LCM-2",
+            "revisedproductCode": "LCM-2",
+            "sapUnit": {
+              "availabilityCode": "EA",
+              "code": "EA",
+              "name": "EA"
+            },
+            "showCart": true,
+            "showPrice": true,
+            "showQuote": false,
+            "showUSD": true,
+            "specialHandlingReqd": false,
+            "specifications": [
+              {
+                "key": "Type",
+                "value": [
+                  "Variable Size Lens Mount "
+                ]
+              },
+              {
+                "key": "Optic Diameter",
+                "value": [
+                  "3.2-60.3 mm "
+                ]
+              },
+              {
+                "key": "Edge Thickness (T<sub>e</sub>)",
+                "value": [
+                  "3.00 to 6.73 mm ",
+                  "Maximum optic edge thickness the mount can hold"
+                ]
+              },
+              {
+                "key": "Optical Axis Height",
+                "value": [
+                  "58.9 mm &nbsp;"
+                ]
+              },
+              {
+                "key": "Use",
+                "value": [
+                  "Self Centering Lenses "
+                ]
+              },
+              {
+                "key": "Adjustments",
+                "value": [
+                  "Fixed "
+                ]
+              },
+              {
+                "key": "Thread Type",
+                "value": [
+                  "8-32 and 1/4-20 "
+                ]
+              }
+            ],
+            "stockAvailability": "In Stock",
+            "summary": "Lens Mount, Self-Centering, 0.125-2.375 in. Diameter Lenses",
+            "suppress": false,
+            "technicalSpecifications": [],
+            "thumbnailsImages": [
+              {
+                "format": "product",
+                "imageType": "PRIMARY",
+                "url": "/medias/sys_master/DefaultCelumAssetsFolder/h68/hbf/9894378831902/LCM-2_300w/LCM-2-300w.jpg"
+              },
+              {
+                "format": "thumbnail",
+                "imageType": "PRIMARY",
+                "url": "/medias/sys_master/DefaultCelumAssetsFolder/h90/h6f/9896250507294/LCM-2_60w/LCM-2-60w.jpg"
+              },
+              {
+                "format": "thumbnail200",
+                "imageType": "PRIMARY",
+                "url": "/medias/sys_master/DefaultCelumAssetsFolder/he0/h03/9905616781342/LCM-2_200w/LCM-2-200w.jpg"
+              },
+              {
+                "format": "thumbnail100",
+                "imageType": "PRIMARY",
+                "url": "/medias/sys_master/DefaultCelumAssetsFolder/hfe/h9c/9899203887134/LCM-2_100w/LCM-2-100w.jpg"
+              },
+              {
+                "format": "product",
+                "imageType": "PRIMARY",
+                "url": "/medias/sys_master/DefaultCelumAssetsFolder/h68/hbf/9894378831902/LCM-2_300w/LCM-2-300w.jpg"
+              }
+            ],
+            "url": "/p/LCM-2",
+            "variantAltLayout": "EXTENDED"
+          }
+        },
+        {
+          "label": "LP-2A",
+          "product": {
+            "allowInstantQuotes": true,
+            "alwaysShowFamily": false,
+            "availabilityThreshold": 5,
+            "availableInSAP": true,
+            "baseOptions": [
+              {
+                "selected": {
+                  "code": "LP-2A",
+                  "priceData": {
+                    "currencyIso": "USD",
+                    "formattedValue": "$1,166",
+                    "priceType": "BUY",
+                    "value": 1166.0
+                  },
+                  "stock": {
+                    "isValueRounded": false,
+                    "stockLevel": 0,
+                    "stockLevelStatus": "inStock"
+                  },
+                  "url": "/p/LP-2A",
+                  "variantOptionQualifiers": []
+                },
+                "variantType": "NewPortVariantProduct"
+              }
+            ],
+            "baseProduct": "precision-multi-axis-lens-positioners",
+            "baseProductHasNewVariant": false,
+            "baseProductImageUrl": "/medias/sys_master/npDefaultCelumAssetsFolder/ha8/haa/9972284882974/LP-1B_LP-1-XYZ_LP-1-XY_100w/LP-1B-LP-1-XYZ-LP-1-XY-100w.jpg",
+            "baseProductName": "Precision Multi-Axis Lens Positioners",
+            "brand": "Newport",
+            "cad2DAvailable": true,
+            "cad3DAvailable": true,
+            "classifications": [
+              {
+                "code": "Lens_Mounts_Classification",
+                "features": [
+                  {
+                    "code": "npClassification/1.0/Lens_Mounts_Classification.type",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "Lens Positioner"
+                      }
+                    ],
+                    "name": "Type",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Lens_Mounts_Classification.opticdiameter",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "50.8 mm"
+                      }
+                    ],
+                    "name": "Optic Diameter",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Lens_Mounts_Classification.opticalaxisheight",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "76.2 mm"
+                      }
+                    ],
+                    "name": "Optical Axis Height",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Lens_Mounts_Classification.adjustments",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "XYZ &theta;X&theta;Y"
+                      }
+                    ],
+                    "name": "Adjustments",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Lens_Mounts_Classification.adjustmentscrewthread",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "80 TPI: Z, 100 TPI: XY &theta;X&theta;Y"
+                      }
+                    ],
+                    "name": "Adjustment Screw Thread",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Lens_Mounts_Classification.travelx",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "±3.2 mm"
+                      }
+                    ],
+                    "name": "Travel, X",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Lens_Mounts_Classification.travely",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "±3.2 mm"
+                      }
+                    ],
+                    "name": "Travel, Y",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Lens_Mounts_Classification.travelz",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "±3.2 mm"
+                      }
+                    ],
+                    "name": "Travel, Z",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Lens_Mounts_Classification.angularrange",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "±5°"
+                      }
+                    ],
+                    "name": "Angular Range",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Lens_Mounts_Classification.retainingring",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "<quickview data-class=\"quickview-link\" data-code=\"LH2-T-RR\" data-type=\"product\">LH2-T-RR</quickview> (2 Included)"
+                      }
+                    ],
+                    "name": "Retaining Ring",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Lens_Mounts_Classification.retainingringthread",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "2.063-20"
+                      }
+                    ],
+                    "name": "Retaining Ring Thread",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Lens_Mounts_Classification.includedopticholder",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "<quickview data-class=\"quickview-link\" data-code=\"LPLH-1.5T\" data-type=\"product\">LPLH-1.5T</quickview>"
+                      }
+                    ],
+                    "name": "Included Optic Holder",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Lens_Mounts_Classification.threadtype",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "1/4-20 and M6"
+                      }
+                    ],
+                    "name": "Thread Type",
+                    "range": false
+                  }
+                ],
+                "name": "Lens Mounts"
+              }
+            ],
+            "code": "LP-2A",
+            "compatibility": "UNIVERSAL",
+            "configurable": false,
+            "crossPlantMaterialStatus": "03",
+            "displayFaqs": false,
+            "displayOrder": 0.0,
+            "emailQuote": false,
+            "excludedCountries": [],
+            "familyBullets": [],
+            "familyProduct": false,
+            "favourite": false,
+            "footnotes": [],
+            "images": [
+              {
+                "format": "zoom800",
+                "imageType": "PRIMARY",
+                "url": "/medias/sys_master/DefaultCelumAssetsFolder/h62/hd5/9901537099806/LP-2A_800w/LP-2A-800w.jpg"
+              }
+            ],
+            "isConfigurable": false,
+            "isNew": false,
+            "isObsolete": false,
+            "modelNumber": "LP-2A",
+            "neverShowPDP": false,
+            "order": 0.0,
+            "orderTableDisplay": 0.0,
+            "originalProductCode": "LP-2A",
+            "owner": "Ryan Williamson",
+            "potentialPromotions": [],
+            "price": {
+              "currencyIso": "USD",
+              "formattedValue": "$1,166",
+              "priceType": "BUY",
+              "value": 1166.0
+            },
+            "productFeatures": [],
+            "productReferences": [],
+            "purchasable": true,
+            "quickShip": true,
+            "referenceComponent": [
+              {
+                "content": "<ul>\n\t<li>Two-axis XY models have orthogonal transverse adjustments.</li>\n\t<li>Three-axis XYZ models add translation along the optical Z-axis. Pure Z-axis motion without rotation of the lens is achieved through turning the knurled ring with precision 80 TPI threads.</li>\n\t<li>Five-axis XYZ &theta;X&theta;Y models provide smooth XYZ translation plus true gimbaling about two orthogonal, coplanar axes. Five independent degrees of freedom allow you to accurately position an optic in any plane along any axis.</li>\n</ul>\n",
+                "displayOrder": 2,
+                "enlarge": true,
+                "featureWidth": "TEXT_LEFT",
+                "imageHeadLine": "Two, Three or Five Axes of Positioning",
+                "media": {
+                  "url": "/medias/sys_master/npDefaultCelumAssetsFolder/h33/hff/9972285210654/LP-1B_LP-1-XYZ_LP-1-XY_800w/LP-1B-LP-1-XYZ-LP-1-XY-800w.jpg"
+                },
+                "uid": "precision-multi-axis-lens-positioners-axes-feature"
+              },
+              {
+                "content": "LP-A Five-axis XYZ θXθY models provides smooth XYZ translation plus true gimbaling about two orthogonal, coplanar axes. These five independent degrees of freedom allow you to accurately position an optic in any plane along any axis.",
+                "displayOrder": 3,
+                "enlarge": true,
+                "featureWidth": "TEXT_RIGHT",
+                "imageHeadLine": "True Gimbal Adjustments",
+                "media": {
+                  "url": "/medias/sys_master/DefaultCelumAssetsFolder/h56/hca/9901531824158/Gimbal_vs_Kinematic_800w/Gimbal-vs-Kinematic-800w.jpg"
+                },
+                "uid": "precision-multi-axis-lens-positioners-gimbal-feature"
+              },
+              {
+                "content": "Independent locks for each axis of translation and rotation securely lock the mechanism, not just the actuator screws, maintaining stable optical alignment. Engaging or disengaging each lock has negligible influence on the other axes.",
+                "displayOrder": 8,
+                "enlarge": true,
+                "featureWidth": "TEXT_LEFT",
+                "imageHeadLine": "Independent Non-influencing Locks",
+                "media": {
+                  "url": "/medias/sys_master/DefaultCelumAssetsFolder/hd3/h22/9904404627486/LP-series-locks_600w/LP-series-locks-600w.jpg"
+                },
+                "uid": "precision-multi-axis-lens-positioners-locks-feature"
+              }
+            ],
+            "relatedProductsSection": [],
+            "revisedmodelCode": "LP-2A",
+            "revisedproductCode": "LP-2A",
+            "sapUnit": {
+              "availabilityCode": "EA",
+              "code": "EA",
+              "name": "EA"
+            },
+            "showCart": true,
+            "showPrice": true,
+            "showQuote": false,
+            "showUSD": true,
+            "specialHandlingReqd": false,
+            "specifications": [
+              {
+                "key": "Type",
+                "value": [
+                  "Lens Positioner "
+                ]
+              },
+              {
+                "key": "Optic Diameter",
+                "value": [
+                  "50.8 mm "
+                ]
+              },
+              {
+                "key": "Optical Axis Height",
+                "value": [
+                  "76.2 mm &nbsp;"
+                ]
+              },
+              {
+                "key": "Adjustments",
+                "value": [
+                  "XYZ &theta;X&theta;Y "
+                ]
+              },
+              {
+                "key": "Adjustment Screw Thread",
+                "value": [
+                  "80 TPI: Z, 100 TPI: XY &theta;X&theta;Y "
+                ]
+              },
+              {
+                "key": "Travel, X",
+                "value": [
+                  "±3.2 mm "
+                ]
+              },
+              {
+                "key": "Travel, Y",
+                "value": [
+                  "±3.2 mm "
+                ]
+              },
+              {
+                "key": "Travel, Z",
+                "value": [
+                  "±3.2 mm "
+                ]
+              },
+              {
+                "key": "Angular Range",
+                "value": [
+                  "±5° "
+                ]
+              },
+              {
+                "key": "Retaining Ring",
+                "value": [
+                  "<quickview data-class=\"quickview-link\" data-code=\"LH2-T-RR\" data-type=\"product\">LH2-T-RR</quickview> (2 Included) "
+                ]
+              },
+              {
+                "key": "Retaining Ring Thread",
+                "value": [
+                  "2.063-20 "
+                ]
+              },
+              {
+                "key": "Included Optic Holder",
+                "value": [
+                  "<quickview data-class=\"quickview-link\" data-code=\"LPLH-1.5T\" data-type=\"product\">LPLH-1.5T</quickview> "
+                ]
+              },
+              {
+                "key": "Thread Type",
+                "value": [
+                  "1/4-20 and M6 "
+                ]
+              }
+            ],
+            "stockAvailability": "In Stock",
+            "summary": "Precision Lens Positioner, 2.0 in., 100 TPI XYθXθY, 80 TPI Z",
+            "suppress": true,
+            "technicalSpecifications": [],
+            "thumbnailsImages": [
+              {
+                "format": "product",
+                "imageType": "PRIMARY",
+                "url": "/medias/sys_master/DefaultCelumAssetsFolder/hc5/had/9894381912094/LP-2A_300w/LP-2A-300w.jpg"
+              },
+              {
+                "format": "thumbnail",
+                "imageType": "PRIMARY",
+                "url": "/medias/sys_master/DefaultCelumAssetsFolder/h28/h52/9896253587486/LP-2A_60w/LP-2A-60w.jpg"
+              },
+              {
+                "format": "thumbnail200",
+                "imageType": "PRIMARY",
+                "url": "/medias/sys_master/DefaultCelumAssetsFolder/h88/hbb/9905619861534/LP-2A_200w/LP-2A-200w.jpg"
+              },
+              {
+                "format": "thumbnail100",
+                "imageType": "PRIMARY",
+                "url": "/medias/sys_master/DefaultCelumAssetsFolder/h98/ha3/9899206967326/LP-2A_100w/LP-2A-100w.jpg"
+              },
+              {
+                "format": "product",
+                "imageType": "PRIMARY",
+                "url": "/medias/sys_master/DefaultCelumAssetsFolder/hc5/had/9894381912094/LP-2A_300w/LP-2A-300w.jpg"
+              }
+            ],
+            "url": "/p/LP-2A",
+            "variantAltLayout": "EXTENDED"
+          }
+        },
+        {
+          "label": "VLH-3A",
+          "product": {
+            "allowInstantQuotes": true,
+            "alwaysShowFamily": false,
+            "availabilityThreshold": 5,
+            "availableInSAP": true,
+            "baseOptions": [
+              {
+                "selected": {
+                  "code": "VLH-3A",
+                  "priceData": {
+                    "currencyIso": "USD",
+                    "formattedValue": "$189",
+                    "priceType": "BUY",
+                    "value": 189.0
+                  },
+                  "stock": {
+                    "isValueRounded": false,
+                    "stockLevel": 0,
+                    "stockLevelStatus": "inStock"
+                  },
+                  "url": "/p/VLH-3A",
+                  "variantOptionQualifiers": []
+                },
+                "variantType": "NewPortVariantProduct"
+              }
+            ],
+            "baseProduct": "universal-lens-mounts",
+            "baseProductHasNewVariant": false,
+            "baseProductImageUrl": "/medias/sys_master/DefaultCelumAssetsFolder/h58/h29/9899107516446/OM-var_lens_hldr-S_100w/OM-var-lens-hldr-S-100w.jpg",
+            "baseProductName": "V-Groove Registered Variable Size Lens Mounts",
+            "brand": "Newport",
+            "cad2DAvailable": true,
+            "cad3DAvailable": true,
+            "classifications": [
+              {
+                "code": "Lens_Mounts_Classification",
+                "features": [
+                  {
+                    "code": "npClassification/1.0/Lens_Mounts_Classification.type",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "Variable Size Lens Mount"
+                      }
+                    ],
+                    "name": "Type",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Lens_Mounts_Classification.opticdiameter",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "15.2-91.4 mm"
+                      }
+                    ],
+                    "name": "Optic Diameter",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Lens_Mounts_Classification.use",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "Lenses or Cylindrical-shaped Lens Barrels"
+                      }
+                    ],
+                    "name": "Use",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Lens_Mounts_Classification.adjustments",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "Fixed"
+                      }
+                    ],
+                    "name": "Adjustments",
+                    "range": false
+                  },
+                  {
+                    "code": "npClassification/1.0/Lens_Mounts_Classification.threadtype",
+                    "comparable": true,
+                    "featureValues": [
+                      {
+                        "value": "8-32 (M4) CLR"
+                      }
+                    ],
+                    "name": "Thread Type",
+                    "range": false
+                  }
+                ],
+                "name": "Lens Mounts"
+              }
+            ],
+            "code": "VLH-3A",
+            "compatibility": "UNIVERSAL",
+            "configurable": false,
+            "crossPlantMaterialStatus": "03",
+            "displayFaqs": false,
+            "displayOrder": 0.0,
+            "emailQuote": false,
+            "excludedCountries": [],
+            "familyBullets": [],
+            "familyProduct": false,
+            "favourite": false,
+            "footnotes": [],
+            "images": [
+              {
+                "format": "zoom800",
+                "imageType": "PRIMARY",
+                "url": "/medias/sys_master/DefaultCelumAssetsFolder/h95/hed/9901492928542/VLH-3A_800w/VLH-3A-800w.jpg"
+              }
+            ],
+            "isConfigurable": false,
+            "isNew": false,
+            "isObsolete": false,
+            "modelNumber": "VLH-3A",
+            "neverShowPDP": false,
+            "order": 0.0,
+            "orderTableDisplay": 0.0,
+            "originalProductCode": "VLH-3A",
+            "owner": "Ryan Williamson",
+            "potentialPromotions": [],
+            "price": {
+              "currencyIso": "USD",
+              "formattedValue": "$189",
+              "priceType": "BUY",
+              "value": 189.0
+            },
+            "productFeatures": [],
+            "productReferences": [],
+            "purchasable": true,
+            "quickShip": true,
+            "referenceComponent": [],
+            "relatedProductsSection": [],
+            "revisedmodelCode": "VLH-3A",
+            "revisedproductCode": "VLH-3A",
+            "sapUnit": {
+              "availabilityCode": "EA",
+              "code": "EA",
+              "name": "EA"
+            },
+            "showCart": true,
+            "showPrice": true,
+            "showQuote": false,
+            "showUSD": true,
+            "specialHandlingReqd": false,
+            "specifications": [
+              {
+                "key": "Type",
+                "value": [
+                  "Variable Size Lens Mount "
+                ]
+              },
+              {
+                "key": "Optic Diameter",
+                "value": [
+                  "15.2-91.4 mm "
+                ]
+              },
+              {
+                "key": "Use",
+                "value": [
+                  "Lenses or Cylindrical-shaped Lens Barrels "
+                ]
+              },
+              {
+                "key": "Adjustments",
+                "value": [
+                  "Fixed "
+                ]
+              },
+              {
+                "key": "Thread Type",
+                "value": [
+                  "8-32 (M4) CLR "
+                ]
+              }
+            ],
+            "stockAvailability": "In Stock",
+            "summary": "V-Groove Lens Holder, 0.60 to 3.60 in. Diameter Lenses",
+            "suppress": false,
+            "technicalSpecifications": [],
+            "thumbnailsImages": [
+              {
+                "format": "product",
+                "imageType": "PRIMARY",
+                "url": "/medias/sys_master/DefaultCelumAssetsFolder/hbb/hec/9894337740830/VLH-3A_300w/VLH-3A-300w.jpg"
+              },
+              {
+                "format": "thumbnail",
+                "imageType": "PRIMARY",
+                "url": "/medias/sys_master/DefaultCelumAssetsFolder/h3c/h40/9896143880222/VLH-3A_60w/VLH-3A-60w.jpg"
+              },
+              {
+                "format": "thumbnail200",
+                "imageType": "PRIMARY",
+                "url": "/medias/sys_master/DefaultCelumAssetsFolder/h34/hb3/9905575690270/VLH-3A_200w/VLH-3A-200w.jpg"
+              },
+              {
+                "format": "thumbnail100",
+                "imageType": "PRIMARY",
+                "url": "/medias/sys_master/DefaultCelumAssetsFolder/heb/hab/9899162796062/VLH-3A_100w/VLH-3A-100w.jpg"
+              },
+              {
+                "format": "product",
+                "imageType": "PRIMARY",
+                "url": "/medias/sys_master/DefaultCelumAssetsFolder/hbb/hec/9894337740830/VLH-3A_300w/VLH-3A-300w.jpg"
+              }
+            ],
+            "url": "/p/VLH-3A",
+            "variantAltLayout": "EXTENDED"
+          }
+        }
+      ],
+      "title": "Compatible",
+      "uid": "KPX181AR.14_Compatible"
+    }
+  ],
+  "allowInstantQuotes": true,
+  "alwaysShowFamily": false,
+  "availabilityThreshold": 7,
+  "availableInSAP": true,
+  "baseOptions": [
+    {
+      "selected": {
+        "code": "KPX181AR.14",
+        "priceData": {
+          "currencyIso": "USD",
+          "formattedValue": "$87",
+          "priceType": "BUY",
+          "value": 87.0
+        },
+        "stock": {
+          "isValueRounded": false,
+          "stockLevel": 0,
+          "stockLevelStatus": "inStock"
+        },
+        "url": "/p/KPX181AR.14",
+        "variantOptionQualifiers": []
+      },
+      "variantType": "NewPortVariantProduct"
+    }
+  ],
+  "baseProduct": "ar14-n-bk7-plano-convex-lenses",
+  "baseProductHasNewVariant": false,
+  "baseProductImageUrl": "/medias/sys_master/DefaultCelumAssetsFolder/h48/h6c/9911252156446/AR-14-Reflectance_100w/AR-14-Reflectance-100w.gif",
+  "baseProductName": "Visible N-BK7 Plano-Convex Lenses",
+  "baseProductTitle": "Visible N-BK7 Plano-Convex Lens",
+  "brand": "Newport",
+  "breadcrumbs": [
+    {
+      "categoryCode": "product",
+      "name": "Products",
+      "url": "/c/product"
+    },
+    {
+      "categoryCode": "optics",
+      "name": "Optics",
+      "url": "/c/optics"
+    },
+    {
+      "categoryCode": "lenses",
+      "name": "Optical Lenses",
+      "url": "/c/lenses"
+    },
+    {
+      "categoryCode": "plano-convex-lenses",
+      "name": "Plano-Convex Lenses",
+      "url": "/c/plano-convex-lenses"
+    },
+    {
+      "categoryCode": "n-bk7-plano-convex-lenses",
+      "name": "N-BK7 Plano-Convex Lenses",
+      "url": "/c/n-bk7-plano-convex-lenses"
+    },
+    {
+      "name": "Visible N-BK7 Plano-Convex Lenses",
+      "url": "/f/ar14-n-bk7-plano-convex-lenses"
+    },
+    {
+      "linkClass": "active",
+      "name": "KPX181AR.14",
+      "url": "KPX181AR.14"
+    }
+  ],
+  "cad2DAvailable": true,
+  "cad3DAvailable": true,
+  "classifications": [
+    {
+      "code": "Spherical_Lenses_Classification",
+      "features": [
+        {
+          "code": "npClassification/1.0/Spherical_Lenses_Classification.lensshape",
+          "comparable": true,
+          "featureValues": [
+            {
+              "value": "Plano-Convex"
+            }
+          ],
+          "name": "Lens Shape",
+          "range": false
+        },
+        {
+          "code": "npClassification/1.0/Spherical_Lenses_Classification.diameter",
+          "comparable": true,
+          "featureValues": [
+            {
+              "value": "50.8 mm"
+            }
+          ],
+          "name": "Diameter",
+          "range": false
+        },
+        {
+          "code": "npClassification/1.0/Spherical_Lenses_Classification.lensmaterial",
+          "comparable": true,
+          "featureValues": [
+            {
+              "value": "N-BK7"
+            }
+          ],
+          "name": "Lens Material",
+          "range": false
+        },
+        {
+          "code": "npClassification/1.0/Spherical_Lenses_Classification.antireflectioncoating",
+          "comparable": true,
+          "featureValues": [
+            {
+              "value": "430-700 nm"
+            }
+          ],
+          "name": "Antireflection Coating",
+          "range": false
+        },
+        {
+          "code": "npClassification/1.0/Spherical_Lenses_Classification.coatingtype",
+          "comparable": true,
+          "featureValues": [
+            {
+              "value": "Visible Multilayer"
+            }
+          ],
+          "name": "Coating Type",
+          "range": false
+        },
+        {
+          "code": "npClassification/1.0/Spherical_Lenses_Classification.coatingcode",
+          "comparable": true,
+          "featureValues": [
+            {
+              "value": "AR.14"
+            }
+          ],
+          "name": "Coating Code",
+          "range": false
+        },
+        {
+          "code": "npClassification/1.0/Spherical_Lenses_Classification.damagethreshold",
+          "comparable": true,
+          "featureValues": [
+            {
+              "value": "7.5 J/cm<sup>2</sup>, 10 ns pulses, 10 Hz at 532 nm"
+            }
+          ],
+          "name": "Damage Threshold",
+          "range": false
+        },
+        {
+          "code": "npClassification/1.0/Spherical_Lenses_Classification.surfacequality",
+          "comparable": true,
+          "featureValues": [
+            {
+              "value": "40-20 scratch-dig"
+            }
+          ],
+          "name": "Surface Quality",
+          "range": false
+        },
+        {
+          "code": "npClassification/1.0/Spherical_Lenses_Classification.surfaceaccuracyirregularity",
+          "comparable": true,
+          "description": "Relative to the test plate",
+          "featureValues": [
+            {
+              "value": "&lambda;/4"
+            }
+          ],
+          "name": "Surface Accuracy, Irregularity",
+          "range": false
+        },
+        {
+          "code": "npClassification/1.0/Spherical_Lenses_Classification.surfaceaccuracypower",
+          "comparable": true,
+          "description": "Relative to the test plate",
+          "featureValues": [
+            {
+              "value": "1.5 &lambda;"
+            }
+          ],
+          "name": "Surface Accuracy, Power",
+          "range": false
+        },
+        {
+          "code": "npClassification/1.0/Spherical_Lenses_Classification.fnumber",
+          "comparable": true,
+          "featureValues": [
+            {
+              "value": "1.4"
+            }
+          ],
+          "name": "F/#",
+          "range": false
+        },
+        {
+          "code": "npClassification/1.0/Spherical_Lenses_Classification.effectivefocallength",
+          "comparable": true,
+          "description": "The distance from the front or rear principal plane of an optical lens to the corresponding focal point",
+          "featureValues": [
+            {
+              "value": "75.6 mm"
+            }
+          ],
+          "name": "Effective Focal Length (EFL)",
+          "range": false
+        },
+        {
+          "code": "npClassification/1.0/Spherical_Lenses_Classification.focallengthback",
+          "comparable": true,
+          "description": "The distance from the vertex of the last surface of an optical lens to its rear focal point",
+          "featureValues": [
+            {
+              "value": "67.43 mm"
+            }
+          ],
+          "name": "Back Focal Length (BFL)",
+          "range": false
+        },
+        {
+          "code": "npClassification/1.0/Spherical_Lenses_Classification.radiusofcurvature",
+          "comparable": true,
+          "description": "The directed distance from the vertex of a surface to the center of curvature.",
+          "featureValues": [
+            {
+              "value": "39.070 mm"
+            }
+          ],
+          "name": "Radius of Curvature (R)",
+          "range": false
+        },
+        {
+          "code": "npClassification/1.0/Spherical_Lenses_Classification.edgethickness",
+          "comparable": true,
+          "description": "The width of the flat side edge of an optic.",
+          "featureValues": [
+            {
+              "value": "3.0 mm"
+            }
+          ],
+          "name": "Edge Thickness (T<sub>e</sub>)",
+          "range": false
+        },
+        {
+          "code": "npClassification/1.0/Spherical_Lenses_Classification.centerthickness",
+          "comparable": true,
+          "description": "The distance between vertices of two surfaces of an optical lens",
+          "featureValues": [
+            {
+              "value": "12.383 mm"
+            }
+          ],
+          "name": "Center Thickness (T<sub>c</sub>)",
+          "range": false
+        },
+        {
+          "code": "npClassification/1.0/Spherical_Lenses_Classification.principleplane2",
+          "comparable": true,
+          "featureValues": [
+            {
+              "value": "-8.16 mm"
+            }
+          ],
+          "name": "Principal Plane 2 (P<sub>2</sub>)",
+          "range": false
+        },
+        {
+          "code": "npClassification/1.0/Spherical_Lenses_Classification.designwavelength",
+          "comparable": true,
+          "featureValues": [
+            {
+              "value": "589 nm"
+            }
+          ],
+          "name": "Design Wavelength",
+          "range": false
+        },
+        {
+          "code": "npClassification/1.0/Spherical_Lenses_Classification.centration",
+          "comparable": true,
+          "featureValues": [
+            {
+              "value": "&le;3 arc min"
+            }
+          ],
+          "name": "Centration",
+          "range": false
+        },
+        {
+          "code": "npClassification/1.0/Spherical_Lenses_Classification.chamfers",
+          "comparable": true,
+          "featureValues": [
+            {
+              "value": "0–0.8 mm face width"
+            }
+          ],
+          "name": "Chamfers",
+          "range": false
+        },
+        {
+          "code": "npClassification/1.0/Spherical_Lenses_Classification.chamfersangle/tolerance",
+          "comparable": true,
+          "featureValues": [
+            {
+              "value": "45° ±15°, typical"
+            }
+          ],
+          "name": "Chamfers Angle/Tolerance",
+          "range": false
+        },
+        {
+          "code": "npClassification/1.0/Spherical_Lenses_Classification.focallengthtolerance",
+          "comparable": true,
+          "featureValues": [
+            {
+              "value": "±1 %"
+            }
+          ],
+          "name": "Focal Length Tolerance",
+          "range": false
+        },
+        {
+          "code": "npClassification/1.0/Spherical_Lenses_Classification.diametertolerance",
+          "comparable": true,
+          "featureValues": [
+            {
+              "value": "+0/-0.1 mm"
+            }
+          ],
+          "name": "Diameter Tolerance",
+          "range": false
+        },
+        {
+          "code": "npClassification/1.0/Spherical_Lenses_Classification.centerthicknesstolerance",
+          "comparable": true,
+          "featureValues": [
+            {
+              "value": "±0.1 mm"
+            }
+          ],
+          "name": "Center Thickness Tolerance",
+          "range": false
+        },
+        {
+          "code": "npClassification/1.0/Spherical_Lenses_Classification.clearaperture",
+          "comparable": true,
+          "featureValues": [
+            {
+              "value": "&ge;central 90% of diameter"
+            }
+          ],
+          "name": "Clear Aperture",
+          "range": false
+        },
+        {
+          "code": "npClassification/1.0/Spherical_Lenses_Classification.cleaning",
+          "comparable": true,
+          "featureValues": [
+            {
+              "value": "See <a href=\"https://www.newport.com/n/how-to-clean-optics\">How to Clean Optics</a>"
+            }
+          ],
+          "name": "Cleaning",
+          "range": false
+        }
+      ],
+      "name": "Spherical Lenses"
+    }
+  ],
+  "code": "KPX181AR.14",
+  "compatibility": "UNIVERSAL",
+  "configurable": false,
+  "contactUsLink": "/contact-us",
+  "crossPlantMaterialStatus": "03",
+  "description": "The KPX181AR.14 N-BK7 Precision Plano-Convex Lens is a 430 to 700 nm anti-reflection coated, 2 inch (50.8 mm) diameter, N-BK7 plano-convex lens with an effective focal length of 75.6 mm. It has = &lambda;/4 surface irregularity, 40-20 scratch-dig, and is designed to meet the demanding requirements of laser electro-optic applications. It is manufactured from fine annealed optical glass and polished to tight tolerances using master test plates ensures minimum wavefront distortion. Tight surface quality tolerances minimize scatter and unwanted diffraction effects. N-BK7 is an excellent material for most visible and near infrared applications. It is the most common optical glass, and it provides great performance at a good value.",
+  "displayFaqs": false,
+  "displayOrder": 0.0,
+  "emailQuote": false,
+  "excludedCountries": [],
+  "familyBullets": [],
+  "familyProduct": false,
+  "favourite": false,
+  "footnotes": [],
+  "futureStockEnabled": true,
+  "images": [
+    {
+      "format": "zoom800",
+      "imageType": "PRIMARY",
+      "url": "/medias/sys_master/DefaultCelumAssetsFolder/hcf/h12/9901589200926/OP-kpxvalumax-S-3_800w/OP-kpxvalumax-S-3-800w.jpg"
+    }
+  ],
+  "isConfigurable": false,
+  "isNew": false,
+  "isObsolete": false,
+  "jspProductAltPage": "product/productLayout2AltPage",
+  "metadata": [
+    {
+      "content": "KPX Plano-Convex Lens,LA1145-A",
+      "name": "keywords"
+    },
+    {
+      "content": "The KPX181AR.14 N-BK7 Precision Plano-Convex Lens is a 430 to 700 nm anti-reflection coated, 2 inch (50.8 mm) diameter, N-BK7 plano-convex lens with an effectiv...",
+      "name": "description"
+    }
+  ],
+  "modelNumber": "KPX181AR.14",
+  "neverShowPDP": false,
+  "numberOfReviews": 0,
+  "order": 0.0,
+  "orderTableDisplay": 0.0,
+  "originalProductCode": "KPX181AR.14",
+  "othersImages": [
+    {
+      "url": "/medias/sys_master/DefaultCelumAssetsFolder/hcf/h12/9901589200926/OP-kpxvalumax-S-3_800w/OP-kpxvalumax-S-3-800w.jpg"
+    },
+    {
+      "url": "/medias/sys_master/images/images/h19/h04/9126935429150/RoHS-solo-235w-800w.jpg"
+    }
+  ],
+  "owner": "Anna Wang",
+  "pardotOptInUrls": "https://go.newport.com/l/511381/2019-10-11/dvf99v,https://go.newport.com/l/511381/2019-10-11/dvf99x",
+  "potentialPromotions": [],
+  "price": {
+    "currencyIso": "USD",
+    "formattedValue": "$87",
+    "priceType": "BUY",
+    "value": 87.0
+  },
+  "productFeatures": [],
+  "productReferences": [],
+  "purchasable": true,
+  "quickShip": false,
+  "referenceComponent": [],
+  "relatedProductsSection": [],
+  "resourceGroupData": [
+    {
+      "resourceType": "2D Product Drawings",
+      "resources": [
+        {
+          "displayIcon": "fa-cube",
+          "fileType": "PDF",
+          "includeInSearch": true,
+          "pdfSize": "89.6 kB",
+          "pdfUrl": "/medias/sys_master/images/images/h4d/ha1/8933949538334/PLANOCO1-VEX-S.pdf",
+          "pk": "8796750634776",
+          "requiresLogin": false,
+          "resourceType": "2D Product Drawings",
+          "title": "PLANOCO1 VEX-S"
+        }
+      ]
+    },
+    {
+      "resourceType": "Software",
+      "resources": [
+        {
+          "displayIcon": "fa-file-archive",
+          "fileType": "ZMX",
+          "includeInSearch": true,
+          "pdfSize": "5.3 kB",
+          "pdfUrl": "/medias/sys_master/resources/h11/h40/9899913412638/KPX181AR_14/KPX181AR-14.zmx",
+          "pk": "8801481842456",
+          "requiresLogin": false,
+          "resourceType": "Software",
+          "title": "KPX181AR.14 Zemax File"
+        }
+      ]
+    },
+    {
+      "resourceType": "Other",
+      "resources": [
+        {
+          "displayIcon": "fa-file",
+          "fileType": "PDF",
+          "includeInSearch": true,
+          "pdfSize": "709.7 kB",
+          "pdfUrl": "/medias/sys_master/resources/hb9/hfb/9901094174750/KPX181AR/KPX181AR.14_ROHS2-2021",
+          "pk": "8805878259480",
+          "requiresLogin": false,
+          "resourceType": "Other",
+          "title": "KPX181AR.14 RoHS Certificate"
+        },
+        {
+          "displayIcon": "fa-file",
+          "fileType": "XLSX",
+          "includeInSearch": true,
+          "pdfSize": "63.9 kB",
+          "pdfUrl": "/medias/sys_master/resources/he1/h6a/9900784255006/AR14/AR14.xlsx",
+          "pk": "8805600452376",
+          "requiresLogin": false,
+          "resourceType": "Other",
+          "title": "AR.14 Raw Data.xlsx"
+        }
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "displayIcon": "fa-cube",
+      "fileType": "PDF",
+      "includeInSearch": true,
+      "pdfSize": "89.6 kB",
+      "pdfUrl": "/medias/sys_master/images/images/h4d/ha1/8933949538334/PLANOCO1-VEX-S.pdf",
+      "pk": "8796750634776",
+      "requiresLogin": false,
+      "resourceType": "2D Product Drawings",
+      "title": "PLANOCO1 VEX-S"
+    },
+    {
+      "displayIcon": "fa-file-archive",
+      "fileType": "ZMX",
+      "includeInSearch": true,
+      "pdfSize": "5.3 kB",
+      "pdfUrl": "/medias/sys_master/resources/h11/h40/9899913412638/KPX181AR_14/KPX181AR-14.zmx",
+      "pk": "8801481842456",
+      "requiresLogin": false,
+      "resourceType": "Software",
+      "title": "KPX181AR.14 Zemax File"
+    },
+    {
+      "displayIcon": "fa-file",
+      "fileType": "PDF",
+      "includeInSearch": true,
+      "pdfSize": "709.7 kB",
+      "pdfUrl": "/medias/sys_master/resources/hb9/hfb/9901094174750/KPX181AR/KPX181AR.14_ROHS2-2021",
+      "pk": "8805878259480",
+      "requiresLogin": false,
+      "resourceType": "Other",
+      "title": "KPX181AR.14 RoHS Certificate"
+    },
+    {
+      "displayIcon": "fa-file",
+      "fileType": "XLSX",
+      "includeInSearch": true,
+      "pdfSize": "63.9 kB",
+      "pdfUrl": "/medias/sys_master/resources/he1/h6a/9900784255006/AR14/AR14.xlsx",
+      "pk": "8805600452376",
+      "requiresLogin": false,
+      "resourceType": "Other",
+      "title": "AR.14 Raw Data.xlsx"
+    }
+  ],
+  "reviews": [],
+  "revisedmodelCode": "KPX181AR-14",
+  "revisedproductCode": "KPX181AR-14",
+  "showCart": true,
+  "showPrice": true,
+  "showQuote": false,
+  "showUSD": true,
+  "specialHandlingReqd": false,
+  "specificationImages": [
+    {
+      "url": "/medias/sys_master/DefaultCelumAssetsFolder/h5c/h93/9908888829982/AR-14-S_600w/AR-14-S-600w.gif"
+    }
+  ],
+  "specifications": [
+    {
+      "key": "Lens Shape",
+      "value": [
+        "Plano-Convex "
+      ]
+    },
+    {
+      "key": "Diameter",
+      "value": [
+        "50.8 mm "
+      ]
+    },
+    {
+      "key": "Lens Material",
+      "value": [
+        "N-BK7 "
+      ]
+    },
+    {
+      "key": "Antireflection Coating",
+      "value": [
+        "430-700 nm "
+      ]
+    },
+    {
+      "key": "Coating Type",
+      "value": [
+        "Visible Multilayer "
+      ]
+    },
+    {
+      "key": "Coating Code",
+      "value": [
+        "AR.14 "
+      ]
+    },
+    {
+      "key": "Damage Threshold",
+      "value": [
+        "7.5 J/cm<sup>2</sup>, 10 ns pulses, 10 Hz at 532 nm "
+      ]
+    },
+    {
+      "key": "Surface Quality",
+      "value": [
+        "40-20 scratch-dig "
+      ]
+    },
+    {
+      "key": "Surface Accuracy, Irregularity",
+      "value": [
+        "&lambda;/4 ",
+        "Relative to the test plate"
+      ]
+    },
+    {
+      "key": "Surface Accuracy, Power",
+      "value": [
+        "1.5 &lambda; &nbsp;",
+        "Relative to the test plate"
+      ]
+    },
+    {
+      "key": "F/#",
+      "value": [
+        "1.4 &nbsp;"
+      ]
+    },
+    {
+      "key": "Effective Focal Length (EFL)",
+      "value": [
+        "75.6 mm &nbsp;",
+        "The distance from the front or rear principal plane of an optical lens to the corresponding focal point"
+      ]
+    },
+    {
+      "key": "Back Focal Length (BFL)",
+      "value": [
+        "67.43 mm &nbsp;",
+        "The distance from the vertex of the last surface of an optical lens to its rear focal point"
+      ]
+    },
+    {
+      "key": "Radius of Curvature (R)",
+      "value": [
+        "39.070 mm &nbsp;",
+        "The directed distance from the vertex of a surface to the center of curvature."
+      ]
+    },
+    {
+      "key": "Edge Thickness (T<sub>e</sub>)",
+      "value": [
+        "3.0 mm &nbsp;",
+        "The width of the flat side edge of an optic."
+      ]
+    },
+    {
+      "key": "Center Thickness (T<sub>c</sub>)",
+      "value": [
+        "12.383 mm &nbsp;",
+        "The distance between vertices of two surfaces of an optical lens"
+      ]
+    },
+    {
+      "key": "Principal Plane 2 (P<sub>2</sub>)",
+      "value": [
+        "-8.16 mm &nbsp;"
+      ]
+    },
+    {
+      "key": "Design Wavelength",
+      "value": [
+        "589 nm "
+      ]
+    },
+    {
+      "key": "Centration",
+      "value": [
+        "&le;3 arc min "
+      ]
+    },
+    {
+      "key": "Chamfers",
+      "value": [
+        "0–0.8 mm face width "
+      ]
+    },
+    {
+      "key": "Chamfers Angle/Tolerance",
+      "value": [
+        "45° ±15°, typical "
+      ]
+    },
+    {
+      "key": "Focal Length Tolerance",
+      "value": [
+        "±1 % "
+      ]
+    },
+    {
+      "key": "Diameter Tolerance",
+      "value": [
+        "+0/-0.1 mm "
+      ]
+    },
+    {
+      "key": "Center Thickness Tolerance",
+      "value": [
+        "±0.1 mm "
+      ]
+    },
+    {
+      "key": "Clear Aperture",
+      "value": [
+        "&ge;central 90% of diameter "
+      ]
+    },
+    {
+      "key": "Cleaning",
+      "value": [
+        "See <a href=\"https://www.newport.com/n/how-to-clean-optics\">How to Clean Optics</a> "
+      ]
+    }
+  ],
+  "stockAvailability": "In Stock",
+  "summary": "Plano-Convex Lens, N-BK7, 50.8 mm Diameter, 75.6 mm EFL, 430-700 nm",
+  "suppress": false,
+  "technicalSpecifications": [],
+  "thumbnailsImages": [
+    {
+      "format": "product",
+      "imageType": "PRIMARY",
+      "url": "/medias/sys_master/DefaultCelumAssetsFolder/ha7/hbf/9894401212446/OP-kpxvalumax-S-3_300w/OP-kpxvalumax-S-3-300w.jpg"
+    },
+    {
+      "format": "thumbnail",
+      "imageType": "PRIMARY",
+      "url": "/medias/sys_master/DefaultCelumAssetsFolder/h4e/hc0/9896273182750/OP-kpxvalumax-S-3_60w/OP-kpxvalumax-S-3-60w.jpg"
+    },
+    {
+      "format": "thumbnail200",
+      "imageType": "PRIMARY",
+      "url": "/medias/sys_master/DefaultCelumAssetsFolder/h6f/hcc/9905639194654/OP-kpxvalumax-S-3_200w/OP-kpxvalumax-S-3-200w.jpg"
+    },
+    {
+      "format": "thumbnail100",
+      "imageType": "PRIMARY",
+      "url": "/medias/sys_master/DefaultCelumAssetsFolder/hf3/h2d/9899226300446/OP-kpxvalumax-S-3_100w/OP-kpxvalumax-S-3-100w.jpg"
+    },
+    {
+      "format": "product",
+      "imageType": "PRIMARY",
+      "url": "/medias/sys_master/DefaultCelumAssetsFolder/ha7/hbf/9894401212446/OP-kpxvalumax-S-3_300w/OP-kpxvalumax-S-3-300w.jpg"
+    }
+  ],
+  "url": "/p/KPX181AR.14",
+  "variantAltLayout": "EXTENDED",
+  "zoomerImagesCustom": [
+    {
+      "key": "OP-kpxvalumax-S-3_800w.jpg",
+      "value": [
+        {
+          "key": "zoom800",
+          "value": {
+            "format": "zoom800",
+            "url": "/medias/sys_master/DefaultCelumAssetsFolder/hcf/h12/9901589200926/OP-kpxvalumax-S-3_800w/OP-kpxvalumax-S-3-800w.jpg"
+          }
+        },
+        {
+          "key": "superZoom",
+          "value": {
+            "format": "superZoom",
+            "url": "/medias/sys_master/DefaultCelumAssetsFolder/hb3/h7f/9907146915870/OP-kpxvalumax-S-3_1200w/OP-kpxvalumax-S-3-1200w.jpg"
+          }
+        },
+        {
+          "key": "product400",
+          "value": {
+            "format": "product400",
+            "url": "/medias/sys_master/DefaultCelumAssetsFolder/hf9/haf/9896207843358/OP-kpxvalumax-S-3_400w/OP-kpxvalumax-S-3-400w.jpg"
+          }
+        },
+        {
+          "key": "thumbnail200",
+          "value": {
+            "format": "thumbnail200",
+            "url": "/medias/sys_master/DefaultCelumAssetsFolder/h6f/hcc/9905639194654/OP-kpxvalumax-S-3_200w/OP-kpxvalumax-S-3-200w.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "key": "oldRoHS-solo-235w_800w.jpg",
+      "value": [
+        {
+          "key": "zoom800",
+          "value": {
+            "format": "zoom800",
+            "url": "/medias/sys_master/images/images/h19/h04/9126935429150/RoHS-solo-235w-800w.jpg"
+          }
+        },
+        {
+          "key": "superZoom",
+          "value": {
+            "format": "superZoom",
+            "url": "/medias/sys_master/images/images/h06/hb7/9126935232542/RoHS-solo-235w-1200w.jpg"
+          }
+        },
+        {
+          "key": "product400",
+          "value": {
+            "format": "product400",
+            "url": "/medias/sys_master/images/images/hde/hcf/9126935330846/RoHS-solo-235w-400w.jpg"
+          }
+        },
+        {
+          "key": "thumbnail200",
+          "value": {
+            "format": "thumbnail200",
+            "url": "/medias/sys_master/images/images/hcd/h53/9126935265310/RoHS-solo-235w-200w.jpg"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2663 @@
+{
+  "revision": "new-4p1-layered-spherical-v3",
+  "actualLenses": [
+    {
+      "role": "Z1 移动负透镜",
+      "vendor": "Newport",
+      "part": "KPC040AR.14",
+      "shape": "平凹球面",
+      "material": "N-BK7",
+      "radius1Mm": -25.84,
+      "radius2Mm": null,
+      "conic1": 0,
+      "conic2": 0,
+      "centerThicknessMm": 2.5,
+      "edgeThicknessMm": 5.17,
+      "outerDiameterMm": 25.4,
+      "clearDiameterMm": 22.86,
+      "nominalEflMm": -50,
+      "nominalBflMm": -51.64,
+      "specificationWavelengthNm": 589,
+      "coating": "AR.14，430–700 nm",
+      "originalGlass": "BK7",
+      "originalWavelengthNm": 546.1,
+      "originalCoating": "ZEC_AR-14",
+      "sourceUrl": "https://www.newport.com/p/KPC040AR.14",
+      "file": "KPC040AR.14.zmx",
+      "name": "Z1 移动负镜",
+      "kind": "lens",
+      "center": [
+        35,
+        92,
+        49.4
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "moving": true,
+      "focalLength": -49.64839565553671
+    },
+    {
+      "role": "Z2 固定正透镜",
+      "vendor": "Newport",
+      "part": "KPX100AR.14",
+      "shape": "平凸球面",
+      "material": "N-BK7",
+      "radius1Mm": 77.52,
+      "radius2Mm": null,
+      "conic1": 0,
+      "conic2": 0,
+      "centerThicknessMm": 4.047,
+      "edgeThicknessMm": 3,
+      "outerDiameterMm": 25.4,
+      "clearDiameterMm": 22.86,
+      "nominalEflMm": 150,
+      "nominalBflMm": 147.33,
+      "specificationWavelengthNm": 589,
+      "coating": "AR.14，430–700 nm",
+      "originalGlass": "BK7",
+      "originalWavelengthNm": 546.1,
+      "originalCoating": "ZEC_AR-14",
+      "sourceUrl": "https://www.newport.com/p/KPX100AR.14",
+      "file": "KPX100AR.14.zmx",
+      "name": "Z2 固定正镜",
+      "kind": "lens",
+      "center": [
+        135.1525519804984,
+        92,
+        49.4
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "moving": false,
+      "focalLength": 148.94518696661015
+    }
+  ],
+  "actualCandidatesAppliedToOpticalTrace": true,
+  "mirrorLayout": [
+    {
+      "name": "M1 α 模块",
+      "kind": "mirror",
+      "center": [
+        210,
+        92,
+        120
+      ],
+      "normal": [
+        0.7071067811865475,
+        -0.7071067811865475,
+        0
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "apertureU": [
+        0.7071067811865475,
+        0.7071067811865475,
+        0
+      ],
+      "apertureV": [
+        0,
+        0,
+        1
+      ],
+      "outerWidth": 45,
+      "outerHeight": 35,
+      "thickness": 2,
+      "edgeAllowance": 0.5,
+      "cornerCutMm": 4.2,
+      "part": "SCM-35x45x2",
+      "outlineStatus": "切角工程示意，实际顶点和粘接区待厂家图纸",
+      "clearRegionStatus": "每边 0.5 mm 工程预留，非厂家净区"
+    },
+    {
+      "name": "M2 β 模块",
+      "kind": "mirror",
+      "center": [
+        210,
+        182,
+        120
+      ],
+      "normal": [
+        -0.7071067811865475,
+        0.7071067811865475,
+        0
+      ],
+      "axis": [
+        0.7071067811865475,
+        0.7071067811865475,
+        0
+      ],
+      "apertureU": [
+        0,
+        0,
+        1
+      ],
+      "apertureV": [
+        0.7071067811865475,
+        0.7071067811865475,
+        0
+      ],
+      "outerWidth": 35,
+      "outerHeight": 45,
+      "thickness": 2,
+      "edgeAllowance": 0.5,
+      "cornerCutMm": 4.2,
+      "part": "SCM-35x45x2",
+      "outlineStatus": "切角工程示意，实际顶点和粘接区待厂家图纸",
+      "clearRegionStatus": "每边 0.5 mm 工程预留，非厂家净区"
+    },
+    {
+      "name": "M3 Y 模块",
+      "kind": "mirror",
+      "center": [
+        231,
+        182,
+        120
+      ],
+      "normal": [
+        0.7071067811865475,
+        -0.7071067811865475,
+        0
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "apertureU": [
+        0.7071067811865475,
+        0.7071067811865475,
+        0
+      ],
+      "apertureV": [
+        0,
+        0,
+        1
+      ],
+      "outerWidth": 35,
+      "outerHeight": 45,
+      "thickness": 2,
+      "edgeAllowance": 0.5,
+      "cornerCutMm": 4.2,
+      "part": "SCM-35x45x2",
+      "outlineStatus": "切角工程示意，实际顶点和粘接区待厂家图纸",
+      "clearRegionStatus": "每边 0.5 mm 工程预留，非厂家净区"
+    },
+    {
+      "name": "M4 X 模块",
+      "kind": "mirror",
+      "center": [
+        231,
+        250,
+        120
+      ],
+      "normal": [
+        0,
+        0.7071067811865475,
+        -0.7071067811865475
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "apertureU": [
+        0,
+        0.7071067811865475,
+        0.7071067811865475
+      ],
+      "apertureV": [
+        1,
+        0,
+        0
+      ],
+      "outerWidth": 45,
+      "outerHeight": 35,
+      "thickness": 2,
+      "edgeAllowance": 0.5,
+      "cornerCutMm": 4.2,
+      "part": "SCM-35x45x2",
+      "outlineStatus": "切角工程示意，实际顶点和粘接区待厂家图纸",
+      "clearRegionStatus": "每边 0.5 mm 工程预留，非厂家净区"
+    }
+  ],
+  "fixedFolds": [
+    {
+      "name": "F1 抬升",
+      "kind": "mirror",
+      "center": [
+        165,
+        92,
+        49.4
+      ],
+      "normal": [
+        0.7071067811865475,
+        0,
+        -0.7071067811865475
+      ],
+      "axis": null,
+      "apertureU": [
+        0,
+        1,
+        0
+      ],
+      "apertureV": [
+        0.7071067811865475,
+        0,
+        0.7071067811865477
+      ],
+      "outerWidth": 45,
+      "outerHeight": 35,
+      "thickness": 2,
+      "edgeAllowance": 0.5,
+      "cornerCutMm": 0,
+      "part": "SCM-35x45x2",
+      "outlineStatus": "固定镜矩形包络参考，镜架待设计",
+      "clearRegionStatus": "每边 0.5 mm 工程预留，非厂家净区"
+    },
+    {
+      "name": "F2 扫描层入口",
+      "kind": "mirror",
+      "center": [
+        165,
+        92,
+        120
+      ],
+      "normal": [
+        -0.7071067811865475,
+        0,
+        0.7071067811865475
+      ],
+      "axis": null,
+      "apertureU": [
+        0,
+        -1,
+        0
+      ],
+      "apertureV": [
+        0.7071067811865475,
+        0,
+        0.7071067811865477
+      ],
+      "outerWidth": 45,
+      "outerHeight": 35,
+      "thickness": 2,
+      "edgeAllowance": 0.5,
+      "cornerCutMm": 0,
+      "part": "SCM-35x45x2",
+      "outlineStatus": "固定镜矩形包络参考，镜架待设计",
+      "clearRegionStatus": "每边 0.5 mm 工程预留，非厂家净区"
+    },
+    {
+      "name": "F3 上层回折",
+      "kind": "mirror",
+      "center": [
+        231,
+        250,
+        195
+      ],
+      "normal": [
+        0.7071067811865475,
+        0,
+        0.7071067811865475
+      ],
+      "axis": null,
+      "apertureU": [
+        0,
+        1,
+        0
+      ],
+      "apertureV": [
+        -0.7071067811865475,
+        0,
+        0.7071067811865477
+      ],
+      "outerWidth": 45,
+      "outerHeight": 35,
+      "thickness": 2,
+      "edgeAllowance": 0.5,
+      "cornerCutMm": 0,
+      "part": "SCM-35x45x2",
+      "outlineStatus": "固定镜矩形包络参考，镜架待设计",
+      "clearRegionStatus": "每边 0.5 mm 工程预留，非厂家净区"
+    },
+    {
+      "name": "F4 上层转向",
+      "kind": "mirror",
+      "center": [
+        190,
+        250,
+        195
+      ],
+      "normal": [
+        -0.7071067811865475,
+        0.7071067811865475,
+        0
+      ],
+      "axis": null,
+      "apertureU": [
+        -0.7071067811865475,
+        -0.7071067811865475,
+        0
+      ],
+      "apertureV": [
+        0,
+        0,
+        1
+      ],
+      "outerWidth": 45,
+      "outerHeight": 35,
+      "thickness": 2,
+      "edgeAllowance": 0.5,
+      "cornerCutMm": 0,
+      "part": "SCM-35x45x2",
+      "outlineStatus": "固定镜矩形包络参考，镜架待设计",
+      "clearRegionStatus": "每边 0.5 mm 工程预留，非厂家净区"
+    },
+    {
+      "name": "F5 内部下降",
+      "kind": "mirror",
+      "center": [
+        190,
+        192.03,
+        195
+      ],
+      "normal": [
+        0,
+        -0.7071067811865475,
+        0.7071067811865475
+      ],
+      "axis": null,
+      "apertureU": [
+        1,
+        0,
+        0
+      ],
+      "apertureV": [
+        0,
+        0.7071067811865475,
+        0.7071067811865477
+      ],
+      "outerWidth": 45,
+      "outerHeight": 35,
+      "thickness": 2,
+      "edgeAllowance": 0.5,
+      "cornerCutMm": 0,
+      "part": "SCM-35x45x2",
+      "outlineStatus": "固定镜矩形包络参考，镜架待设计",
+      "clearRegionStatus": "每边 0.5 mm 工程预留，非厂家净区"
+    },
+    {
+      "name": "F6 侧伸入口",
+      "kind": "mirror",
+      "center": [
+        190,
+        192.03,
+        43
+      ],
+      "normal": [
+        -0.7071067811865475,
+        0,
+        -0.7071067811865475
+      ],
+      "axis": null,
+      "apertureU": [
+        0,
+        -1,
+        0
+      ],
+      "apertureV": [
+        -0.7071067811865475,
+        0,
+        0.7071067811865477
+      ],
+      "outerWidth": 45,
+      "outerHeight": 35,
+      "thickness": 2,
+      "edgeAllowance": 0.5,
+      "cornerCutMm": 0,
+      "part": "SCM-35x45x2",
+      "outlineStatus": "固定镜矩形包络参考，镜架待设计",
+      "clearRegionStatus": "每边 0.5 mm 工程预留，非厂家净区"
+    },
+    {
+      "name": "F7 出光轴",
+      "kind": "mirror",
+      "center": [
+        311.08,
+        192.03,
+        43
+      ],
+      "normal": [
+        0.7071067811865475,
+        0,
+        0.7071067811865475
+      ],
+      "axis": null,
+      "apertureU": [
+        0,
+        1,
+        0
+      ],
+      "apertureV": [
+        -0.7071067811865475,
+        0,
+        0.7071067811865477
+      ],
+      "outerWidth": 45,
+      "outerHeight": 35,
+      "thickness": 2,
+      "edgeAllowance": 0.5,
+      "cornerCutMm": 0,
+      "part": "SCM-35x45x2",
+      "outlineStatus": "固定镜矩形包络参考，镜架待设计",
+      "clearRegionStatus": "每边 0.5 mm 工程预留，非厂家净区"
+    }
+  ],
+  "surfaces": [
+    {
+      "role": "Z1 移动负透镜",
+      "vendor": "Newport",
+      "part": "KPC040AR.14",
+      "shape": "平凹球面",
+      "material": "N-BK7",
+      "radius1Mm": -25.84,
+      "radius2Mm": null,
+      "conic1": 0,
+      "conic2": 0,
+      "centerThicknessMm": 2.5,
+      "edgeThicknessMm": 5.17,
+      "outerDiameterMm": 25.4,
+      "clearDiameterMm": 22.86,
+      "nominalEflMm": -50,
+      "nominalBflMm": -51.64,
+      "specificationWavelengthNm": 589,
+      "coating": "AR.14，430–700 nm",
+      "originalGlass": "BK7",
+      "originalWavelengthNm": 546.1,
+      "originalCoating": "ZEC_AR-14",
+      "sourceUrl": "https://www.newport.com/p/KPC040AR.14",
+      "file": "KPC040AR.14.zmx",
+      "name": "Z1 移动负镜 S1",
+      "kind": "lens",
+      "center": [
+        35,
+        92,
+        49.4
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "moving": true,
+      "focalLength": -49.64839565553671,
+      "assemblyName": "Z1 移动负镜",
+      "face": 1,
+      "radiusMm": -25.84,
+      "indexBefore": 1,
+      "indexAfter": 1.5204599193754282
+    },
+    {
+      "role": "Z1 移动负透镜",
+      "vendor": "Newport",
+      "part": "KPC040AR.14",
+      "shape": "平凹球面",
+      "material": "N-BK7",
+      "radius1Mm": -25.84,
+      "radius2Mm": null,
+      "conic1": 0,
+      "conic2": 0,
+      "centerThicknessMm": 2.5,
+      "edgeThicknessMm": 5.17,
+      "outerDiameterMm": 25.4,
+      "clearDiameterMm": 22.86,
+      "nominalEflMm": -50,
+      "nominalBflMm": -51.64,
+      "specificationWavelengthNm": 589,
+      "coating": "AR.14，430–700 nm",
+      "originalGlass": "BK7",
+      "originalWavelengthNm": 546.1,
+      "originalCoating": "ZEC_AR-14",
+      "sourceUrl": "https://www.newport.com/p/KPC040AR.14",
+      "file": "KPC040AR.14.zmx",
+      "name": "Z1 移动负镜 S2",
+      "kind": "lens",
+      "center": [
+        37.5,
+        92,
+        49.4
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "moving": true,
+      "focalLength": -49.64839565553671,
+      "assemblyName": "Z1 移动负镜",
+      "face": 2,
+      "radiusMm": null,
+      "indexBefore": 1.5204599193754282,
+      "indexAfter": 1
+    },
+    {
+      "role": "Z2 固定正透镜",
+      "vendor": "Newport",
+      "part": "KPX100AR.14",
+      "shape": "平凸球面",
+      "material": "N-BK7",
+      "radius1Mm": 77.52,
+      "radius2Mm": null,
+      "conic1": 0,
+      "conic2": 0,
+      "centerThicknessMm": 4.047,
+      "edgeThicknessMm": 3,
+      "outerDiameterMm": 25.4,
+      "clearDiameterMm": 22.86,
+      "nominalEflMm": 150,
+      "nominalBflMm": 147.33,
+      "specificationWavelengthNm": 589,
+      "coating": "AR.14，430–700 nm",
+      "originalGlass": "BK7",
+      "originalWavelengthNm": 546.1,
+      "originalCoating": "ZEC_AR-14",
+      "sourceUrl": "https://www.newport.com/p/KPX100AR.14",
+      "file": "KPX100AR.14.zmx",
+      "name": "Z2 固定正镜 S1",
+      "kind": "lens",
+      "center": [
+        135.1525519804984,
+        92,
+        49.4
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "moving": false,
+      "focalLength": 148.94518696661015,
+      "assemblyName": "Z2 固定正镜",
+      "face": 1,
+      "radiusMm": 77.52,
+      "indexBefore": 1,
+      "indexAfter": 1.5204599193754282
+    },
+    {
+      "role": "Z2 固定正透镜",
+      "vendor": "Newport",
+      "part": "KPX100AR.14",
+      "shape": "平凸球面",
+      "material": "N-BK7",
+      "radius1Mm": 77.52,
+      "radius2Mm": null,
+      "conic1": 0,
+      "conic2": 0,
+      "centerThicknessMm": 4.047,
+      "edgeThicknessMm": 3,
+      "outerDiameterMm": 25.4,
+      "clearDiameterMm": 22.86,
+      "nominalEflMm": 150,
+      "nominalBflMm": 147.33,
+      "specificationWavelengthNm": 589,
+      "coating": "AR.14，430–700 nm",
+      "originalGlass": "BK7",
+      "originalWavelengthNm": 546.1,
+      "originalCoating": "ZEC_AR-14",
+      "sourceUrl": "https://www.newport.com/p/KPX100AR.14",
+      "file": "KPX100AR.14.zmx",
+      "name": "Z2 固定正镜 S2",
+      "kind": "lens",
+      "center": [
+        139.1995519804984,
+        92,
+        49.4
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "moving": false,
+      "focalLength": 148.94518696661015,
+      "assemblyName": "Z2 固定正镜",
+      "face": 2,
+      "radiusMm": null,
+      "indexBefore": 1.5204599193754282,
+      "indexAfter": 1
+    },
+    {
+      "name": "F1 抬升",
+      "kind": "mirror",
+      "center": [
+        165,
+        92,
+        49.4
+      ],
+      "normal": [
+        0.7071067811865475,
+        0,
+        -0.7071067811865475
+      ],
+      "axis": null,
+      "apertureU": [
+        0,
+        1,
+        0
+      ],
+      "apertureV": [
+        0.7071067811865475,
+        0,
+        0.7071067811865477
+      ],
+      "outerWidth": 45,
+      "outerHeight": 35,
+      "thickness": 2,
+      "edgeAllowance": 0.5,
+      "cornerCutMm": 0,
+      "part": "SCM-35x45x2",
+      "outlineStatus": "固定镜矩形包络参考，镜架待设计",
+      "clearRegionStatus": "每边 0.5 mm 工程预留，非厂家净区"
+    },
+    {
+      "name": "F2 扫描层入口",
+      "kind": "mirror",
+      "center": [
+        165,
+        92,
+        120
+      ],
+      "normal": [
+        -0.7071067811865475,
+        0,
+        0.7071067811865475
+      ],
+      "axis": null,
+      "apertureU": [
+        0,
+        -1,
+        0
+      ],
+      "apertureV": [
+        0.7071067811865475,
+        0,
+        0.7071067811865477
+      ],
+      "outerWidth": 45,
+      "outerHeight": 35,
+      "thickness": 2,
+      "edgeAllowance": 0.5,
+      "cornerCutMm": 0,
+      "part": "SCM-35x45x2",
+      "outlineStatus": "固定镜矩形包络参考，镜架待设计",
+      "clearRegionStatus": "每边 0.5 mm 工程预留，非厂家净区"
+    },
+    {
+      "name": "M1 α 模块",
+      "kind": "mirror",
+      "center": [
+        210,
+        92,
+        120
+      ],
+      "normal": [
+        0.7071067811865475,
+        -0.7071067811865475,
+        0
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "apertureU": [
+        0.7071067811865475,
+        0.7071067811865475,
+        0
+      ],
+      "apertureV": [
+        0,
+        0,
+        1
+      ],
+      "outerWidth": 45,
+      "outerHeight": 35,
+      "thickness": 2,
+      "edgeAllowance": 0.5,
+      "cornerCutMm": 4.2,
+      "part": "SCM-35x45x2",
+      "outlineStatus": "切角工程示意，实际顶点和粘接区待厂家图纸",
+      "clearRegionStatus": "每边 0.5 mm 工程预留，非厂家净区",
+      "pivot": [
+        212.4748737341529,
+        89.52512626584708,
+        102.5
+      ]
+    },
+    {
+      "name": "M2 β 模块",
+      "kind": "mirror",
+      "center": [
+        210,
+        182,
+        120
+      ],
+      "normal": [
+        -0.7071067811865475,
+        0.7071067811865475,
+        0
+      ],
+      "axis": [
+        0.7071067811865475,
+        0.7071067811865475,
+        0
+      ],
+      "apertureU": [
+        0,
+        0,
+        1
+      ],
+      "apertureV": [
+        0.7071067811865475,
+        0.7071067811865475,
+        0
+      ],
+      "outerWidth": 35,
+      "outerHeight": 45,
+      "thickness": 2,
+      "edgeAllowance": 0.5,
+      "cornerCutMm": 4.2,
+      "part": "SCM-35x45x2",
+      "outlineStatus": "切角工程示意，实际顶点和粘接区待厂家图纸",
+      "clearRegionStatus": "每边 0.5 mm 工程预留，非厂家净区",
+      "pivot": [
+        191.6152236891498,
+        168.5649711574556,
+        120
+      ]
+    },
+    {
+      "name": "M3 Y 模块",
+      "kind": "mirror",
+      "center": [
+        231,
+        182,
+        120
+      ],
+      "normal": [
+        0.7071067811865475,
+        -0.7071067811865475,
+        0
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "apertureU": [
+        0.7071067811865475,
+        0.7071067811865475,
+        0
+      ],
+      "apertureV": [
+        0,
+        0,
+        1
+      ],
+      "outerWidth": 35,
+      "outerHeight": 45,
+      "thickness": 2,
+      "edgeAllowance": 0.5,
+      "cornerCutMm": 4.2,
+      "part": "SCM-35x45x2",
+      "outlineStatus": "切角工程示意，实际顶点和粘接区待厂家图纸",
+      "clearRegionStatus": "每边 0.5 mm 工程预留，非厂家净区",
+      "pivot": [
+        233.4748737341529,
+        179.5251262658471,
+        97.5
+      ]
+    },
+    {
+      "name": "M4 X 模块",
+      "kind": "mirror",
+      "center": [
+        231,
+        250,
+        120
+      ],
+      "normal": [
+        0,
+        0.7071067811865475,
+        -0.7071067811865475
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "apertureU": [
+        0,
+        0.7071067811865475,
+        0.7071067811865475
+      ],
+      "apertureV": [
+        1,
+        0,
+        0
+      ],
+      "outerWidth": 45,
+      "outerHeight": 35,
+      "thickness": 2,
+      "edgeAllowance": 0.5,
+      "cornerCutMm": 4.2,
+      "part": "SCM-35x45x2",
+      "outlineStatus": "切角工程示意，实际顶点和粘接区待厂家图纸",
+      "clearRegionStatus": "每边 0.5 mm 工程预留，非厂家净区",
+      "pivot": [
+        213.5,
+        252.4748737341529,
+        117.52512626584708
+      ]
+    },
+    {
+      "name": "F3 上层回折",
+      "kind": "mirror",
+      "center": [
+        231,
+        250,
+        195
+      ],
+      "normal": [
+        0.7071067811865475,
+        0,
+        0.7071067811865475
+      ],
+      "axis": null,
+      "apertureU": [
+        0,
+        1,
+        0
+      ],
+      "apertureV": [
+        -0.7071067811865475,
+        0,
+        0.7071067811865477
+      ],
+      "outerWidth": 45,
+      "outerHeight": 35,
+      "thickness": 2,
+      "edgeAllowance": 0.5,
+      "cornerCutMm": 0,
+      "part": "SCM-35x45x2",
+      "outlineStatus": "固定镜矩形包络参考，镜架待设计",
+      "clearRegionStatus": "每边 0.5 mm 工程预留，非厂家净区"
+    },
+    {
+      "name": "F4 上层转向",
+      "kind": "mirror",
+      "center": [
+        190,
+        250,
+        195
+      ],
+      "normal": [
+        -0.7071067811865475,
+        0.7071067811865475,
+        0
+      ],
+      "axis": null,
+      "apertureU": [
+        -0.7071067811865475,
+        -0.7071067811865475,
+        0
+      ],
+      "apertureV": [
+        0,
+        0,
+        1
+      ],
+      "outerWidth": 45,
+      "outerHeight": 35,
+      "thickness": 2,
+      "edgeAllowance": 0.5,
+      "cornerCutMm": 0,
+      "part": "SCM-35x45x2",
+      "outlineStatus": "固定镜矩形包络参考，镜架待设计",
+      "clearRegionStatus": "每边 0.5 mm 工程预留，非厂家净区"
+    },
+    {
+      "name": "F5 内部下降",
+      "kind": "mirror",
+      "center": [
+        190,
+        192.03,
+        195
+      ],
+      "normal": [
+        0,
+        -0.7071067811865475,
+        0.7071067811865475
+      ],
+      "axis": null,
+      "apertureU": [
+        1,
+        0,
+        0
+      ],
+      "apertureV": [
+        0,
+        0.7071067811865475,
+        0.7071067811865477
+      ],
+      "outerWidth": 45,
+      "outerHeight": 35,
+      "thickness": 2,
+      "edgeAllowance": 0.5,
+      "cornerCutMm": 0,
+      "part": "SCM-35x45x2",
+      "outlineStatus": "固定镜矩形包络参考，镜架待设计",
+      "clearRegionStatus": "每边 0.5 mm 工程预留，非厂家净区"
+    },
+    {
+      "name": "F6 侧伸入口",
+      "kind": "mirror",
+      "center": [
+        190,
+        192.03,
+        43
+      ],
+      "normal": [
+        -0.7071067811865475,
+        0,
+        -0.7071067811865475
+      ],
+      "axis": null,
+      "apertureU": [
+        0,
+        -1,
+        0
+      ],
+      "apertureV": [
+        -0.7071067811865475,
+        0,
+        0.7071067811865477
+      ],
+      "outerWidth": 45,
+      "outerHeight": 35,
+      "thickness": 2,
+      "edgeAllowance": 0.5,
+      "cornerCutMm": 0,
+      "part": "SCM-35x45x2",
+      "outlineStatus": "固定镜矩形包络参考，镜架待设计",
+      "clearRegionStatus": "每边 0.5 mm 工程预留，非厂家净区"
+    },
+    {
+      "name": "F7 出光轴",
+      "kind": "mirror",
+      "center": [
+        311.08,
+        192.03,
+        43
+      ],
+      "normal": [
+        0.7071067811865475,
+        0,
+        0.7071067811865475
+      ],
+      "axis": null,
+      "apertureU": [
+        0,
+        1,
+        0
+      ],
+      "apertureV": [
+        -0.7071067811865475,
+        0,
+        0.7071067811865477
+      ],
+      "outerWidth": 45,
+      "outerHeight": 35,
+      "thickness": 2,
+      "edgeAllowance": 0.5,
+      "cornerCutMm": 0,
+      "part": "SCM-35x45x2",
+      "outlineStatus": "固定镜矩形包络参考，镜架待设计",
+      "clearRegionStatus": "每边 0.5 mm 工程预留，非厂家净区"
+    },
+    {
+      "role": "O 聚焦单片候选",
+      "vendor": "Newport",
+      "part": "KPX181AR.14",
+      "shape": "平凸球面",
+      "material": "N-BK7",
+      "radius1Mm": 39.07,
+      "radius2Mm": null,
+      "conic1": 0,
+      "conic2": 0,
+      "centerThicknessMm": 12.383,
+      "edgeThicknessMm": 3,
+      "outerDiameterMm": 50.8,
+      "clearDiameterMm": 45.72,
+      "nominalEflMm": 75.6,
+      "nominalBflMm": 67.43,
+      "specificationWavelengthNm": 589,
+      "coating": "AR.14，430–700 nm",
+      "originalGlass": "BK7",
+      "originalWavelengthNm": 546.1,
+      "originalCoating": "ZEC_AR-14",
+      "sourceUrl": "https://www.newport.com/p/KPX181AR.14",
+      "file": "KPX181AR.14.zmx",
+      "name": "O 球面单片 S1",
+      "kind": "lens",
+      "center": [
+        311.08,
+        192.03,
+        -25
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "moving": false,
+      "focalLength": 75.06822052096825,
+      "assemblyName": "O 球面单片",
+      "face": 1,
+      "radiusMm": 39.07,
+      "indexBefore": 1,
+      "indexAfter": 1.5204599193754282
+    },
+    {
+      "role": "O 聚焦单片候选",
+      "vendor": "Newport",
+      "part": "KPX181AR.14",
+      "shape": "平凸球面",
+      "material": "N-BK7",
+      "radius1Mm": 39.07,
+      "radius2Mm": null,
+      "conic1": 0,
+      "conic2": 0,
+      "centerThicknessMm": 12.383,
+      "edgeThicknessMm": 3,
+      "outerDiameterMm": 50.8,
+      "clearDiameterMm": 45.72,
+      "nominalEflMm": 75.6,
+      "nominalBflMm": 67.43,
+      "specificationWavelengthNm": 589,
+      "coating": "AR.14，430–700 nm",
+      "originalGlass": "BK7",
+      "originalWavelengthNm": 546.1,
+      "originalCoating": "ZEC_AR-14",
+      "sourceUrl": "https://www.newport.com/p/KPX181AR.14",
+      "file": "KPX181AR.14.zmx",
+      "name": "O 球面单片 S2",
+      "kind": "lens",
+      "center": [
+        311.08,
+        192.03,
+        -37.382999999999996
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "moving": false,
+      "focalLength": 75.06822052096825,
+      "assemblyName": "O 球面单片",
+      "face": 2,
+      "radiusMm": null,
+      "indexBefore": 1.5204599193754282,
+      "indexAfter": 1
+    },
+    {
+      "role": "W 保护窗候选",
+      "vendor": "Edmund Optics",
+      "part": "72-416",
+      "material": "Corning 7980",
+      "radius1Mm": null,
+      "radius2Mm": null,
+      "conic1": 0,
+      "conic2": 0,
+      "centerThicknessMm": 3,
+      "outerDiameterMm": 50,
+      "clearDiameterMm": 45,
+      "coating": "VIS 0°，425–675 nm",
+      "sourceUrl": "https://www.edmundoptics.com/p/50mm-dia-3mm-thick-vis-0-coated-4-fused-silica-window/53776/",
+      "file": null,
+      "materialRecipe": {
+        "equation": "n²−1 = Σ B_i·λ²/(λ²−C_i)，λ 用 μm",
+        "temperatureC": 22,
+        "b": [
+          0.683740494,
+          0.420323613,
+          0.58502748
+        ],
+        "cUmSquared": [
+          0.00460352869,
+          0.0133968856,
+          64.4932732
+        ],
+        "sourceUrl": "https://www.corning.com/media/worldwide/csm/documents/HPFS_7980_Germicidal_Irradiation.pdf"
+      },
+      "name": "W 保护窗 S1",
+      "kind": "window",
+      "center": [
+        311.08,
+        192.03,
+        -55
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "moving": false,
+      "focalLength": null,
+      "assemblyName": "W 保护窗",
+      "face": 1,
+      "radiusMm": null,
+      "indexBefore": 1,
+      "indexAfter": 1.4615355747342382
+    },
+    {
+      "role": "W 保护窗候选",
+      "vendor": "Edmund Optics",
+      "part": "72-416",
+      "material": "Corning 7980",
+      "radius1Mm": null,
+      "radius2Mm": null,
+      "conic1": 0,
+      "conic2": 0,
+      "centerThicknessMm": 3,
+      "outerDiameterMm": 50,
+      "clearDiameterMm": 45,
+      "coating": "VIS 0°，425–675 nm",
+      "sourceUrl": "https://www.edmundoptics.com/p/50mm-dia-3mm-thick-vis-0-coated-4-fused-silica-window/53776/",
+      "file": null,
+      "materialRecipe": {
+        "equation": "n²−1 = Σ B_i·λ²/(λ²−C_i)，λ 用 μm",
+        "temperatureC": 22,
+        "b": [
+          0.683740494,
+          0.420323613,
+          0.58502748
+        ],
+        "cUmSquared": [
+          0.00460352869,
+          0.0133968856,
+          64.4932732
+        ],
+        "sourceUrl": "https://www.corning.com/media/worldwide/csm/documents/HPFS_7980_Germicidal_Irradiation.pdf"
+      },
+      "name": "W 保护窗 S2",
+      "kind": "window",
+      "center": [
+        311.08,
+        192.03,
+        -58
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "moving": false,
+      "focalLength": null,
+      "assemblyName": "W 保护窗",
+      "face": 2,
+      "radiusMm": null,
+      "indexBefore": 1.4615355747342382,
+      "indexAfter": 1
+    }
+  ],
+  "supports": [
+    {
+      "name": "Z 导轨预留",
+      "assembly": "Z-rail",
+      "center": [
+        65,
+        92,
+        22
+      ],
+      "size": [
+        80,
+        24,
+        10
+      ]
+    },
+    {
+      "name": "Z1 滑台镜座预留",
+      "assembly": "Z1",
+      "center": [
+        35,
+        92,
+        33.2
+      ],
+      "size": [
+        12,
+        18,
+        12.4
+      ],
+      "moving": true
+    },
+    {
+      "name": "Z2 固定镜座预留",
+      "assembly": "Z2",
+      "center": [
+        135.1525519804984,
+        92,
+        29
+      ],
+      "size": [
+        12,
+        18,
+        15
+      ]
+    },
+    {
+      "name": "AOI 模块底板后段",
+      "assembly": "AOI-base",
+      "center": [
+        180,
+        141.5,
+        25
+      ],
+      "size": [
+        78,
+        39,
+        8
+      ]
+    },
+    {
+      "name": "AOI 模块底板前支路",
+      "assembly": "AOI-base",
+      "center": [
+        211,
+        102,
+        25
+      ],
+      "size": [
+        28,
+        56,
+        8
+      ]
+    },
+    {
+      "name": "XY 模块底板",
+      "assembly": "XY-base",
+      "center": [
+        210.5,
+        222,
+        12
+      ],
+      "size": [
+        86,
+        124,
+        8
+      ]
+    },
+    {
+      "name": "M1 立柱预留",
+      "assembly": "M1",
+      "center": [
+        212.475,
+        89.525,
+        43.25
+      ],
+      "size": [
+        18,
+        18,
+        28.5
+      ]
+    },
+    {
+      "name": "M2 支架立柱预留",
+      "assembly": "M2",
+      "center": [
+        173.938,
+        150.887,
+        65
+      ],
+      "size": [
+        16,
+        16,
+        72
+      ]
+    },
+    {
+      "name": "M3 立柱预留",
+      "assembly": "M3",
+      "center": [
+        233.475,
+        179.525,
+        34.25
+      ],
+      "size": [
+        18,
+        12,
+        36.5
+      ]
+    },
+    {
+      "name": "M4 支架立柱预留",
+      "assembly": "M4",
+      "center": [
+        188.5,
+        252.475,
+        57.26
+      ],
+      "size": [
+        18,
+        18,
+        82.52
+      ]
+    }
+  ],
+  "packing": {
+    "envelopes": [
+      {
+        "name": "M1 α 模块 电机占位体",
+        "assembly": "M1",
+        "center": [
+          212.4748737341529,
+          89.52512626584708,
+          77.5
+        ],
+        "size": [
+          38,
+          38,
+          40
+        ],
+        "axes": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "insideMainHousing": true,
+        "assumption": "电机圆柱的保守外接盒；电机型号待选"
+      },
+      {
+        "name": "M2 β 模块 电机占位体",
+        "assembly": "M2",
+        "center": [
+          173.9375541594861,
+          150.8873016277919,
+          120
+        ],
+        "size": [
+          38,
+          38,
+          40
+        ],
+        "axes": [
+          [
+            -0.7071067811865475,
+            0.7071067811865475,
+            0
+          ],
+          [
+            0,
+            0,
+            0.9999999999999998
+          ],
+          [
+            0.7071067811865475,
+            0.7071067811865475,
+            0
+          ]
+        ],
+        "insideMainHousing": true,
+        "assumption": "电机圆柱的保守外接盒；电机型号待选"
+      },
+      {
+        "name": "M3 Y 模块 电机占位体",
+        "assembly": "M3",
+        "center": [
+          233.4748737341529,
+          179.5251262658471,
+          72.5
+        ],
+        "size": [
+          38,
+          38,
+          40
+        ],
+        "axes": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "insideMainHousing": true,
+        "assumption": "电机圆柱的保守外接盒；电机型号待选"
+      },
+      {
+        "name": "M4 X 模块 电机占位体",
+        "assembly": "M4",
+        "center": [
+          188.5,
+          252.4748737341529,
+          117.52512626584708
+        ],
+        "size": [
+          38,
+          38,
+          40
+        ],
+        "axes": [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "insideMainHousing": true,
+        "assumption": "电机圆柱的保守外接盒；电机型号待选"
+      },
+      {
+        "name": "F1 镜托预留",
+        "assembly": "F1",
+        "center": [
+          169.2426406871193,
+          92,
+          45.157359312880715
+        ],
+        "size": [
+          49,
+          39,
+          8
+        ],
+        "axes": [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0.7071067811865475,
+            0,
+            0.7071067811865477
+          ],
+          [
+            0.7071067811865475,
+            0,
+            -0.7071067811865475
+          ]
+        ],
+        "insideMainHousing": true,
+        "assumption": "每边扩 2 mm、背部 8 mm 的工程镜托包络，非厂家镜架"
+      },
+      {
+        "name": "F2 镜托预留",
+        "assembly": "F2",
+        "center": [
+          160.7573593128807,
+          92,
+          124.24264068711929
+        ],
+        "size": [
+          49,
+          39,
+          8
+        ],
+        "axes": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            0.7071067811865475,
+            0,
+            0.7071067811865477
+          ],
+          [
+            -0.7071067811865475,
+            0,
+            0.7071067811865475
+          ]
+        ],
+        "insideMainHousing": true,
+        "assumption": "每边扩 2 mm、背部 8 mm 的工程镜托包络，非厂家镜架"
+      },
+      {
+        "name": "M1 镜托预留",
+        "assembly": "M1",
+        "center": [
+          214.2426406871193,
+          87.75735931288071,
+          120
+        ],
+        "size": [
+          49,
+          39,
+          8
+        ],
+        "axes": [
+          [
+            0.7071067811865475,
+            0.7071067811865475,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0.7071067811865475,
+            -0.7071067811865475,
+            0
+          ]
+        ],
+        "insideMainHousing": true,
+        "assumption": "每边扩 2 mm、背部 8 mm 的工程镜托包络，非厂家镜架"
+      },
+      {
+        "name": "M2 镜托预留",
+        "assembly": "M2",
+        "center": [
+          205.7573593128807,
+          186.2426406871193,
+          120
+        ],
+        "size": [
+          39,
+          49,
+          8
+        ],
+        "axes": [
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0.7071067811865475,
+            0.7071067811865475,
+            0
+          ],
+          [
+            -0.7071067811865475,
+            0.7071067811865475,
+            0
+          ]
+        ],
+        "insideMainHousing": true,
+        "assumption": "每边扩 2 mm、背部 8 mm 的工程镜托包络，非厂家镜架"
+      },
+      {
+        "name": "M3 镜托预留",
+        "assembly": "M3",
+        "center": [
+          235.2426406871193,
+          177.7573593128807,
+          120
+        ],
+        "size": [
+          39,
+          49,
+          8
+        ],
+        "axes": [
+          [
+            0.7071067811865475,
+            0.7071067811865475,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0.7071067811865475,
+            -0.7071067811865475,
+            0
+          ]
+        ],
+        "insideMainHousing": true,
+        "assumption": "每边扩 2 mm、背部 8 mm 的工程镜托包络，非厂家镜架"
+      },
+      {
+        "name": "M4 镜托预留",
+        "assembly": "M4",
+        "center": [
+          231,
+          254.2426406871193,
+          115.75735931288071
+        ],
+        "size": [
+          49,
+          39,
+          8
+        ],
+        "axes": [
+          [
+            0,
+            0.7071067811865475,
+            0.7071067811865475
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0.7071067811865475,
+            -0.7071067811865475
+          ]
+        ],
+        "insideMainHousing": true,
+        "assumption": "每边扩 2 mm、背部 8 mm 的工程镜托包络，非厂家镜架"
+      },
+      {
+        "name": "F3 镜托预留",
+        "assembly": "F3",
+        "center": [
+          235.2426406871193,
+          250,
+          199.2426406871193
+        ],
+        "size": [
+          49,
+          39,
+          8
+        ],
+        "axes": [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            -0.7071067811865475,
+            0,
+            0.7071067811865477
+          ],
+          [
+            0.7071067811865475,
+            0,
+            0.7071067811865475
+          ]
+        ],
+        "insideMainHousing": true,
+        "assumption": "每边扩 2 mm、背部 8 mm 的工程镜托包络，非厂家镜架"
+      },
+      {
+        "name": "F4 镜托预留",
+        "assembly": "F4",
+        "center": [
+          185.7573593128807,
+          254.2426406871193,
+          195
+        ],
+        "size": [
+          49,
+          39,
+          8
+        ],
+        "axes": [
+          [
+            -0.7071067811865475,
+            -0.7071067811865475,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            -0.7071067811865475,
+            0.7071067811865475,
+            0
+          ]
+        ],
+        "insideMainHousing": true,
+        "assumption": "每边扩 2 mm、背部 8 mm 的工程镜托包络，非厂家镜架"
+      },
+      {
+        "name": "F5 镜托预留",
+        "assembly": "F5",
+        "center": [
+          190,
+          187.7873593128807,
+          199.2426406871193
+        ],
+        "size": [
+          49,
+          39,
+          8
+        ],
+        "axes": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0.7071067811865475,
+            0.7071067811865477
+          ],
+          [
+            0,
+            -0.7071067811865475,
+            0.7071067811865475
+          ]
+        ],
+        "insideMainHousing": true,
+        "assumption": "每边扩 2 mm、背部 8 mm 的工程镜托包络，非厂家镜架"
+      },
+      {
+        "name": "F6 镜托预留",
+        "assembly": "F6",
+        "center": [
+          185.7573593128807,
+          192.03,
+          38.757359312880716
+        ],
+        "size": [
+          49,
+          39,
+          8
+        ],
+        "axes": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            -0.7071067811865475,
+            0,
+            0.7071067811865477
+          ],
+          [
+            -0.7071067811865475,
+            0,
+            -0.7071067811865475
+          ]
+        ],
+        "insideMainHousing": true,
+        "assumption": "每边扩 2 mm、背部 8 mm 的工程镜托包络，非厂家镜架"
+      },
+      {
+        "name": "F7 镜托预留",
+        "assembly": "F7",
+        "center": [
+          315.32264068711925,
+          192.03,
+          47.242640687119284
+        ],
+        "size": [
+          49,
+          39,
+          8
+        ],
+        "axes": [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            -0.7071067811865475,
+            0,
+            0.7071067811865477
+          ],
+          [
+            0.7071067811865475,
+            0,
+            0.7071067811865475
+          ]
+        ],
+        "insideMainHousing": false,
+        "assumption": "每边扩 2 mm、背部 8 mm 的工程镜托包络，非厂家镜架"
+      },
+      {
+        "name": "Z1 镜筒 / 全行程",
+        "assembly": "Z1",
+        "center": [
+          36.25,
+          92,
+          49.4
+        ],
+        "size": [
+          31.4,
+          31.4,
+          24
+        ],
+        "axes": [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "insideMainHousing": true,
+        "assumption": "实际镜片外径外加单边 3 mm；以真实前顶点及中心厚度定位；筒径与壁厚尚属工程预留"
+      },
+      {
+        "name": "Z2 镜筒",
+        "assembly": "Z2",
+        "center": [
+          137.1760519804984,
+          92,
+          49.4
+        ],
+        "size": [
+          31.4,
+          31.4,
+          12
+        ],
+        "axes": [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "insideMainHousing": true,
+        "assumption": "实际镜片外径外加单边 3 mm；以真实前顶点及中心厚度定位；筒径与壁厚尚属工程预留"
+      },
+      {
+        "name": "O 镜筒",
+        "assembly": "O",
+        "center": [
+          311.08,
+          192.03,
+          -31.191499999999998
+        ],
+        "size": [
+          56.8,
+          56.8,
+          18.383
+        ],
+        "axes": [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            -1
+          ]
+        ],
+        "insideMainHousing": false,
+        "assumption": "实际镜片外径外加单边 3 mm；以真实前顶点及中心厚度定位；筒径与壁厚尚属工程预留"
+      },
+      {
+        "name": "W 镜筒",
+        "assembly": "W",
+        "center": [
+          311.08,
+          192.03,
+          -56.5
+        ],
+        "size": [
+          56,
+          56,
+          12
+        ],
+        "axes": [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            -1
+          ]
+        ],
+        "insideMainHousing": false,
+        "assumption": "实际镜片外径外加单边 3 mm；以真实前顶点及中心厚度定位；筒径与壁厚尚属工程预留"
+      },
+      {
+        "name": "Z 导轨预留",
+        "assembly": "Z-rail",
+        "center": [
+          65,
+          92,
+          22
+        ],
+        "size": [
+          80,
+          24,
+          10
+        ],
+        "axes": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "insideMainHousing": true,
+        "assumption": "工程安装预留，非厂家导轨和支架；射线另行检查实体盒遮挡，移动镜座取全行程包络"
+      },
+      {
+        "name": "Z1 滑台镜座预留",
+        "assembly": "Z1",
+        "center": [
+          35,
+          92,
+          33.2
+        ],
+        "size": [
+          24,
+          18,
+          12.4
+        ],
+        "moving": true,
+        "axes": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "insideMainHousing": true,
+        "assumption": "工程安装预留，非厂家导轨和支架；射线另行检查实体盒遮挡，移动镜座取全行程包络"
+      },
+      {
+        "name": "Z2 固定镜座预留",
+        "assembly": "Z2",
+        "center": [
+          135.1525519804984,
+          92,
+          29
+        ],
+        "size": [
+          12,
+          18,
+          15
+        ],
+        "axes": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "insideMainHousing": true,
+        "assumption": "工程安装预留，非厂家导轨和支架；射线另行检查实体盒遮挡，移动镜座取全行程包络"
+      },
+      {
+        "name": "AOI 模块底板后段",
+        "assembly": "AOI-base",
+        "center": [
+          180,
+          141.5,
+          25
+        ],
+        "size": [
+          78,
+          39,
+          8
+        ],
+        "axes": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "insideMainHousing": true,
+        "assumption": "工程安装预留，非厂家导轨和支架；射线另行检查实体盒遮挡，移动镜座取全行程包络"
+      },
+      {
+        "name": "AOI 模块底板前支路",
+        "assembly": "AOI-base",
+        "center": [
+          211,
+          102,
+          25
+        ],
+        "size": [
+          28,
+          56,
+          8
+        ],
+        "axes": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "insideMainHousing": true,
+        "assumption": "工程安装预留，非厂家导轨和支架；射线另行检查实体盒遮挡，移动镜座取全行程包络"
+      },
+      {
+        "name": "XY 模块底板",
+        "assembly": "XY-base",
+        "center": [
+          210.5,
+          222,
+          12
+        ],
+        "size": [
+          86,
+          124,
+          8
+        ],
+        "axes": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "insideMainHousing": true,
+        "assumption": "工程安装预留，非厂家导轨和支架；射线另行检查实体盒遮挡，移动镜座取全行程包络"
+      },
+      {
+        "name": "M1 立柱预留",
+        "assembly": "M1",
+        "center": [
+          212.475,
+          89.525,
+          43.25
+        ],
+        "size": [
+          18,
+          18,
+          28.5
+        ],
+        "axes": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "insideMainHousing": true,
+        "assumption": "工程安装预留，非厂家导轨和支架；射线另行检查实体盒遮挡，移动镜座取全行程包络"
+      },
+      {
+        "name": "M2 支架立柱预留",
+        "assembly": "M2",
+        "center": [
+          173.938,
+          150.887,
+          65
+        ],
+        "size": [
+          16,
+          16,
+          72
+        ],
+        "axes": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "insideMainHousing": true,
+        "assumption": "工程安装预留，非厂家导轨和支架；射线另行检查实体盒遮挡，移动镜座取全行程包络"
+      },
+      {
+        "name": "M3 立柱预留",
+        "assembly": "M3",
+        "center": [
+          233.475,
+          179.525,
+          34.25
+        ],
+        "size": [
+          18,
+          12,
+          36.5
+        ],
+        "axes": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "insideMainHousing": true,
+        "assumption": "工程安装预留，非厂家导轨和支架；射线另行检查实体盒遮挡，移动镜座取全行程包络"
+      },
+      {
+        "name": "M4 支架立柱预留",
+        "assembly": "M4",
+        "center": [
+          188.5,
+          252.475,
+          57.26
+        ],
+        "size": [
+          18,
+          18,
+          82.52
+        ],
+        "axes": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "insideMainHousing": true,
+        "assumption": "工程安装预留，非厂家导轨和支架；射线另行检查实体盒遮挡，移动镜座取全行程包络"
+      }
+    ],
+    "pairs": [],
+    "walls": [
+      {
+        "name": "M1 α 模块 电机占位体",
+        "face": "X 后壁",
+        "marginMm": 29.025126265847092,
+        "bareEnvelopeMarginMm": 32.02512626584709
+      },
+      {
+        "name": "M2 β 模块 电机占位体",
+        "face": "X 后壁",
+        "marginMm": 58.985281374238554,
+        "bareEnvelopeMarginMm": 61.985281374238554
+      },
+      {
+        "name": "M3 Y 模块 电机占位体",
+        "face": "X 后壁",
+        "marginMm": 8.025126265847092,
+        "bareEnvelopeMarginMm": 11.025126265847092
+      },
+      {
+        "name": "M4 X 模块 电机占位体",
+        "face": "Y 外壁",
+        "marginMm": 29.025126265847092,
+        "bareEnvelopeMarginMm": 32.02512626584709
+      },
+      {
+        "name": "F1 镜托预留",
+        "face": "Z 底壁",
+        "marginMm": 25.540349954996845,
+        "bareEnvelopeMarginMm": 28.540349954996845
+      },
+      {
+        "name": "F2 镜托预留",
+        "face": "Y=0 壁",
+        "marginMm": 64.5,
+        "bareEnvelopeMarginMm": 67.5
+      },
+      {
+        "name": "M1 镜托预留",
+        "face": "X 后壁",
+        "marginMm": 26.104816049064105,
+        "bareEnvelopeMarginMm": 29.104816049064105
+      },
+      {
+        "name": "M2 镜托预留",
+        "face": "X 后壁",
+        "marginMm": 34.59009742330269,
+        "bareEnvelopeMarginMm": 37.59009742330269
+      },
+      {
+        "name": "M3 镜托预留",
+        "face": "X 后壁",
+        "marginMm": 8.640349954996843,
+        "bareEnvelopeMarginMm": 11.640349954996843
+      },
+      {
+        "name": "M4 镜托预留",
+        "face": "X 后壁",
+        "marginMm": 10,
+        "bareEnvelopeMarginMm": 13
+      },
+      {
+        "name": "F3 镜托预留",
+        "face": "X 后壁",
+        "marginMm": 8.640349954996843,
+        "bareEnvelopeMarginMm": 11.640349954996843
+      },
+      {
+        "name": "F4 镜托预留",
+        "face": "Y 外壁",
+        "marginMm": 26.104816049064105,
+        "bareEnvelopeMarginMm": 29.104816049064105
+      },
+      {
+        "name": "F5 镜托预留",
+        "face": "X 后壁",
+        "marginMm": 46,
+        "bareEnvelopeMarginMm": 49
+      },
+      {
+        "name": "F6 镜托预留",
+        "face": "Z 底壁",
+        "marginMm": 19.140349954996847,
+        "bareEnvelopeMarginMm": 22.140349954996847
+      },
+      {
+        "name": "Z1 镜筒 / 全行程",
+        "face": "X 入口壁",
+        "marginMm": 21.25,
+        "bareEnvelopeMarginMm": 24.25
+      },
+      {
+        "name": "Z2 镜筒",
+        "face": "Z 底壁",
+        "marginMm": 30.700000000000003,
+        "bareEnvelopeMarginMm": 33.7
+      },
+      {
+        "name": "Z 导轨预留",
+        "face": "Z 底壁",
+        "marginMm": 14,
+        "bareEnvelopeMarginMm": 17
+      },
+      {
+        "name": "Z1 滑台镜座预留",
+        "face": "X 入口壁",
+        "marginMm": 20,
+        "bareEnvelopeMarginMm": 23
+      },
+      {
+        "name": "Z2 固定镜座预留",
+        "face": "Z 底壁",
+        "marginMm": 18.5,
+        "bareEnvelopeMarginMm": 21.5
+      },
+      {
+        "name": "AOI 模块底板后段",
+        "face": "Z 底壁",
+        "marginMm": 18,
+        "bareEnvelopeMarginMm": 21
+      },
+      {
+        "name": "AOI 模块底板前支路",
+        "face": "Z 底壁",
+        "marginMm": 18,
+        "bareEnvelopeMarginMm": 21
+      },
+      {
+        "name": "XY 模块底板",
+        "face": "Z 底壁",
+        "marginMm": 5,
+        "bareEnvelopeMarginMm": 8
+      },
+      {
+        "name": "M1 立柱预留",
+        "face": "Z 底壁",
+        "marginMm": 26,
+        "bareEnvelopeMarginMm": 29
+      },
+      {
+        "name": "M2 支架立柱预留",
+        "face": "Z 底壁",
+        "marginMm": 26,
+        "bareEnvelopeMarginMm": 29
+      },
+      {
+        "name": "M3 立柱预留",
+        "face": "Z 底壁",
+        "marginMm": 13,
+        "bareEnvelopeMarginMm": 16
+      },
+      {
+        "name": "M4 支架立柱预留",
+        "face": "Z 底壁",
+        "marginMm": 13,
+        "bareEnvelopeMarginMm": 16
+      }
+    ],
+    "wallAllowanceMm": 3,
+    "desiredClearanceMm": 5,
+    "manufacturingReady": false,
+    "qualification": "保守包络筛查；3 mm 壁厚、镜托和镜筒尺寸均为工程预留，不是实物碰撞验收"
+  },
+  "moduleResponse": [
+    {
+      "axis": "α",
+      "mechanicalDeg": 0.01,
+      "valid": true,
+      "deltaXUm": 5.6843418860808015e-11,
+      "deltaYUm": 26.653569396074772,
+      "alphaDeg": -1.787656914218829e-13,
+      "betaDeg": -0.16491490506754594
+    },
+    {
+      "axis": "β",
+      "mechanicalDeg": 0.01,
+      "valid": true,
+      "deltaXUm": -18.799864071638694,
+      "deltaYUm": -0.0023199989129807363,
+      "alphaDeg": 0.09965583695491075,
+      "betaDeg": 0.000012241338960407165
+    },
+    {
+      "axis": "Y",
+      "mechanicalDeg": 0.01,
+      "valid": true,
+      "deltaXUm": 5.6843418860808015e-11,
+      "deltaYUm": 26.572353237014568,
+      "alphaDeg": -1.7876459300772297e-13,
+      "betaDeg": -0.13534061236220166
+    },
+    {
+      "axis": "X",
+      "mechanicalDeg": 0.01,
+      "valid": true,
+      "deltaXUm": -26.522760952559565,
+      "deltaYUm": 0,
+      "alphaDeg": 0.11722321023150266,
+      "betaDeg": 1.6343206072741023e-13
+    }
+  ],
+  "zSweep": [
+    {
+      "targetFocusShiftMm": -1,
+      "displacementMm": 4.536480551585555,
+      "valid": true,
+      "focusShiftMm": -0.9999999997991438,
+      "qWaistDiameterUm": 8.74259592531662,
+      "geometricRmsRadiusUm": 3.725240220837276
+    },
+    {
+      "targetFocusShiftMm": 0,
+      "displacementMm": 5.587935447692871e-9,
+      "valid": true,
+      "focusShiftMm": -1.3973107115816674e-9,
+      "qWaistDiameterUm": 9.84027312861722,
+      "geometricRmsRadiusUm": 2.8683776899039244
+    },
+    {
+      "targetFocusShiftMm": 1,
+      "displacementMm": -3.579076850786805,
+      "valid": true,
+      "focusShiftMm": 0.9999999989917114,
+      "qWaistDiameterUm": 10.922132823010738,
+      "geometricRmsRadiusUm": 2.4345723604096086
+    }
+  ],
+  "sphericalResult": {
+    "valid": true,
+    "violations": [],
+    "gaussian": {
+      "waistDiameterUm": 9.840273130139032,
+      "waistDistanceMm": 47.25803955381593,
+      "waistPointMm": [
+        311.08,
+        192.03,
+        -105.25803955381593
+      ],
+      "objectiveDiameterMm": 6.00301675892004,
+      "equivalentFocalLengthMm": 25.022740173656082,
+      "fullConvergenceAngleRad": 0.07996343477868617,
+      "matrix": {
+        "a": 1.888455792912616,
+        "b": 313.73286151385804,
+        "c": -0.039963648787465694,
+        "d": -6.109706106930469
+      },
+      "footprints": [
+        {
+          "name": "Z1 移动负镜 S1",
+          "diameterMm": 2.000047403253116
+        },
+        {
+          "name": "Z1 移动负镜 S2",
+          "diameterMm": 2.066288874118959
+        },
+        {
+          "name": "Z2 固定正镜 S1",
+          "diameterMm": 6.000538343605097
+        },
+        {
+          "name": "Z2 固定正镜 S2",
+          "diameterMm": 6.00054302944393
+        },
+        {
+          "name": "F1 抬升",
+          "diameterMm": 6.000589502583489
+        },
+        {
+          "name": "F2 扫描层入口",
+          "diameterMm": 6.000726422370982
+        },
+        {
+          "name": "M1 α 模块",
+          "diameterMm": 6.0008211471647765
+        },
+        {
+          "name": "M2 β 模块",
+          "diameterMm": 6.001028002955234
+        },
+        {
+          "name": "M3 Y 模块",
+          "diameterMm": 6.001079608520565
+        },
+        {
+          "name": "M4 X 模块",
+          "diameterMm": 6.00125538126181
+        },
+        {
+          "name": "F3 上层回折",
+          "diameterMm": 6.00146460985901
+        },
+        {
+          "name": "F4 上层转向",
+          "diameterMm": 6.001585799681361
+        },
+        {
+          "name": "F5 内部下降",
+          "diameterMm": 6.001765366488763
+        },
+        {
+          "name": "F6 侧伸入口",
+          "diameterMm": 6.002281898080221
+        },
+        {
+          "name": "F7 出光轴",
+          "diameterMm": 6.0027406918211295
+        },
+        {
+          "name": "O 球面单片 S1",
+          "diameterMm": 6.00301675892004
+        },
+        {
+          "name": "O 球面单片 S2",
+          "diameterMm": 5.351775836340758
+        },
+        {
+          "name": "W 保护窗 S1",
+          "diameterMm": 3.9430632378836528
+        },
+        {
+          "name": "W 保护窗 S2",
+          "diameterMm": 3.778927975615441
+        }
+      ],
+      "internalWaists": []
+    },
+    "focusPointMm": [
+      311.08000000000004,
+      192.02999999999997,
+      -105.09879391967134
+    ],
+    "geometricRmsRadiusUm": 2.8683776890597628
+  }
+}

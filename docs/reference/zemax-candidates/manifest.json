@@ -1,0 +1,50 @@
+[
+  {
+    "part": "KPC040AR.14",
+    "originalFile": "KPC040AR.14.zmx",
+    "bytes": 5360,
+    "sha256": "7c4e8c5ac66e299630c959477ac361044dde6d32a595afd36f134ded68fc3766",
+    "sourceUrl": "https://api.p1.mks.com/medias/sys_master/resources/h4c/he8/9899902926878/KPC040AR.14/KPC040AR.14.zmx",
+    "retrievedDate": "2026-10-12",
+    "derivedFile": "KPC040AR.14-515-nbk7-geometry.zmx",
+    "derivedChanges": [
+      "全部波长条目设 0.515 μm",
+      "依据产品页 N-BK7 材料规范替换旧 BK7 标识",
+      "以厂家最小净口径设 Clear Semi-Diameter，Mechanical 保持原外径",
+      "删除 ZEC_AR-14 镀膜引用；派生文件仅用于几何/像差，不模拟镀膜与透过率"
+    ],
+    "zemaxOpened": false
+  },
+  {
+    "part": "KPX100AR.14",
+    "originalFile": "KPX100AR.14.zmx",
+    "bytes": 5390,
+    "sha256": "2a5c66687b52ef25a7e8b5df5babfb93957a2c9e3dc6286adb4c7d96fcb8aec5",
+    "sourceUrl": "https://api.p1.mks.com/medias/sys_master/resources/hfd/h09/9899909775390/KPX100AR_14/KPX100AR-14.zmx",
+    "retrievedDate": "2026-10-12",
+    "derivedFile": "KPX100AR.14-515-nbk7-geometry.zmx",
+    "derivedChanges": [
+      "全部波长条目设 0.515 μm",
+      "依据产品页 N-BK7 材料规范替换旧 BK7 标识",
+      "以厂家最小净口径设 Clear Semi-Diameter，Mechanical 保持原外径",
+      "删除 ZEC_AR-14 镀膜引用；派生文件仅用于几何/像差，不模拟镀膜与透过率"
+    ],
+    "zemaxOpened": false
+  },
+  {
+    "part": "KPX181AR.14",
+    "originalFile": "KPX181AR.14.zmx",
+    "bytes": 5382,
+    "sha256": "7d8b24317769d2c712d237d744a6ea990a0c169122322919c6a5bd41f46d8b0d",
+    "sourceUrl": "https://api.p1.mks.com/medias/sys_master/resources/h11/h40/9899913412638/KPX181AR_14/KPX181AR-14.zmx",
+    "retrievedDate": "2026-10-12",
+    "derivedFile": "KPX181AR.14-515-nbk7-geometry.zmx",
+    "derivedChanges": [
+      "全部波长条目设 0.515 μm",
+      "依据产品页 N-BK7 材料规范替换旧 BK7 标识",
+      "以厂家最小净口径设 Clear Semi-Diameter，Mechanical 保持原外径",
+      "删除 ZEC_AR-14 镀膜引用；派生文件仅用于几何/像差，不模拟镀膜与透过率"
+    ],
+    "zemaxOpened": false
+  }
+]
