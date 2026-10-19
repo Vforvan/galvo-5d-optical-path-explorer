@@ -1,17 +1,14 @@
-# 新 4+1 光路模型 · 515 nm Standard
+# 新 4+1 光路模型 · v7 分离折返
 
-[在线打开](https://vforvan.github.io/galvo-5d-optical-path-explorer/) · [下载 Zemax 镜片与装配资料](docs/reference/zemax-candidates-import.zip)
+[在线打开](https://vforvan.github.io/galvo-5d-optical-path-explorer/)
 
-当前为 new-4p1-layered-spherical-v3：前置短 Z、αβ / XY 安装模块、内部回折与侧伸出光。四个单轴振镜和一个直线调焦轴；5D 逆解与补偿未接入。
+当前为 v7：Z1 沿入口方向直线调焦，M1/M2 双程平移改变工件 AOI，M3/M4 经定制非球面中继移动焦点；四个实体振镜、九面固定折返，振镜全部位于主箱内。
 
-- 真实 KPC040AR.14、KPX100AR.14、KPX181AR.14 与 Corning 7980 平板处方已接入球面折射。
-- Z 透镜前顶点间距约 100.153 mm，全行程安装包络约 118.93 mm。
-- 零位近轴束腰约 9.840 μm；焦点 Z±1 mm 时约 8.743–10.922 μm。几何 RMS 半径与近轴束腰直径分别报告。
-- 当前 4 个振镜、7 个固定折转；αβ 与 XY 分开安装但仍有光学耦合，尚未完成最少镜面设计和 Standard 全域验收。
-- 切角、净反射区、电机、导轨及支架为明确标注的工程预留，采样通光不代表布局可制造。
+- 进动 Ø2.5 mm（合成 AOI ≤7.5°）与标刻 Ø5 mm（零 AOI）两个工作域，在 Z=−1/0/+1 mm 上做有限样点五变量静态逆解；本轮程序内 800 个目标全部收敛，但这只是离散样点，不是连续整域可达、实机精度或加工验收。
+- 正方形旋切示例可在页面上切换 Z 平面与 1°/7.5° 对照，逐点显示位置/方向残差与通光结果。
+- 定制非球面 R60 / R75 / O75 / Z25 与现货 KPX088 的 515 nm ZMX、装配布局和面形处方随页下载。
+- 尚未完成：镜面与镀膜脉冲负载、胶合层、离轴衍射焦斑、连续域可达性、制造公差与动态控制。
 
-最少核心检查、上下调焦及小角度浏览器交互已通过。原始/派生镜片 ZMX、八个折射界面 CSV 和全局装配数据随页面提供；整机 Coordinate Break 与 OpticStudio 仿真尚未验证。
-
-本公开仓库保持产物用途；完整源码、文档和模型归档提交到私有 galvo-5d-digital-twin 的 optical-path-explorer 子目录，源码提交为 0ffc953。更新前公开页面保留在 [历史页](docs/archive/2026-10-12-before-v3/index.html)，旧数值仅对应当时研究模型。
+本公开仓库只放构建产物；完整源码、审计数据与历史归档在私有 galvo-5d-digital-twin 的 optical-path-explorer 子目录，源码提交为 2092dd0。上一版页面保留在 [历史页](docs/archive/2026-10-19-before-v7/index.html)。
 
 [MIT](LICENSE)

@@ -1,0 +1,77 @@
+{
+  "revision": "new-4p1-separated-roofs-v7",
+  "originals": [
+    {
+      "part": "CUSTOM-R60",
+      "type": "project-custom-prescription",
+      "derivedFile": "CUSTOM-R60-515-geometry.zmx",
+      "sourceUrl": "https://www.edmundoptics.com/capabilities/laser-optics/manufacturing/",
+      "provenance": "公开 49-292 球面处方等比例 0.8 缩放的设计起点；不是 Edmund 商品，不代表优化完成或厂家接受加工",
+      "opticStudioOpened": false
+    },
+    {
+      "part": "CUSTOM-R75",
+      "type": "project-custom-prescription",
+      "derivedFile": "CUSTOM-R75-515-geometry.zmx",
+      "sourceUrl": "https://www.edmundoptics.com/p/50mm-dia-x-75mm-fl-vis-0deg-coated-achromatic-lens-/9643/",
+      "provenance": "以公开 49-292 为起点优化非球面，非厂家商品",
+      "opticStudioOpened": false
+    },
+    {
+      "part": "CUSTOM-O75",
+      "type": "project-custom-prescription",
+      "derivedFile": "CUSTOM-O75-515-geometry.zmx",
+      "sourceUrl": "https://www.edmundoptics.com/p/50mm-dia-x-75mm-fl-vis-0deg-coated-achromatic-lens-/9643/",
+      "provenance": "以公开 49-292 为起点优化非球面，非厂家商品",
+      "opticStudioOpened": false
+    },
+    {
+      "part": "CUSTOM-Z25",
+      "type": "project-custom-prescription",
+      "derivedFile": "CUSTOM-Z25-515-geometry.zmx",
+      "sourceUrl": "https://www.edmundoptics.com/capabilities/laser-optics/manufacturing/",
+      "provenance": "KPC040 完整球面处方的 0.5 倍缩放设计起点，不是现货料号",
+      "opticStudioOpened": false
+    },
+    {
+      "part": "KPX088AR.14",
+      "type": "commercial-prescription",
+      "derivedFile": "KPX088AR.14-515-geometry.zmx",
+      "sourceUrl": "https://www.newport.com/p/KPX088AR.14",
+      "provenance": "原始处方和 515 nm 派生副本分列",
+      "opticStudioOpened": false
+    }
+  ],
+  "windowReconstruction": {
+    "part": "72-416",
+    "material": "CORNING7980",
+    "glassCatalog": "GALVO7980.agf",
+    "prescriptionSource": "https://www.edmundoptics.com/p/50mm-dia-3mm-thick-vis-0-coated-4-fused-silica-window/53776/",
+    "dispersionSource": "https://www.corning.com/media/worldwide/csm/documents/HPFS_7980_Germicidal_Irradiation.pdf",
+    "formatSource": "https://optics.ansys.com/hc/en-us/articles/46891219767827-Zemax-AGF-material-catalog-file-format",
+    "qualification": "公开参数重建，不是厂家原始 ZMX；固定 22°C 折射数据，未录入未知热、应力或透过率参数",
+    "opticStudioOpened": false
+  },
+  "packageFiles": [
+    "CUSTOM-R60-515-geometry.zmx",
+    "CUSTOM-R60-515-reversed-geometry.zmx",
+    "CUSTOM-R75-515-geometry.zmx",
+    "CUSTOM-R75-515-reversed-geometry.zmx",
+    "CUSTOM-O75-515-geometry.zmx",
+    "CUSTOM-O75-515-reversed-geometry.zmx",
+    "CUSTOM-Z25-515-geometry.zmx",
+    "CUSTOM-Z25-515-reversed-geometry.zmx",
+    "KPX088AR.14-515-geometry.zmx",
+    "KPX088AR.14-515-reversed-geometry.zmx",
+    "KPX088AR.14.zmx",
+    "GALVO7980.agf",
+    "72-416-515-published-geometry.zmx",
+    "surface-prescriptions.csv",
+    "folded-surfaces-v7.csv",
+    "catalog.json",
+    "assembly-layout-v7.json",
+    "workspace-audit.json",
+    "README.md",
+    "manifest.json"
+  ]
+}

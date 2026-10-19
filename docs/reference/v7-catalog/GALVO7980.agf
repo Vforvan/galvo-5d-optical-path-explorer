@@ -1,0 +1,5 @@
+CC Corning HPFS 7980 from published Sellmeier recipe; fixed 22C index model
+NM CORNING7980 2 0 1.458466953628858 67.79501166567525 0 0
+GC Actual Corning 7980; no thermal stress or transmission model; project usage band 425-675nm
+CD 0.683740494 0.00460352869 0.420323613 0.0133968856 0.58502748 64.4932732
+LD 0.425 0.675

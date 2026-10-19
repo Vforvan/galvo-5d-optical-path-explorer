@@ -1,0 +1,6930 @@
+{
+  "design": {
+    "revision": "new-4p1-separated-roofs-v7",
+    "entrance": [
+      0,
+      92,
+      49.4
+    ],
+    "lenses": [
+      {
+        "role": "短前置 Z 移动负镜",
+        "vendor": "项目定制候选",
+        "part": "CUSTOM-Z25",
+        "shape": "平凹球面",
+        "material": "N-BK7",
+        "radius1Mm": -12.92,
+        "radius2Mm": null,
+        "conic1": 0,
+        "conic2": 0,
+        "centerThicknessMm": 1.25,
+        "edgeThicknessMm": 2.585,
+        "outerDiameterMm": 12.7,
+        "clearDiameterMm": 11.43,
+        "nominalEflMm": -25,
+        "nominalBflMm": -25.82,
+        "specificationWavelengthNm": 589,
+        "coating": "定制 515 nm AR；实际脉冲负载待鉴定",
+        "originalGlass": "BK7",
+        "originalWavelengthNm": 546.1,
+        "originalCoating": "ZEC_AR-14",
+        "sourceUrl": "https://www.edmundoptics.com/capabilities/laser-optics/manufacturing/",
+        "file": "CUSTOM-Z25-515-geometry.zmx",
+        "custom": true,
+        "referenceFolder": "v6-catalog",
+        "provenance": "KPC040 完整球面处方的 0.5 倍缩放设计起点，不是现货料号",
+        "name": "Z1 移动负镜",
+        "kind": "lens",
+        "module": "z",
+        "center": [
+          18,
+          92,
+          49.4
+        ],
+        "axis": [
+          1,
+          0,
+          0
+        ],
+        "moving": true,
+        "reversed": false,
+        "clearDiameter": 11.43,
+        "focalLength": -24.824197827768355
+      },
+      {
+        "role": "Z2 短前置正镜",
+        "vendor": "Newport",
+        "part": "KPX088AR.14",
+        "shape": "平凸球面",
+        "material": "N-BK7",
+        "radius1Mm": 39.07,
+        "radius2Mm": null,
+        "conic1": 0,
+        "conic2": 0,
+        "centerThicknessMm": 5.122,
+        "edgeThicknessMm": 3,
+        "outerDiameterMm": 25.4,
+        "clearDiameterMm": 22.86,
+        "nominalEflMm": 75.6,
+        "nominalBflMm": 72.22,
+        "specificationWavelengthNm": 589,
+        "coating": "AR.14，430–700 nm",
+        "originalGlass": "BK7",
+        "originalWavelengthNm": 546.1,
+        "originalCoating": "ZEC_AR-14",
+        "sourceUrl": "https://www.newport.com/p/KPX088AR.14",
+        "file": "KPX088AR.14.zmx",
+        "referenceFolder": "v4-catalog",
+        "name": "Z2 扩束正镜",
+        "kind": "lens",
+        "module": "z",
+        "center": [
+          68.67190302791239,
+          92,
+          49.4
+        ],
+        "axis": [
+          1,
+          0,
+          0
+        ],
+        "moving": false,
+        "reversed": false,
+        "clearDiameter": 22.86,
+        "focalLength": 75.06822052096825
+      },
+      {
+        "role": "紧凑中继，正反安装各两件",
+        "vendor": "项目定制候选",
+        "part": "CUSTOM-R60",
+        "shape": "胶合消色差双片",
+        "material": "N-BAF10/N-SF10",
+        "radius1Mm": 41.504,
+        "radius2Mm": -247.56,
+        "centerThicknessMm": 19.6,
+        "edgeThicknessMm": 13.656,
+        "outerDiameterMm": 40,
+        "clearDiameterMm": 38,
+        "nominalEflMm": 60,
+        "nominalBflMm": 48.936,
+        "specificationWavelengthNm": 587.6,
+        "coating": "定制 515 nm AR；适用脉宽/能量、吸收和胶合层负载待鉴定",
+        "sourceUrl": "https://www.edmundoptics.com/capabilities/laser-optics/manufacturing/",
+        "file": "CUSTOM-R60-515-geometry.zmx",
+        "referenceFolder": "v6-catalog",
+        "publishedPrescription": false,
+        "prescription": [
+          {
+            "radiusMm": 41.504000000000005,
+            "thicknessMm": 16,
+            "glassAfter": "N-BAF10",
+            "conic": -2.81
+          },
+          {
+            "radiusMm": -26.232,
+            "thicknessMm": 3.6,
+            "glassAfter": "N-SF10",
+            "conic": 0
+          },
+          {
+            "radiusMm": -247.56,
+            "thicknessMm": 0,
+            "glassAfter": "AIR",
+            "conic": -5.21
+          }
+        ],
+        "custom": true,
+        "provenance": "公开 49-292 球面处方等比例 0.8 缩放的设计起点；不是 Edmund 商品，不代表优化完成或厂家接受加工",
+        "name": "R1 XY 逆向中继",
+        "kind": "lens",
+        "module": "xy",
+        "center": [
+          230,
+          115.81667314546402,
+          57
+        ],
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "moving": false,
+        "reversed": true,
+        "clearDiameter": 38,
+        "focalLength": 59.90227987535338
+      },
+      {
+        "role": "紧凑中继，正反安装各两件",
+        "vendor": "项目定制候选",
+        "part": "CUSTOM-R60",
+        "shape": "胶合消色差双片",
+        "material": "N-BAF10/N-SF10",
+        "radius1Mm": 41.504,
+        "radius2Mm": -247.56,
+        "centerThicknessMm": 19.6,
+        "edgeThicknessMm": 13.656,
+        "outerDiameterMm": 40,
+        "clearDiameterMm": 38,
+        "nominalEflMm": 60,
+        "nominalBflMm": 48.936,
+        "specificationWavelengthNm": 587.6,
+        "coating": "定制 515 nm AR；适用脉宽/能量、吸收和胶合层负载待鉴定",
+        "sourceUrl": "https://www.edmundoptics.com/capabilities/laser-optics/manufacturing/",
+        "file": "CUSTOM-R60-515-geometry.zmx",
+        "referenceFolder": "v6-catalog",
+        "publishedPrescription": false,
+        "prescription": [
+          {
+            "radiusMm": 41.504000000000005,
+            "thicknessMm": 16,
+            "glassAfter": "N-BAF10",
+            "conic": -2.81
+          },
+          {
+            "radiusMm": -26.232,
+            "thicknessMm": 3.6,
+            "glassAfter": "N-SF10",
+            "conic": 0
+          },
+          {
+            "radiusMm": -247.56,
+            "thicknessMm": 0,
+            "glassAfter": "AIR",
+            "conic": -5.21
+          }
+        ],
+        "custom": true,
+        "provenance": "公开 49-292 球面处方等比例 0.8 缩放的设计起点；不是 Edmund 商品，不代表优化完成或厂家接受加工",
+        "name": "R2 XY 正向中继",
+        "kind": "lens",
+        "module": "xy",
+        "center": [
+          206.1892700019564,
+          230.00000000000003,
+          57
+        ],
+        "axis": [
+          -1,
+          0,
+          0
+        ],
+        "moving": false,
+        "reversed": false,
+        "clearDiameter": 38,
+        "focalLength": 59.90227987535338
+      },
+      {
+        "role": "定制末级中继",
+        "vendor": "项目定制候选",
+        "part": "CUSTOM-R75",
+        "shape": "胶合消色差双片",
+        "material": "N-BAF10/N-SF10",
+        "radius1Mm": 51.88,
+        "radius2Mm": -309.45,
+        "centerThicknessMm": 24.5,
+        "edgeThicknessMm": 17.07,
+        "outerDiameterMm": 50,
+        "clearDiameterMm": 49,
+        "nominalEflMm": 75,
+        "nominalBflMm": 61.17,
+        "specificationWavelengthNm": 587.6,
+        "coating": "515 nm AR；胶合层、脉冲负载待鉴定",
+        "sourceUrl": "https://www.edmundoptics.com/p/50mm-dia-x-75mm-fl-vis-0deg-coated-achromatic-lens-/9643/",
+        "file": "CUSTOM-R75-515-geometry.zmx",
+        "referenceFolder": "v6-catalog",
+        "publishedPrescription": false,
+        "prescription": [
+          {
+            "radiusMm": 51.88,
+            "thicknessMm": 20,
+            "glassAfter": "N-BAF10",
+            "conic": -1.99
+          },
+          {
+            "radiusMm": -32.79,
+            "thicknessMm": 4.5,
+            "glassAfter": "N-SF10",
+            "conic": 0
+          },
+          {
+            "radiusMm": -309.45,
+            "thicknessMm": 0,
+            "glassAfter": "AIR",
+            "conic": -4.73
+          }
+        ],
+        "custom": true,
+        "provenance": "以公开 49-292 为起点优化非球面，非厂家商品",
+        "name": "P1 出光逆向中继",
+        "kind": "lens",
+        "module": "xy",
+        "center": [
+          133.59666349871088,
+          221.94104602062305,
+          117.34200800767402
+        ],
+        "axis": [
+          -0.06843454235954206,
+          -0.13206887663750302,
+          0.9888753840781699
+        ],
+        "moving": false,
+        "reversed": true,
+        "clearDiameter": 49,
+        "focalLength": 74.8778498441917
+      },
+      {
+        "role": "定制末级中继",
+        "vendor": "项目定制候选",
+        "part": "CUSTOM-R75",
+        "shape": "胶合消色差双片",
+        "material": "N-BAF10/N-SF10",
+        "radius1Mm": 51.88,
+        "radius2Mm": -309.45,
+        "centerThicknessMm": 24.5,
+        "edgeThicknessMm": 17.07,
+        "outerDiameterMm": 50,
+        "clearDiameterMm": 49,
+        "nominalEflMm": 75,
+        "nominalBflMm": 61.17,
+        "specificationWavelengthNm": 587.6,
+        "coating": "515 nm AR；胶合层、脉冲负载待鉴定",
+        "sourceUrl": "https://www.edmundoptics.com/p/50mm-dia-x-75mm-fl-vis-0deg-coated-achromatic-lens-/9643/",
+        "file": "CUSTOM-R75-515-geometry.zmx",
+        "referenceFolder": "v6-catalog",
+        "publishedPrescription": false,
+        "prescription": [
+          {
+            "radiusMm": 51.88,
+            "thicknessMm": 20,
+            "glassAfter": "N-BAF10",
+            "conic": -1.99
+          },
+          {
+            "radiusMm": -32.79,
+            "thicknessMm": 4.5,
+            "glassAfter": "N-SF10",
+            "conic": 0
+          },
+          {
+            "radiusMm": -309.45,
+            "thicknessMm": 0,
+            "glassAfter": "AIR",
+            "conic": -4.73
+          }
+        ],
+        "custom": true,
+        "provenance": "以公开 49-292 为起点优化非球面，非厂家商品",
+        "name": "P2 出光正向中继",
+        "kind": "lens",
+        "module": "xy",
+        "center": [
+          235.7060659932667,
+          201.59118436124731,
+          114.25771446693071
+        ],
+        "axis": [
+          0.8813516418312495,
+          -0.11179946550068369,
+          -0.4590426591887972
+        ],
+        "moving": false,
+        "reversed": false,
+        "clearDiameter": 49,
+        "focalLength": 74.8778498441917
+      }
+    ],
+    "mirrors": [
+      {
+        "name": "M1 α 双程平移",
+        "physicalId": "M1 α 双程平移",
+        "kind": "mirror",
+        "module": "aoi",
+        "center": [
+          167.5,
+          79.5,
+          91
+        ],
+        "normal": [
+          0.7071067811865475,
+          -0.7071067811865475,
+          0
+        ],
+        "axis": [
+          0,
+          0,
+          1
+        ],
+        "apertureU": [
+          0.7071067811865475,
+          0.7071067811865475,
+          0
+        ],
+        "apertureV": [
+          0,
+          0,
+          1
+        ],
+        "outerWidth": 88,
+        "outerHeight": 26,
+        "thickness": 2,
+        "edgeAllowance": 1,
+        "cornerCutMm": 3,
+        "part": "定制平面反射镜",
+        "mountSign": 1,
+        "outlineStatus": "切角 3 mm / 固定镜 1 mm；熔石英 2 mm 厚，独立安装边缘",
+        "clearRegionStatus": "周边 1 mm 禁入；背面装夹/胶合，515 nm 指定 AOI 镀膜待供应商验证",
+        "custom": true
+      },
+      {
+        "name": "M2 β 双程平移",
+        "physicalId": "M2 β 双程平移",
+        "kind": "mirror",
+        "module": "aoi",
+        "center": [
+          112,
+          67,
+          74
+        ],
+        "normal": [
+          -0.7071067811865475,
+          0,
+          -0.7071067811865475
+        ],
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "apertureU": [
+          -0.7071067811865475,
+          0,
+          0.7071067811865475
+        ],
+        "apertureV": [
+          0,
+          1,
+          0
+        ],
+        "outerWidth": 104,
+        "outerHeight": 36,
+        "thickness": 2,
+        "edgeAllowance": 1,
+        "cornerCutMm": 3,
+        "part": "定制平面反射镜",
+        "mountSign": -1,
+        "outlineStatus": "切角 3 mm / 固定镜 1 mm；熔石英 2 mm 厚，独立安装边缘",
+        "clearRegionStatus": "周边 1 mm 禁入；背面装夹/胶合，515 nm 指定 AOI 镀膜待供应商验证",
+        "custom": true
+      },
+      {
+        "name": "M3 Y 瞳面",
+        "physicalId": "M3 Y 瞳面",
+        "kind": "mirror",
+        "module": "xy",
+        "center": [
+          230,
+          67,
+          57
+        ],
+        "normal": [
+          0.7071067811865475,
+          -0.7071067811865475,
+          0
+        ],
+        "axis": [
+          0.030882469977609944,
+          0.030882469977609944,
+          -0.9990458178162621
+        ],
+        "apertureU": [
+          -0.7064320724939391,
+          -0.7064320724939391,
+          -0.04367440788191592
+        ],
+        "apertureV": [
+          0.030882469977609944,
+          0.030882469977609944,
+          -0.9990458178162621
+        ],
+        "outerWidth": 52,
+        "outerHeight": 40,
+        "thickness": 2,
+        "edgeAllowance": 1,
+        "cornerCutMm": 3,
+        "part": "定制平面反射镜",
+        "mountSign": -1,
+        "outlineStatus": "切角 3 mm / 固定镜 1 mm；熔石英 2 mm 厚，独立安装边缘",
+        "clearRegionStatus": "周边 1 mm 禁入；背面装夹/胶合，515 nm 指定 AOI 镀膜待供应商验证",
+        "custom": true
+      },
+      {
+        "name": "M4 X 瞳面",
+        "physicalId": "M4 X 瞳面",
+        "kind": "mirror",
+        "module": "xy",
+        "center": [
+          137.77259685649236,
+          230.00000000000003,
+          57
+        ],
+        "normal": [
+          -0.682482768148932,
+          0.09675619869180552,
+          -0.7244691223195664
+        ],
+        "axis": [
+          -0.17190355860177828,
+          -0.9846434580374614,
+          0.030437264727216348
+        ],
+        "apertureU": [
+          0.710398787808521,
+          -0.14531172890975294,
+          -0.6886349277530457
+        ],
+        "apertureV": [
+          -0.17190355860177828,
+          -0.9846434580374614,
+          0.030437264727216348
+        ],
+        "outerWidth": 52,
+        "outerHeight": 40,
+        "thickness": 2,
+        "edgeAllowance": 1,
+        "cornerCutMm": 3,
+        "part": "定制平面反射镜",
+        "mountSign": 1,
+        "outlineStatus": "切角 3 mm / 固定镜 1 mm；熔石英 2 mm 厚，独立安装边缘",
+        "clearRegionStatus": "周边 1 mm 禁入；背面装夹/胶合，515 nm 指定 AOI 镀膜待供应商验证",
+        "custom": true
+      }
+    ],
+    "fixedFolds": [
+      {
+        "name": "F0a 入光抬升",
+        "physicalId": "F0a 入光抬升",
+        "kind": "mirror",
+        "module": "z",
+        "center": [
+          84,
+          92,
+          49.4
+        ],
+        "normal": [
+          0.90355749067825,
+          0,
+          -0.4284668727442345
+        ],
+        "axis": null,
+        "apertureU": [
+          0,
+          1,
+          0
+        ],
+        "apertureV": [
+          0.42846687274423445,
+          0,
+          0.90355749067825
+        ],
+        "outerWidth": 24,
+        "outerHeight": 20,
+        "thickness": 2,
+        "edgeAllowance": 1,
+        "cornerCutMm": 1,
+        "part": "定制平面反射镜",
+        "mountSign": 1,
+        "outlineStatus": "切角 3 mm / 固定镜 1 mm；熔石英 2 mm 厚，独立安装边缘",
+        "clearRegionStatus": "周边 1 mm 禁入；背面装夹/胶合，515 nm 指定 AOI 镀膜待供应商验证",
+        "custom": true
+      },
+      {
+        "name": "F0b 入光水平",
+        "physicalId": "F0b 入光水平",
+        "kind": "mirror",
+        "module": "z",
+        "center": [
+          50,
+          92,
+          91
+        ],
+        "normal": [
+          -0.90355749067825,
+          0,
+          0.4284668727442345
+        ],
+        "axis": null,
+        "apertureU": [
+          0,
+          -1,
+          0
+        ],
+        "apertureV": [
+          0.42846687274423445,
+          0,
+          0.90355749067825
+        ],
+        "outerWidth": 24,
+        "outerHeight": 20,
+        "thickness": 2,
+        "edgeAllowance": 1,
+        "cornerCutMm": 1,
+        "part": "定制平面反射镜",
+        "mountSign": 1,
+        "outlineStatus": "切角 3 mm / 固定镜 1 mm；熔石英 2 mm 厚，独立安装边缘",
+        "clearRegionStatus": "周边 1 mm 禁入；背面装夹/胶合，515 nm 指定 AOI 镀膜待供应商验证",
+        "custom": true
+      },
+      {
+        "name": "F1 α 屋脊一",
+        "physicalId": "F1 α 屋脊一",
+        "kind": "mirror",
+        "module": "aoi",
+        "center": [
+          180,
+          143,
+          91
+        ],
+        "normal": [
+          0.7071067811865475,
+          0.7071067811865475,
+          0
+        ],
+        "axis": null,
+        "apertureU": [
+          -0.7071067811865475,
+          0.7071067811865475,
+          0
+        ],
+        "apertureV": [
+          0,
+          0,
+          1
+        ],
+        "outerWidth": 34,
+        "outerHeight": 24,
+        "thickness": 2,
+        "edgeAllowance": 1,
+        "cornerCutMm": 1,
+        "part": "定制平面反射镜",
+        "mountSign": 1,
+        "outlineStatus": "切角 3 mm / 固定镜 1 mm；熔石英 2 mm 厚，独立安装边缘",
+        "clearRegionStatus": "周边 1 mm 禁入；背面装夹/胶合，515 nm 指定 AOI 镀膜待供应商验证",
+        "custom": true
+      },
+      {
+        "name": "F2 α 屋脊二",
+        "physicalId": "F2 α 屋脊二",
+        "kind": "mirror",
+        "module": "aoi",
+        "center": [
+          155,
+          143,
+          91
+        ],
+        "normal": [
+          -0.7071067811865475,
+          0.7071067811865475,
+          0
+        ],
+        "axis": null,
+        "apertureU": [
+          -0.7071067811865475,
+          -0.7071067811865475,
+          0
+        ],
+        "apertureV": [
+          0,
+          0,
+          1
+        ],
+        "outerWidth": 34,
+        "outerHeight": 24,
+        "thickness": 2,
+        "edgeAllowance": 1,
+        "cornerCutMm": 1,
+        "part": "定制平面反射镜",
+        "mountSign": 1,
+        "outlineStatus": "切角 3 mm / 固定镜 1 mm；熔石英 2 mm 厚，独立安装边缘",
+        "clearRegionStatus": "周边 1 mm 禁入；背面装夹/胶合，515 nm 指定 AOI 镀膜待供应商验证",
+        "custom": true
+      },
+      {
+        "name": "F3 β 屋脊一",
+        "physicalId": "F3 β 屋脊一",
+        "kind": "mirror",
+        "module": "aoi",
+        "center": [
+          95,
+          67,
+          163
+        ],
+        "normal": [
+          -0.7071067811865475,
+          0,
+          0.7071067811865475
+        ],
+        "axis": null,
+        "apertureU": [
+          0,
+          -1,
+          0
+        ],
+        "apertureV": [
+          0.7071067811865475,
+          0,
+          0.7071067811865478
+        ],
+        "outerWidth": 44,
+        "outerHeight": 34,
+        "thickness": 2,
+        "edgeAllowance": 1,
+        "cornerCutMm": 1,
+        "part": "定制平面反射镜",
+        "mountSign": 1,
+        "outlineStatus": "切角 3 mm / 固定镜 1 mm；熔石英 2 mm 厚，独立安装边缘",
+        "clearRegionStatus": "周边 1 mm 禁入；背面装夹/胶合，515 nm 指定 AOI 镀膜待供应商验证",
+        "custom": true
+      },
+      {
+        "name": "F4 β 屋脊二",
+        "physicalId": "F4 β 屋脊二",
+        "kind": "mirror",
+        "module": "aoi",
+        "center": [
+          129,
+          67,
+          163
+        ],
+        "normal": [
+          0.7071067811865475,
+          0,
+          0.7071067811865475
+        ],
+        "axis": null,
+        "apertureU": [
+          0,
+          1,
+          0
+        ],
+        "apertureV": [
+          -0.7071067811865475,
+          0,
+          0.7071067811865478
+        ],
+        "outerWidth": 44,
+        "outerHeight": 34,
+        "thickness": 2,
+        "edgeAllowance": 1,
+        "cornerCutMm": 1,
+        "part": "定制平面反射镜",
+        "mountSign": 1,
+        "outlineStatus": "切角 3 mm / 固定镜 1 mm；熔石英 2 mm 厚，独立安装边缘",
+        "clearRegionStatus": "周边 1 mm 禁入；背面装夹/胶合，515 nm 指定 AOI 镀膜待供应商验证",
+        "custom": true
+      },
+      {
+        "name": "F5 XY 中继折转",
+        "physicalId": "F5 XY 中继折转",
+        "kind": "mirror",
+        "module": "xy",
+        "center": [
+          230,
+          230.00000000000003,
+          57
+        ],
+        "normal": [
+          0.7071067811865475,
+          0.7071067811865475,
+          0
+        ],
+        "axis": null,
+        "apertureU": [
+          -0.7071067811865475,
+          0.7071067811865475,
+          0
+        ],
+        "apertureV": [
+          0,
+          0,
+          1
+        ],
+        "outerWidth": 44,
+        "outerHeight": 34,
+        "thickness": 2,
+        "edgeAllowance": 1,
+        "cornerCutMm": 1,
+        "part": "定制平面反射镜",
+        "mountSign": 1,
+        "outlineStatus": "切角 3 mm / 固定镜 1 mm；熔石英 2 mm 厚，独立安装边缘",
+        "clearRegionStatus": "周边 1 mm 禁入；背面装夹/胶合，515 nm 指定 AOI 镀膜待供应商验证",
+        "custom": true
+      },
+      {
+        "name": "F6 固定出光折转",
+        "physicalId": "F6 固定出光折转",
+        "kind": "mirror",
+        "module": "xy",
+        "center": [
+          130,
+          215,
+          169.3135983195035
+        ],
+        "normal": [
+          -0.5484533490721087,
+          -0.011704556885273594,
+          0.8360992328902753
+        ],
+        "axis": null,
+        "apertureU": [
+          0.02133616734616451,
+          -0.9997723580710642,
+          1.734723475976807e-18
+        ],
+        "apertureV": [
+          0.8359089016481185,
+          0.01783915315094669,
+          0.5485782284782119
+        ],
+        "outerWidth": 48,
+        "outerHeight": 38,
+        "thickness": 2,
+        "edgeAllowance": 1,
+        "cornerCutMm": 1,
+        "part": "定制平面反射镜",
+        "mountSign": 1,
+        "outlineStatus": "切角 3 mm / 固定镜 1 mm；熔石英 2 mm 厚，独立安装边缘",
+        "clearRegionStatus": "周边 1 mm 禁入；背面装夹/胶合，515 nm 指定 AOI 镀膜待供应商验证",
+        "custom": true
+      },
+      {
+        "name": "F7 固定出光折转",
+        "physicalId": "F7 固定出光折转",
+        "kind": "mirror",
+        "module": "xy",
+        "center": [
+          311.08,
+          192.03,
+          75
+        ],
+        "normal": [
+          0.847330249233866,
+          -0.1074838514739447,
+          0.5200756391195432
+        ],
+        "axis": null,
+        "apertureU": [
+          0.12584159755971105,
+          0.9920503476757718,
+          6.938893903907227e-18
+        ],
+        "apertureV": [
+          -0.5159412186062422,
+          0.0654471492786911,
+          0.8541202079300073
+        ],
+        "outerWidth": 72,
+        "outerHeight": 60,
+        "thickness": 2,
+        "edgeAllowance": 1,
+        "cornerCutMm": 1,
+        "part": "定制平面反射镜",
+        "mountSign": 1,
+        "outlineStatus": "切角 3 mm / 固定镜 1 mm；熔石英 2 mm 厚，独立安装边缘",
+        "clearRegionStatus": "周边 1 mm 禁入；背面装夹/胶合，515 nm 指定 AOI 镀膜待供应商验证",
+        "custom": true
+      }
+    ],
+    "sequence": [
+      {
+        "role": "短前置 Z 移动负镜",
+        "vendor": "项目定制候选",
+        "part": "CUSTOM-Z25",
+        "shape": "平凹球面",
+        "material": "N-BK7",
+        "radius1Mm": -12.92,
+        "radius2Mm": null,
+        "conic1": 0,
+        "conic2": 0,
+        "centerThicknessMm": 1.25,
+        "edgeThicknessMm": 2.585,
+        "outerDiameterMm": 12.7,
+        "clearDiameterMm": 11.43,
+        "nominalEflMm": -25,
+        "nominalBflMm": -25.82,
+        "specificationWavelengthNm": 589,
+        "coating": "定制 515 nm AR；实际脉冲负载待鉴定",
+        "originalGlass": "BK7",
+        "originalWavelengthNm": 546.1,
+        "originalCoating": "ZEC_AR-14",
+        "sourceUrl": "https://www.edmundoptics.com/capabilities/laser-optics/manufacturing/",
+        "file": "CUSTOM-Z25-515-geometry.zmx",
+        "custom": true,
+        "referenceFolder": "v6-catalog",
+        "provenance": "KPC040 完整球面处方的 0.5 倍缩放设计起点，不是现货料号",
+        "name": "Z1 移动负镜",
+        "kind": "lens",
+        "module": "z",
+        "center": [
+          18,
+          92,
+          49.4
+        ],
+        "axis": [
+          1,
+          0,
+          0
+        ],
+        "moving": true,
+        "reversed": false,
+        "clearDiameter": 11.43,
+        "focalLength": -24.824197827768355
+      },
+      {
+        "role": "Z2 短前置正镜",
+        "vendor": "Newport",
+        "part": "KPX088AR.14",
+        "shape": "平凸球面",
+        "material": "N-BK7",
+        "radius1Mm": 39.07,
+        "radius2Mm": null,
+        "conic1": 0,
+        "conic2": 0,
+        "centerThicknessMm": 5.122,
+        "edgeThicknessMm": 3,
+        "outerDiameterMm": 25.4,
+        "clearDiameterMm": 22.86,
+        "nominalEflMm": 75.6,
+        "nominalBflMm": 72.22,
+        "specificationWavelengthNm": 589,
+        "coating": "AR.14，430–700 nm",
+        "originalGlass": "BK7",
+        "originalWavelengthNm": 546.1,
+        "originalCoating": "ZEC_AR-14",
+        "sourceUrl": "https://www.newport.com/p/KPX088AR.14",
+        "file": "KPX088AR.14.zmx",
+        "referenceFolder": "v4-catalog",
+        "name": "Z2 扩束正镜",
+        "kind": "lens",
+        "module": "z",
+        "center": [
+          68.67190302791239,
+          92,
+          49.4
+        ],
+        "axis": [
+          1,
+          0,
+          0
+        ],
+        "moving": false,
+        "reversed": false,
+        "clearDiameter": 22.86,
+        "focalLength": 75.06822052096825
+      },
+      {
+        "name": "F0a 入光抬升",
+        "physicalId": "F0a 入光抬升",
+        "kind": "mirror",
+        "module": "z",
+        "center": [
+          84,
+          92,
+          49.4
+        ],
+        "normal": [
+          0.90355749067825,
+          0,
+          -0.4284668727442345
+        ],
+        "axis": null,
+        "apertureU": [
+          0,
+          1,
+          0
+        ],
+        "apertureV": [
+          0.42846687274423445,
+          0,
+          0.90355749067825
+        ],
+        "outerWidth": 24,
+        "outerHeight": 20,
+        "thickness": 2,
+        "edgeAllowance": 1,
+        "cornerCutMm": 1,
+        "part": "定制平面反射镜",
+        "mountSign": 1,
+        "outlineStatus": "切角 3 mm / 固定镜 1 mm；熔石英 2 mm 厚，独立安装边缘",
+        "clearRegionStatus": "周边 1 mm 禁入；背面装夹/胶合，515 nm 指定 AOI 镀膜待供应商验证",
+        "custom": true
+      },
+      {
+        "name": "F0b 入光水平",
+        "physicalId": "F0b 入光水平",
+        "kind": "mirror",
+        "module": "z",
+        "center": [
+          50,
+          92,
+          91
+        ],
+        "normal": [
+          -0.90355749067825,
+          0,
+          0.4284668727442345
+        ],
+        "axis": null,
+        "apertureU": [
+          0,
+          -1,
+          0
+        ],
+        "apertureV": [
+          0.42846687274423445,
+          0,
+          0.90355749067825
+        ],
+        "outerWidth": 24,
+        "outerHeight": 20,
+        "thickness": 2,
+        "edgeAllowance": 1,
+        "cornerCutMm": 1,
+        "part": "定制平面反射镜",
+        "mountSign": 1,
+        "outlineStatus": "切角 3 mm / 固定镜 1 mm；熔石英 2 mm 厚，独立安装边缘",
+        "clearRegionStatus": "周边 1 mm 禁入；背面装夹/胶合，515 nm 指定 AOI 镀膜待供应商验证",
+        "custom": true
+      },
+      {
+        "name": "M1 α 双程平移",
+        "physicalId": "M1 α 双程平移",
+        "kind": "mirror",
+        "module": "aoi",
+        "center": [
+          167.5,
+          79.5,
+          91
+        ],
+        "normal": [
+          0.7071067811865475,
+          -0.7071067811865475,
+          0
+        ],
+        "axis": [
+          0,
+          0,
+          1
+        ],
+        "apertureU": [
+          0.7071067811865475,
+          0.7071067811865475,
+          0
+        ],
+        "apertureV": [
+          0,
+          0,
+          1
+        ],
+        "outerWidth": 88,
+        "outerHeight": 26,
+        "thickness": 2,
+        "edgeAllowance": 1,
+        "cornerCutMm": 3,
+        "part": "定制平面反射镜",
+        "mountSign": 1,
+        "outlineStatus": "切角 3 mm / 固定镜 1 mm；熔石英 2 mm 厚，独立安装边缘",
+        "clearRegionStatus": "周边 1 mm 禁入；背面装夹/胶合，515 nm 指定 AOI 镀膜待供应商验证",
+        "custom": true
+      },
+      {
+        "name": "F1 α 屋脊一",
+        "physicalId": "F1 α 屋脊一",
+        "kind": "mirror",
+        "module": "aoi",
+        "center": [
+          180,
+          143,
+          91
+        ],
+        "normal": [
+          0.7071067811865475,
+          0.7071067811865475,
+          0
+        ],
+        "axis": null,
+        "apertureU": [
+          -0.7071067811865475,
+          0.7071067811865475,
+          0
+        ],
+        "apertureV": [
+          0,
+          0,
+          1
+        ],
+        "outerWidth": 34,
+        "outerHeight": 24,
+        "thickness": 2,
+        "edgeAllowance": 1,
+        "cornerCutMm": 1,
+        "part": "定制平面反射镜",
+        "mountSign": 1,
+        "outlineStatus": "切角 3 mm / 固定镜 1 mm；熔石英 2 mm 厚，独立安装边缘",
+        "clearRegionStatus": "周边 1 mm 禁入；背面装夹/胶合，515 nm 指定 AOI 镀膜待供应商验证",
+        "custom": true
+      },
+      {
+        "name": "F2 α 屋脊二",
+        "physicalId": "F2 α 屋脊二",
+        "kind": "mirror",
+        "module": "aoi",
+        "center": [
+          155,
+          143,
+          91
+        ],
+        "normal": [
+          -0.7071067811865475,
+          0.7071067811865475,
+          0
+        ],
+        "axis": null,
+        "apertureU": [
+          -0.7071067811865475,
+          -0.7071067811865475,
+          0
+        ],
+        "apertureV": [
+          0,
+          0,
+          1
+        ],
+        "outerWidth": 34,
+        "outerHeight": 24,
+        "thickness": 2,
+        "edgeAllowance": 1,
+        "cornerCutMm": 1,
+        "part": "定制平面反射镜",
+        "mountSign": 1,
+        "outlineStatus": "切角 3 mm / 固定镜 1 mm；熔石英 2 mm 厚，独立安装边缘",
+        "clearRegionStatus": "周边 1 mm 禁入；背面装夹/胶合，515 nm 指定 AOI 镀膜待供应商验证",
+        "custom": true
+      },
+      {
+        "name": "M1 α 双程平移",
+        "physicalId": "M1 α 双程平移",
+        "kind": "mirror",
+        "module": "aoi",
+        "center": [
+          167.5,
+          79.5,
+          91
+        ],
+        "normal": [
+          0.7071067811865475,
+          -0.7071067811865475,
+          0
+        ],
+        "axis": [
+          0,
+          0,
+          1
+        ],
+        "apertureU": [
+          0.7071067811865475,
+          0.7071067811865475,
+          0
+        ],
+        "apertureV": [
+          0,
+          0,
+          1
+        ],
+        "outerWidth": 88,
+        "outerHeight": 26,
+        "thickness": 2,
+        "edgeAllowance": 1,
+        "cornerCutMm": 3,
+        "part": "定制平面反射镜",
+        "mountSign": 1,
+        "outlineStatus": "切角 3 mm / 固定镜 1 mm；熔石英 2 mm 厚，独立安装边缘",
+        "clearRegionStatus": "周边 1 mm 禁入；背面装夹/胶合，515 nm 指定 AOI 镀膜待供应商验证",
+        "custom": true
+      },
+      {
+        "name": "M2 β 双程平移",
+        "physicalId": "M2 β 双程平移",
+        "kind": "mirror",
+        "module": "aoi",
+        "center": [
+          112,
+          67,
+          74
+        ],
+        "normal": [
+          -0.7071067811865475,
+          0,
+          -0.7071067811865475
+        ],
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "apertureU": [
+          -0.7071067811865475,
+          0,
+          0.7071067811865475
+        ],
+        "apertureV": [
+          0,
+          1,
+          0
+        ],
+        "outerWidth": 104,
+        "outerHeight": 36,
+        "thickness": 2,
+        "edgeAllowance": 1,
+        "cornerCutMm": 3,
+        "part": "定制平面反射镜",
+        "mountSign": -1,
+        "outlineStatus": "切角 3 mm / 固定镜 1 mm；熔石英 2 mm 厚，独立安装边缘",
+        "clearRegionStatus": "周边 1 mm 禁入；背面装夹/胶合，515 nm 指定 AOI 镀膜待供应商验证",
+        "custom": true
+      },
+      {
+        "name": "F3 β 屋脊一",
+        "physicalId": "F3 β 屋脊一",
+        "kind": "mirror",
+        "module": "aoi",
+        "center": [
+          95,
+          67,
+          163
+        ],
+        "normal": [
+          -0.7071067811865475,
+          0,
+          0.7071067811865475
+        ],
+        "axis": null,
+        "apertureU": [
+          0,
+          -1,
+          0
+        ],
+        "apertureV": [
+          0.7071067811865475,
+          0,
+          0.7071067811865478
+        ],
+        "outerWidth": 44,
+        "outerHeight": 34,
+        "thickness": 2,
+        "edgeAllowance": 1,
+        "cornerCutMm": 1,
+        "part": "定制平面反射镜",
+        "mountSign": 1,
+        "outlineStatus": "切角 3 mm / 固定镜 1 mm；熔石英 2 mm 厚，独立安装边缘",
+        "clearRegionStatus": "周边 1 mm 禁入；背面装夹/胶合，515 nm 指定 AOI 镀膜待供应商验证",
+        "custom": true
+      },
+      {
+        "name": "F4 β 屋脊二",
+        "physicalId": "F4 β 屋脊二",
+        "kind": "mirror",
+        "module": "aoi",
+        "center": [
+          129,
+          67,
+          163
+        ],
+        "normal": [
+          0.7071067811865475,
+          0,
+          0.7071067811865475
+        ],
+        "axis": null,
+        "apertureU": [
+          0,
+          1,
+          0
+        ],
+        "apertureV": [
+          -0.7071067811865475,
+          0,
+          0.7071067811865478
+        ],
+        "outerWidth": 44,
+        "outerHeight": 34,
+        "thickness": 2,
+        "edgeAllowance": 1,
+        "cornerCutMm": 1,
+        "part": "定制平面反射镜",
+        "mountSign": 1,
+        "outlineStatus": "切角 3 mm / 固定镜 1 mm；熔石英 2 mm 厚，独立安装边缘",
+        "clearRegionStatus": "周边 1 mm 禁入；背面装夹/胶合，515 nm 指定 AOI 镀膜待供应商验证",
+        "custom": true
+      },
+      {
+        "name": "M2 β 双程平移",
+        "physicalId": "M2 β 双程平移",
+        "kind": "mirror",
+        "module": "aoi",
+        "center": [
+          112,
+          67,
+          74
+        ],
+        "normal": [
+          -0.7071067811865475,
+          0,
+          -0.7071067811865475
+        ],
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "apertureU": [
+          -0.7071067811865475,
+          0,
+          0.7071067811865475
+        ],
+        "apertureV": [
+          0,
+          1,
+          0
+        ],
+        "outerWidth": 104,
+        "outerHeight": 36,
+        "thickness": 2,
+        "edgeAllowance": 1,
+        "cornerCutMm": 3,
+        "part": "定制平面反射镜",
+        "mountSign": -1,
+        "outlineStatus": "切角 3 mm / 固定镜 1 mm；熔石英 2 mm 厚，独立安装边缘",
+        "clearRegionStatus": "周边 1 mm 禁入；背面装夹/胶合，515 nm 指定 AOI 镀膜待供应商验证",
+        "custom": true
+      },
+      {
+        "name": "M3 Y 瞳面",
+        "physicalId": "M3 Y 瞳面",
+        "kind": "mirror",
+        "module": "xy",
+        "center": [
+          230,
+          67,
+          57
+        ],
+        "normal": [
+          0.7071067811865475,
+          -0.7071067811865475,
+          0
+        ],
+        "axis": [
+          0.030882469977609944,
+          0.030882469977609944,
+          -0.9990458178162621
+        ],
+        "apertureU": [
+          -0.7064320724939391,
+          -0.7064320724939391,
+          -0.04367440788191592
+        ],
+        "apertureV": [
+          0.030882469977609944,
+          0.030882469977609944,
+          -0.9990458178162621
+        ],
+        "outerWidth": 52,
+        "outerHeight": 40,
+        "thickness": 2,
+        "edgeAllowance": 1,
+        "cornerCutMm": 3,
+        "part": "定制平面反射镜",
+        "mountSign": -1,
+        "outlineStatus": "切角 3 mm / 固定镜 1 mm；熔石英 2 mm 厚，独立安装边缘",
+        "clearRegionStatus": "周边 1 mm 禁入；背面装夹/胶合，515 nm 指定 AOI 镀膜待供应商验证",
+        "custom": true
+      },
+      {
+        "role": "紧凑中继，正反安装各两件",
+        "vendor": "项目定制候选",
+        "part": "CUSTOM-R60",
+        "shape": "胶合消色差双片",
+        "material": "N-BAF10/N-SF10",
+        "radius1Mm": 41.504,
+        "radius2Mm": -247.56,
+        "centerThicknessMm": 19.6,
+        "edgeThicknessMm": 13.656,
+        "outerDiameterMm": 40,
+        "clearDiameterMm": 38,
+        "nominalEflMm": 60,
+        "nominalBflMm": 48.936,
+        "specificationWavelengthNm": 587.6,
+        "coating": "定制 515 nm AR；适用脉宽/能量、吸收和胶合层负载待鉴定",
+        "sourceUrl": "https://www.edmundoptics.com/capabilities/laser-optics/manufacturing/",
+        "file": "CUSTOM-R60-515-geometry.zmx",
+        "referenceFolder": "v6-catalog",
+        "publishedPrescription": false,
+        "prescription": [
+          {
+            "radiusMm": 41.504000000000005,
+            "thicknessMm": 16,
+            "glassAfter": "N-BAF10",
+            "conic": -2.81
+          },
+          {
+            "radiusMm": -26.232,
+            "thicknessMm": 3.6,
+            "glassAfter": "N-SF10",
+            "conic": 0
+          },
+          {
+            "radiusMm": -247.56,
+            "thicknessMm": 0,
+            "glassAfter": "AIR",
+            "conic": -5.21
+          }
+        ],
+        "custom": true,
+        "provenance": "公开 49-292 球面处方等比例 0.8 缩放的设计起点；不是 Edmund 商品，不代表优化完成或厂家接受加工",
+        "name": "R1 XY 逆向中继",
+        "kind": "lens",
+        "module": "xy",
+        "center": [
+          230,
+          115.81667314546402,
+          57
+        ],
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "moving": false,
+        "reversed": true,
+        "clearDiameter": 38,
+        "focalLength": 59.90227987535338
+      },
+      {
+        "name": "F5 XY 中继折转",
+        "physicalId": "F5 XY 中继折转",
+        "kind": "mirror",
+        "module": "xy",
+        "center": [
+          230,
+          230.00000000000003,
+          57
+        ],
+        "normal": [
+          0.7071067811865475,
+          0.7071067811865475,
+          0
+        ],
+        "axis": null,
+        "apertureU": [
+          -0.7071067811865475,
+          0.7071067811865475,
+          0
+        ],
+        "apertureV": [
+          0,
+          0,
+          1
+        ],
+        "outerWidth": 44,
+        "outerHeight": 34,
+        "thickness": 2,
+        "edgeAllowance": 1,
+        "cornerCutMm": 1,
+        "part": "定制平面反射镜",
+        "mountSign": 1,
+        "outlineStatus": "切角 3 mm / 固定镜 1 mm；熔石英 2 mm 厚，独立安装边缘",
+        "clearRegionStatus": "周边 1 mm 禁入；背面装夹/胶合，515 nm 指定 AOI 镀膜待供应商验证",
+        "custom": true
+      },
+      {
+        "role": "紧凑中继，正反安装各两件",
+        "vendor": "项目定制候选",
+        "part": "CUSTOM-R60",
+        "shape": "胶合消色差双片",
+        "material": "N-BAF10/N-SF10",
+        "radius1Mm": 41.504,
+        "radius2Mm": -247.56,
+        "centerThicknessMm": 19.6,
+        "edgeThicknessMm": 13.656,
+        "outerDiameterMm": 40,
+        "clearDiameterMm": 38,
+        "nominalEflMm": 60,
+        "nominalBflMm": 48.936,
+        "specificationWavelengthNm": 587.6,
+        "coating": "定制 515 nm AR；适用脉宽/能量、吸收和胶合层负载待鉴定",
+        "sourceUrl": "https://www.edmundoptics.com/capabilities/laser-optics/manufacturing/",
+        "file": "CUSTOM-R60-515-geometry.zmx",
+        "referenceFolder": "v6-catalog",
+        "publishedPrescription": false,
+        "prescription": [
+          {
+            "radiusMm": 41.504000000000005,
+            "thicknessMm": 16,
+            "glassAfter": "N-BAF10",
+            "conic": -2.81
+          },
+          {
+            "radiusMm": -26.232,
+            "thicknessMm": 3.6,
+            "glassAfter": "N-SF10",
+            "conic": 0
+          },
+          {
+            "radiusMm": -247.56,
+            "thicknessMm": 0,
+            "glassAfter": "AIR",
+            "conic": -5.21
+          }
+        ],
+        "custom": true,
+        "provenance": "公开 49-292 球面处方等比例 0.8 缩放的设计起点；不是 Edmund 商品，不代表优化完成或厂家接受加工",
+        "name": "R2 XY 正向中继",
+        "kind": "lens",
+        "module": "xy",
+        "center": [
+          206.1892700019564,
+          230.00000000000003,
+          57
+        ],
+        "axis": [
+          -1,
+          0,
+          0
+        ],
+        "moving": false,
+        "reversed": false,
+        "clearDiameter": 38,
+        "focalLength": 59.90227987535338
+      },
+      {
+        "name": "M4 X 瞳面",
+        "physicalId": "M4 X 瞳面",
+        "kind": "mirror",
+        "module": "xy",
+        "center": [
+          137.77259685649236,
+          230.00000000000003,
+          57
+        ],
+        "normal": [
+          -0.682482768148932,
+          0.09675619869180552,
+          -0.7244691223195664
+        ],
+        "axis": [
+          -0.17190355860177828,
+          -0.9846434580374614,
+          0.030437264727216348
+        ],
+        "apertureU": [
+          0.710398787808521,
+          -0.14531172890975294,
+          -0.6886349277530457
+        ],
+        "apertureV": [
+          -0.17190355860177828,
+          -0.9846434580374614,
+          0.030437264727216348
+        ],
+        "outerWidth": 52,
+        "outerHeight": 40,
+        "thickness": 2,
+        "edgeAllowance": 1,
+        "cornerCutMm": 3,
+        "part": "定制平面反射镜",
+        "mountSign": 1,
+        "outlineStatus": "切角 3 mm / 固定镜 1 mm；熔石英 2 mm 厚，独立安装边缘",
+        "clearRegionStatus": "周边 1 mm 禁入；背面装夹/胶合，515 nm 指定 AOI 镀膜待供应商验证",
+        "custom": true
+      },
+      {
+        "role": "定制末级中继",
+        "vendor": "项目定制候选",
+        "part": "CUSTOM-R75",
+        "shape": "胶合消色差双片",
+        "material": "N-BAF10/N-SF10",
+        "radius1Mm": 51.88,
+        "radius2Mm": -309.45,
+        "centerThicknessMm": 24.5,
+        "edgeThicknessMm": 17.07,
+        "outerDiameterMm": 50,
+        "clearDiameterMm": 49,
+        "nominalEflMm": 75,
+        "nominalBflMm": 61.17,
+        "specificationWavelengthNm": 587.6,
+        "coating": "515 nm AR；胶合层、脉冲负载待鉴定",
+        "sourceUrl": "https://www.edmundoptics.com/p/50mm-dia-x-75mm-fl-vis-0deg-coated-achromatic-lens-/9643/",
+        "file": "CUSTOM-R75-515-geometry.zmx",
+        "referenceFolder": "v6-catalog",
+        "publishedPrescription": false,
+        "prescription": [
+          {
+            "radiusMm": 51.88,
+            "thicknessMm": 20,
+            "glassAfter": "N-BAF10",
+            "conic": -1.99
+          },
+          {
+            "radiusMm": -32.79,
+            "thicknessMm": 4.5,
+            "glassAfter": "N-SF10",
+            "conic": 0
+          },
+          {
+            "radiusMm": -309.45,
+            "thicknessMm": 0,
+            "glassAfter": "AIR",
+            "conic": -4.73
+          }
+        ],
+        "custom": true,
+        "provenance": "以公开 49-292 为起点优化非球面，非厂家商品",
+        "name": "P1 出光逆向中继",
+        "kind": "lens",
+        "module": "xy",
+        "center": [
+          133.59666349871088,
+          221.94104602062305,
+          117.34200800767402
+        ],
+        "axis": [
+          -0.06843454235954206,
+          -0.13206887663750302,
+          0.9888753840781699
+        ],
+        "moving": false,
+        "reversed": true,
+        "clearDiameter": 49,
+        "focalLength": 74.8778498441917
+      },
+      {
+        "name": "F6 固定出光折转",
+        "physicalId": "F6 固定出光折转",
+        "kind": "mirror",
+        "module": "xy",
+        "center": [
+          130,
+          215,
+          169.3135983195035
+        ],
+        "normal": [
+          -0.5484533490721087,
+          -0.011704556885273594,
+          0.8360992328902753
+        ],
+        "axis": null,
+        "apertureU": [
+          0.02133616734616451,
+          -0.9997723580710642,
+          1.734723475976807e-18
+        ],
+        "apertureV": [
+          0.8359089016481185,
+          0.01783915315094669,
+          0.5485782284782119
+        ],
+        "outerWidth": 48,
+        "outerHeight": 38,
+        "thickness": 2,
+        "edgeAllowance": 1,
+        "cornerCutMm": 1,
+        "part": "定制平面反射镜",
+        "mountSign": 1,
+        "outlineStatus": "切角 3 mm / 固定镜 1 mm；熔石英 2 mm 厚，独立安装边缘",
+        "clearRegionStatus": "周边 1 mm 禁入；背面装夹/胶合，515 nm 指定 AOI 镀膜待供应商验证",
+        "custom": true
+      },
+      {
+        "role": "定制末级中继",
+        "vendor": "项目定制候选",
+        "part": "CUSTOM-R75",
+        "shape": "胶合消色差双片",
+        "material": "N-BAF10/N-SF10",
+        "radius1Mm": 51.88,
+        "radius2Mm": -309.45,
+        "centerThicknessMm": 24.5,
+        "edgeThicknessMm": 17.07,
+        "outerDiameterMm": 50,
+        "clearDiameterMm": 49,
+        "nominalEflMm": 75,
+        "nominalBflMm": 61.17,
+        "specificationWavelengthNm": 587.6,
+        "coating": "515 nm AR；胶合层、脉冲负载待鉴定",
+        "sourceUrl": "https://www.edmundoptics.com/p/50mm-dia-x-75mm-fl-vis-0deg-coated-achromatic-lens-/9643/",
+        "file": "CUSTOM-R75-515-geometry.zmx",
+        "referenceFolder": "v6-catalog",
+        "publishedPrescription": false,
+        "prescription": [
+          {
+            "radiusMm": 51.88,
+            "thicknessMm": 20,
+            "glassAfter": "N-BAF10",
+            "conic": -1.99
+          },
+          {
+            "radiusMm": -32.79,
+            "thicknessMm": 4.5,
+            "glassAfter": "N-SF10",
+            "conic": 0
+          },
+          {
+            "radiusMm": -309.45,
+            "thicknessMm": 0,
+            "glassAfter": "AIR",
+            "conic": -4.73
+          }
+        ],
+        "custom": true,
+        "provenance": "以公开 49-292 为起点优化非球面，非厂家商品",
+        "name": "P2 出光正向中继",
+        "kind": "lens",
+        "module": "xy",
+        "center": [
+          235.7060659932667,
+          201.59118436124731,
+          114.25771446693071
+        ],
+        "axis": [
+          0.8813516418312495,
+          -0.11179946550068369,
+          -0.4590426591887972
+        ],
+        "moving": false,
+        "reversed": false,
+        "clearDiameter": 49,
+        "focalLength": 74.8778498441917
+      },
+      {
+        "name": "F7 固定出光折转",
+        "physicalId": "F7 固定出光折转",
+        "kind": "mirror",
+        "module": "xy",
+        "center": [
+          311.08,
+          192.03,
+          75
+        ],
+        "normal": [
+          0.847330249233866,
+          -0.1074838514739447,
+          0.5200756391195432
+        ],
+        "axis": null,
+        "apertureU": [
+          0.12584159755971105,
+          0.9920503476757718,
+          6.938893903907227e-18
+        ],
+        "apertureV": [
+          -0.5159412186062422,
+          0.0654471492786911,
+          0.8541202079300073
+        ],
+        "outerWidth": 72,
+        "outerHeight": 60,
+        "thickness": 2,
+        "edgeAllowance": 1,
+        "cornerCutMm": 1,
+        "part": "定制平面反射镜",
+        "mountSign": 1,
+        "outlineStatus": "切角 3 mm / 固定镜 1 mm；熔石英 2 mm 厚，独立安装边缘",
+        "clearRegionStatus": "周边 1 mm 禁入；背面装夹/胶合，515 nm 指定 AOI 镀膜待供应商验证",
+        "custom": true
+      },
+      {
+        "role": "定制物镜",
+        "vendor": "项目定制候选",
+        "part": "CUSTOM-O75",
+        "shape": "胶合消色差双片",
+        "material": "N-BAF10/N-SF10",
+        "radius1Mm": 51.88,
+        "radius2Mm": -309.45,
+        "centerThicknessMm": 24.5,
+        "edgeThicknessMm": 17.07,
+        "outerDiameterMm": 50,
+        "clearDiameterMm": 49,
+        "nominalEflMm": 75,
+        "nominalBflMm": 61.17,
+        "specificationWavelengthNm": 587.6,
+        "coating": "515 nm AR；胶合层、脉冲负载待鉴定",
+        "sourceUrl": "https://www.edmundoptics.com/p/50mm-dia-x-75mm-fl-vis-0deg-coated-achromatic-lens-/9643/",
+        "file": "CUSTOM-O75-515-geometry.zmx",
+        "referenceFolder": "v6-catalog",
+        "publishedPrescription": false,
+        "prescription": [
+          {
+            "radiusMm": 51.88,
+            "thicknessMm": 20,
+            "glassAfter": "N-BAF10",
+            "conic": -0.62
+          },
+          {
+            "radiusMm": -32.79,
+            "thicknessMm": 4.5,
+            "glassAfter": "N-SF10",
+            "conic": 0
+          },
+          {
+            "radiusMm": -309.45,
+            "thicknessMm": 0,
+            "glassAfter": "AIR",
+            "conic": -3.67
+          }
+        ],
+        "custom": true,
+        "provenance": "以公开 49-292 为起点优化非球面，非厂家商品",
+        "name": "O 75 mm 固定物镜候选",
+        "kind": "lens",
+        "module": "objective",
+        "center": [
+          311.08,
+          192.03,
+          1.003714467137769
+        ],
+        "axis": [
+          0,
+          0,
+          -1
+        ],
+        "moving": false,
+        "reversed": false,
+        "clearDiameter": 49,
+        "focalLength": 74.8778498441917
+      },
+      {
+        "role": "W 保护窗候选",
+        "vendor": "Edmund Optics",
+        "part": "72-416",
+        "material": "Corning 7980",
+        "radius1Mm": null,
+        "radius2Mm": null,
+        "conic1": 0,
+        "conic2": 0,
+        "centerThicknessMm": 3,
+        "outerDiameterMm": 50,
+        "clearDiameterMm": 45,
+        "coating": "VIS 0°，425–675 nm",
+        "sourceUrl": "https://www.edmundoptics.com/p/50mm-dia-3mm-thick-vis-0-coated-4-fused-silica-window/53776/",
+        "file": null,
+        "materialRecipe": {
+          "equation": "n²−1 = Σ B_i·λ²/(λ²−C_i)，λ 用 μm",
+          "temperatureC": 22,
+          "b": [
+            0.683740494,
+            0.420323613,
+            0.58502748
+          ],
+          "cUmSquared": [
+            0.00460352869,
+            0.0133968856,
+            64.4932732
+          ],
+          "sourceUrl": "https://www.corning.com/media/worldwide/csm/documents/HPFS_7980_Germicidal_Irradiation.pdf"
+        },
+        "name": "W 保护窗",
+        "kind": "window",
+        "module": "objective",
+        "center": [
+          311.08,
+          192.03,
+          -58
+        ],
+        "axis": [
+          0,
+          0,
+          -1
+        ],
+        "moving": false,
+        "reversed": false,
+        "clearDiameter": 45,
+        "focalLength": null
+      }
+    ],
+    "objective": {
+      "role": "定制物镜",
+      "vendor": "项目定制候选",
+      "part": "CUSTOM-O75",
+      "shape": "胶合消色差双片",
+      "material": "N-BAF10/N-SF10",
+      "radius1Mm": 51.88,
+      "radius2Mm": -309.45,
+      "centerThicknessMm": 24.5,
+      "edgeThicknessMm": 17.07,
+      "outerDiameterMm": 50,
+      "clearDiameterMm": 49,
+      "nominalEflMm": 75,
+      "nominalBflMm": 61.17,
+      "specificationWavelengthNm": 587.6,
+      "coating": "515 nm AR；胶合层、脉冲负载待鉴定",
+      "sourceUrl": "https://www.edmundoptics.com/p/50mm-dia-x-75mm-fl-vis-0deg-coated-achromatic-lens-/9643/",
+      "file": "CUSTOM-O75-515-geometry.zmx",
+      "referenceFolder": "v6-catalog",
+      "publishedPrescription": false,
+      "prescription": [
+        {
+          "radiusMm": 51.88,
+          "thicknessMm": 20,
+          "glassAfter": "N-BAF10",
+          "conic": -0.62
+        },
+        {
+          "radiusMm": -32.79,
+          "thicknessMm": 4.5,
+          "glassAfter": "N-SF10",
+          "conic": 0
+        },
+        {
+          "radiusMm": -309.45,
+          "thicknessMm": 0,
+          "glassAfter": "AIR",
+          "conic": -3.67
+        }
+      ],
+      "custom": true,
+      "provenance": "以公开 49-292 为起点优化非球面，非厂家商品",
+      "name": "O 75 mm 固定物镜候选",
+      "kind": "lens",
+      "module": "objective",
+      "center": [
+        311.08,
+        192.03,
+        1.003714467137769
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "moving": false,
+      "reversed": false,
+      "clearDiameter": 49,
+      "focalLength": 74.8778498441917
+    },
+    "objectiveLenses": [
+      {
+        "role": "定制物镜",
+        "vendor": "项目定制候选",
+        "part": "CUSTOM-O75",
+        "shape": "胶合消色差双片",
+        "material": "N-BAF10/N-SF10",
+        "radius1Mm": 51.88,
+        "radius2Mm": -309.45,
+        "centerThicknessMm": 24.5,
+        "edgeThicknessMm": 17.07,
+        "outerDiameterMm": 50,
+        "clearDiameterMm": 49,
+        "nominalEflMm": 75,
+        "nominalBflMm": 61.17,
+        "specificationWavelengthNm": 587.6,
+        "coating": "515 nm AR；胶合层、脉冲负载待鉴定",
+        "sourceUrl": "https://www.edmundoptics.com/p/50mm-dia-x-75mm-fl-vis-0deg-coated-achromatic-lens-/9643/",
+        "file": "CUSTOM-O75-515-geometry.zmx",
+        "referenceFolder": "v6-catalog",
+        "publishedPrescription": false,
+        "prescription": [
+          {
+            "radiusMm": 51.88,
+            "thicknessMm": 20,
+            "glassAfter": "N-BAF10",
+            "conic": -0.62
+          },
+          {
+            "radiusMm": -32.79,
+            "thicknessMm": 4.5,
+            "glassAfter": "N-SF10",
+            "conic": 0
+          },
+          {
+            "radiusMm": -309.45,
+            "thicknessMm": 0,
+            "glassAfter": "AIR",
+            "conic": -3.67
+          }
+        ],
+        "custom": true,
+        "provenance": "以公开 49-292 为起点优化非球面，非厂家商品",
+        "name": "O 75 mm 固定物镜候选",
+        "kind": "lens",
+        "module": "objective",
+        "center": [
+          311.08,
+          192.03,
+          1.003714467137769
+        ],
+        "axis": [
+          0,
+          0,
+          -1
+        ],
+        "moving": false,
+        "reversed": false,
+        "clearDiameter": 49,
+        "focalLength": 74.8778498441917
+      }
+    ],
+    "protectiveWindow": {
+      "role": "W 保护窗候选",
+      "vendor": "Edmund Optics",
+      "part": "72-416",
+      "material": "Corning 7980",
+      "radius1Mm": null,
+      "radius2Mm": null,
+      "conic1": 0,
+      "conic2": 0,
+      "centerThicknessMm": 3,
+      "outerDiameterMm": 50,
+      "clearDiameterMm": 45,
+      "coating": "VIS 0°，425–675 nm",
+      "sourceUrl": "https://www.edmundoptics.com/p/50mm-dia-3mm-thick-vis-0-coated-4-fused-silica-window/53776/",
+      "file": null,
+      "materialRecipe": {
+        "equation": "n²−1 = Σ B_i·λ²/(λ²−C_i)，λ 用 μm",
+        "temperatureC": 22,
+        "b": [
+          0.683740494,
+          0.420323613,
+          0.58502748
+        ],
+        "cUmSquared": [
+          0.00460352869,
+          0.0133968856,
+          64.4932732
+        ],
+        "sourceUrl": "https://www.corning.com/media/worldwide/csm/documents/HPFS_7980_Germicidal_Irradiation.pdf"
+      },
+      "name": "W 保护窗",
+      "kind": "window",
+      "module": "objective",
+      "center": [
+        311.08,
+        192.03,
+        -58
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "moving": false,
+      "reversed": false,
+      "clearDiameter": 45,
+      "focalLength": null
+    },
+    "objectiveEffectiveFocalLengthMm": 74.8778498441917,
+    "magnification": 3.023993808049536,
+    "nominalWorkPlaneZ": -85.04412320799244,
+    "zLimitsMm": [
+      -6,
+      6
+    ],
+    "mirrorAngleLimitsDeg": [
+      -6,
+      6
+    ],
+    "wavelengthNm": 515,
+    "mSquared": 1.2,
+    "inputDiameterMm": 2,
+    "zFrontSeparationMm": 50.67190302791239,
+    "relayLengthMm": 255.22740314350764,
+    "aoiRelayLengthMm": 0,
+    "fourierLengthMm": 0,
+    "outputRelayLengthMm": 319.0342539293845,
+    "physicalMirrorCount": 13,
+    "controlledMirrorReflectionCount": 6,
+    "supports": [
+      {
+        "name": "Z 导轨与底座预留",
+        "assembly": "Z-rail",
+        "center": [
+          31,
+          92,
+          21
+        ],
+        "size": [
+          50,
+          24,
+          14
+        ]
+      },
+      {
+        "name": "Z1 滑台镜座预留",
+        "assembly": "Z1",
+        "center": [
+          18,
+          92,
+          34.025
+        ],
+        "size": [
+          10,
+          18,
+          12.05
+        ],
+        "moving": true
+      },
+      {
+        "name": "Z2 固定镜座预留",
+        "assembly": "Z2",
+        "center": [
+          68.67190302791239,
+          92,
+          23.85
+        ],
+        "size": [
+          14,
+          18,
+          19.7
+        ]
+      },
+      {
+        "name": "一体安装底板",
+        "assembly": "baseplate",
+        "center": [
+          131.75,
+          151.75,
+          10
+        ],
+        "size": [
+          243.5,
+          283.5,
+          8
+        ],
+        "mounting": "四角 M6 固定；顶面为安装基准 A，定位销建立 B/C"
+      },
+      {
+        "name": "M1 背部支臂",
+        "assembly": "M1",
+        "center": [
+          169.9748737341529,
+          52.52512626584708,
+          129
+        ],
+        "size": [
+          10,
+          10,
+          13
+        ],
+        "axes": [
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "mounting": "背面螺钉连接，避开净反射区"
+      },
+      {
+        "name": "M1 背部支臂",
+        "assembly": "M1",
+        "center": [
+          182.4748737341529,
+          33.52512626584708,
+          129
+        ],
+        "size": [
+          8,
+          8,
+          35.35533905932738
+        ],
+        "axes": [
+          [
+            0.7071067811865475,
+            0.7071067811865475,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0.7071067811865476,
+            -0.7071067811865476,
+            0
+          ]
+        ],
+        "mounting": "背面螺钉连接，避开净反射区"
+      },
+      {
+        "name": "M1 定位支座",
+        "assembly": "M1",
+        "center": [
+          194.9748737341529,
+          21.025126265847078,
+          74.5
+        ],
+        "size": [
+          14,
+          14,
+          109
+        ],
+        "attachesTo": [
+          "baseplate"
+        ],
+        "mounting": "底部两 M4＋圆销/菱形销；顶面垫片调整"
+      },
+      {
+        "name": "M1 支座底脚",
+        "assembly": "M1",
+        "center": [
+          194.9748737341529,
+          21.025126265847078,
+          17
+        ],
+        "size": [
+          28,
+          24,
+          6
+        ],
+        "attachesTo": [
+          "baseplate"
+        ]
+      },
+      {
+        "name": "M2 定位支座",
+        "assembly": "M2",
+        "center": [
+          109.52512626584708,
+          24,
+          35.76256313292354
+        ],
+        "size": [
+          14,
+          14,
+          31.525126265847078
+        ],
+        "attachesTo": [
+          "baseplate"
+        ],
+        "mounting": "底部两 M4＋圆销/菱形销；顶面垫片调整"
+      },
+      {
+        "name": "M2 支座底脚",
+        "assembly": "M2",
+        "center": [
+          109.52512626584708,
+          24,
+          17
+        ],
+        "size": [
+          28,
+          24,
+          6
+        ],
+        "attachesTo": [
+          "baseplate"
+        ]
+      },
+      {
+        "name": "M3 背部支臂",
+        "assembly": "M3",
+        "center": [
+          231.08516258516048,
+          38.635415116854645,
+          101.95706180173178
+        ],
+        "size": [
+          10,
+          10,
+          13
+        ],
+        "axes": [
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "mounting": "背面螺钉连接，避开净反射区"
+      },
+      {
+        "name": "M3 定位支座",
+        "assembly": "M3",
+        "center": [
+          231.08516258516048,
+          32.135415116854645,
+          60.97853090086589
+        ],
+        "size": [
+          14,
+          14,
+          81.95706180173178
+        ],
+        "attachesTo": [
+          "baseplate"
+        ],
+        "mounting": "底部两 M4＋圆销/菱形销；顶面垫片调整"
+      },
+      {
+        "name": "M3 支座底脚",
+        "assembly": "M3",
+        "center": [
+          231.08516258516048,
+          32.135415116854645,
+          17
+        ],
+        "size": [
+          28,
+          24,
+          6
+        ],
+        "attachesTo": [
+          "baseplate"
+        ]
+      },
+      {
+        "name": "M4 背部支臂",
+        "assembly": "M4",
+        "center": [
+          115.04355304156607,
+          155.43001616994556,
+          35.84330140210933
+        ],
+        "size": [
+          8,
+          8,
+          65
+        ],
+        "axes": [
+          [
+            0.9230769230769231,
+            -0.38461538461538464,
+            0
+          ],
+          [
+            0,
+            0,
+            1.0000000000000002
+          ],
+          [
+            -0.38461538461538464,
+            -0.9230769230769231,
+            0
+          ]
+        ],
+        "mounting": "背面螺钉连接，避开净反射区"
+      },
+      {
+        "name": "M4 定位支座",
+        "assembly": "M4",
+        "center": [
+          102.54355304156607,
+          125.43001616994556,
+          27.921650701054666
+        ],
+        "size": [
+          14,
+          14,
+          15.843301402109333
+        ],
+        "attachesTo": [
+          "baseplate"
+        ],
+        "mounting": "底部两 M4＋圆销/菱形销；顶面垫片调整"
+      },
+      {
+        "name": "M4 支座底脚",
+        "assembly": "M4",
+        "center": [
+          102.54355304156607,
+          125.43001616994556,
+          17
+        ],
+        "size": [
+          28,
+          24,
+          6
+        ],
+        "attachesTo": [
+          "baseplate"
+        ]
+      },
+      {
+        "name": "F0a 背部支臂",
+        "assembly": "F0a",
+        "center": [
+          99.36047734153024,
+          92,
+          42.11606316334802
+        ],
+        "size": [
+          8,
+          8,
+          18.000000000000004
+        ],
+        "axes": [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0.4284668727442344,
+            0,
+            0.9035574906782503
+          ],
+          [
+            0.9035574906782503,
+            0,
+            -0.4284668727442344
+          ]
+        ],
+        "mounting": "背面螺钉连接，避开净反射区"
+      },
+      {
+        "name": "F0a 背部支臂",
+        "assembly": "F0a",
+        "center": [
+          107.4924947576345,
+          79.5,
+          38.2598613086499
+        ],
+        "size": [
+          8,
+          8,
+          25
+        ],
+        "axes": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            -1,
+            0
+          ]
+        ],
+        "mounting": "背面螺钉连接，避开净反射区"
+      },
+      {
+        "name": "F0a 定位支座",
+        "assembly": "F0a",
+        "center": [
+          107.4924947576345,
+          67,
+          29.12993065432495
+        ],
+        "size": [
+          10,
+          10,
+          18.259861308649903
+        ],
+        "attachesTo": [
+          "baseplate"
+        ],
+        "mounting": "底部两 M4＋圆销/菱形销；顶面垫片调整"
+      },
+      {
+        "name": "F0a 支座底脚",
+        "assembly": "F0a",
+        "center": [
+          107.4924947576345,
+          67,
+          17
+        ],
+        "size": [
+          28,
+          24,
+          6
+        ],
+        "attachesTo": [
+          "baseplate"
+        ]
+      },
+      {
+        "name": "F0b 背部支臂",
+        "assembly": "F0b",
+        "center": [
+          34.63952265846975,
+          92,
+          98.28393683665199
+        ],
+        "size": [
+          8,
+          8,
+          18
+        ],
+        "axes": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            0.42846687274423484,
+            0,
+            0.9035574906782499
+          ],
+          [
+            -0.9035574906782499,
+            0,
+            0.42846687274423484
+          ]
+        ],
+        "mounting": "背面螺钉连接，避开净反射区"
+      },
+      {
+        "name": "F0b 背部支臂",
+        "assembly": "F0b",
+        "center": [
+          26.5075052423655,
+          112,
+          102.1401386913501
+        ],
+        "size": [
+          8,
+          8,
+          40
+        ],
+        "axes": [
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "mounting": "背面螺钉连接，避开净反射区"
+      },
+      {
+        "name": "F0b 定位支座",
+        "assembly": "F0b",
+        "center": [
+          26.5075052423655,
+          132,
+          61.07006934567505
+        ],
+        "size": [
+          10,
+          10,
+          82.1401386913501
+        ],
+        "attachesTo": [
+          "baseplate"
+        ],
+        "mounting": "底部两 M4＋圆销/菱形销；顶面垫片调整"
+      },
+      {
+        "name": "F0b 支座底脚",
+        "assembly": "F0b",
+        "center": [
+          26.5075052423655,
+          132,
+          17
+        ],
+        "size": [
+          28,
+          24,
+          6
+        ],
+        "attachesTo": [
+          "baseplate"
+        ]
+      },
+      {
+        "name": "F1 背部支臂",
+        "assembly": "F1",
+        "center": [
+          192.0208152801713,
+          155.0208152801713,
+          91
+        ],
+        "size": [
+          8,
+          8,
+          18.000000000000025
+        ],
+        "axes": [
+          [
+            -0.7071067811865475,
+            0.7071067811865475,
+            0
+          ],
+          [
+            0,
+            0,
+            0.9999999999999998
+          ],
+          [
+            0.7071067811865475,
+            0.7071067811865475,
+            0
+          ]
+        ],
+        "mounting": "背面螺钉连接，避开净反射区"
+      },
+      {
+        "name": "F1 定位支座",
+        "assembly": "F1",
+        "center": [
+          198.38477631085024,
+          161.38477631085024,
+          55.5
+        ],
+        "size": [
+          10,
+          10,
+          71
+        ],
+        "attachesTo": [
+          "baseplate"
+        ],
+        "mounting": "底部两 M4＋圆销/菱形销；顶面垫片调整"
+      },
+      {
+        "name": "F1 支座底脚",
+        "assembly": "F1",
+        "center": [
+          198.38477631085024,
+          161.38477631085024,
+          17
+        ],
+        "size": [
+          28,
+          24,
+          6
+        ],
+        "attachesTo": [
+          "baseplate"
+        ]
+      },
+      {
+        "name": "F2 背部支臂",
+        "assembly": "F2",
+        "center": [
+          142.9791847198287,
+          155.0208152801713,
+          91
+        ],
+        "size": [
+          8,
+          8,
+          18.000000000000025
+        ],
+        "axes": [
+          [
+            -0.7071067811865475,
+            -0.7071067811865475,
+            0
+          ],
+          [
+            0,
+            0,
+            0.9999999999999998
+          ],
+          [
+            -0.7071067811865475,
+            0.7071067811865475,
+            0
+          ]
+        ],
+        "mounting": "背面螺钉连接，避开净反射区"
+      },
+      {
+        "name": "F2 背部支臂",
+        "assembly": "F2",
+        "center": [
+          116.61522368914976,
+          161.38477631085024,
+          91
+        ],
+        "size": [
+          8,
+          8,
+          40
+        ],
+        "axes": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            -1,
+            0,
+            0
+          ]
+        ],
+        "mounting": "背面螺钉连接，避开净反射区"
+      },
+      {
+        "name": "F2 定位支座",
+        "assembly": "F2",
+        "center": [
+          96.61522368914976,
+          161.38477631085024,
+          55.5
+        ],
+        "size": [
+          10,
+          10,
+          71
+        ],
+        "attachesTo": [
+          "baseplate"
+        ],
+        "mounting": "底部两 M4＋圆销/菱形销；顶面垫片调整"
+      },
+      {
+        "name": "F2 支座底脚",
+        "assembly": "F2",
+        "center": [
+          96.61522368914976,
+          161.38477631085024,
+          17
+        ],
+        "size": [
+          28,
+          24,
+          6
+        ],
+        "attachesTo": [
+          "baseplate"
+        ]
+      },
+      {
+        "name": "F3 背部支臂",
+        "assembly": "F3",
+        "center": [
+          82.97918471982868,
+          67,
+          175.0208152801713
+        ],
+        "size": [
+          8,
+          8,
+          18.000000000000014
+        ],
+        "axes": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            0.7071067811865479,
+            0,
+            0.7071067811865471
+          ],
+          [
+            -0.7071067811865471,
+            0,
+            0.7071067811865479
+          ]
+        ],
+        "mounting": "背面螺钉连接，避开净反射区"
+      },
+      {
+        "name": "F3 背部支臂",
+        "assembly": "F3",
+        "center": [
+          64.11522368914976,
+          54.5,
+          181.38477631085024
+        ],
+        "size": [
+          8,
+          8,
+          35.35533905932738
+        ],
+        "axes": [
+          [
+            0.7071067811865475,
+            -0.7071067811865475,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            -0.7071067811865476,
+            -0.7071067811865476,
+            0
+          ]
+        ],
+        "mounting": "背面螺钉连接，避开净反射区"
+      },
+      {
+        "name": "F3 定位支座",
+        "assembly": "F3",
+        "center": [
+          51.61522368914976,
+          42,
+          100.69238815542512
+        ],
+        "size": [
+          10,
+          10,
+          161.38477631085024
+        ],
+        "attachesTo": [
+          "baseplate"
+        ],
+        "mounting": "底部两 M4＋圆销/菱形销；顶面垫片调整"
+      },
+      {
+        "name": "F3 支座底脚",
+        "assembly": "F3",
+        "center": [
+          51.61522368914976,
+          42,
+          17
+        ],
+        "size": [
+          28,
+          24,
+          6
+        ],
+        "attachesTo": [
+          "baseplate"
+        ]
+      },
+      {
+        "name": "F4 背部支臂",
+        "assembly": "F4",
+        "center": [
+          141.0208152801713,
+          67,
+          175.0208152801713
+        ],
+        "size": [
+          8,
+          8,
+          18.000000000000025
+        ],
+        "axes": [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            -0.7071067811865475,
+            0,
+            0.7071067811865475
+          ],
+          [
+            0.7071067811865475,
+            0,
+            0.7071067811865475
+          ]
+        ],
+        "mounting": "背面螺钉连接，避开净反射区"
+      },
+      {
+        "name": "F4 背部支臂",
+        "assembly": "F4",
+        "center": [
+          147.38477631085024,
+          47,
+          181.38477631085024
+        ],
+        "size": [
+          8,
+          8,
+          40
+        ],
+        "axes": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            -1,
+            0
+          ]
+        ],
+        "mounting": "背面螺钉连接，避开净反射区"
+      },
+      {
+        "name": "F4 定位支座",
+        "assembly": "F4",
+        "center": [
+          147.38477631085024,
+          27,
+          100.69238815542512
+        ],
+        "size": [
+          10,
+          10,
+          161.38477631085024
+        ],
+        "attachesTo": [
+          "baseplate"
+        ],
+        "mounting": "底部两 M4＋圆销/菱形销；顶面垫片调整"
+      },
+      {
+        "name": "F4 支座底脚",
+        "assembly": "F4",
+        "center": [
+          147.38477631085024,
+          27,
+          17
+        ],
+        "size": [
+          28,
+          24,
+          6
+        ],
+        "attachesTo": [
+          "baseplate"
+        ]
+      },
+      {
+        "name": "F5 背部支臂",
+        "assembly": "F5",
+        "center": [
+          242.0208152801713,
+          242.02081528017135,
+          57
+        ],
+        "size": [
+          8,
+          8,
+          18.000000000000025
+        ],
+        "axes": [
+          [
+            -0.7071067811865475,
+            0.7071067811865475,
+            0
+          ],
+          [
+            0,
+            0,
+            0.9999999999999998
+          ],
+          [
+            0.7071067811865475,
+            0.7071067811865475,
+            0
+          ]
+        ],
+        "mounting": "背面螺钉连接，避开净反射区"
+      },
+      {
+        "name": "F5 背部支臂",
+        "assembly": "F5",
+        "center": [
+          235.88477631085024,
+          260.88477631085027,
+          57
+        ],
+        "size": [
+          8,
+          8,
+          35.35533905932738
+        ],
+        "axes": [
+          [
+            -0.7071067811865475,
+            -0.7071067811865475,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            -0.7071067811865476,
+            0.7071067811865476,
+            0
+          ]
+        ],
+        "mounting": "背面螺钉连接，避开净反射区"
+      },
+      {
+        "name": "F5 定位支座",
+        "assembly": "F5",
+        "center": [
+          223.38477631085024,
+          273.38477631085027,
+          38.5
+        ],
+        "size": [
+          10,
+          10,
+          37
+        ],
+        "attachesTo": [
+          "baseplate"
+        ],
+        "mounting": "底部两 M4＋圆销/菱形销；顶面垫片调整"
+      },
+      {
+        "name": "F5 支座底脚",
+        "assembly": "F5",
+        "center": [
+          223.38477631085024,
+          273.38477631085027,
+          17
+        ],
+        "size": [
+          28,
+          24,
+          6
+        ],
+        "attachesTo": [
+          "baseplate"
+        ]
+      },
+      {
+        "name": "F6 背部支臂",
+        "assembly": "F6",
+        "center": [
+          120.67629306577416,
+          214.80102253295036,
+          183.5272852786382
+        ],
+        "size": [
+          8,
+          8,
+          17.999999999999996
+        ],
+        "axes": [
+          [
+            0.02133616734616566,
+            -0.9997723580710642,
+            0
+          ],
+          [
+            0.8359089016481185,
+            0.017839153150947647,
+            0.5485782284782118
+          ],
+          [
+            -0.548453349072109,
+            -0.011704556885274229,
+            0.8360992328902753
+          ]
+        ],
+        "mounting": "背面螺钉连接，避开净反射区"
+      },
+      {
+        "name": "F6 背部支臂",
+        "assembly": "F6",
+        "center": [
+          103.24021292412517,
+          227.19568152098287,
+          191.05217837465068
+        ],
+        "size": [
+          8,
+          8,
+          35.35533905932738
+        ],
+        "axes": [
+          [
+            -0.7071067811865475,
+            -0.7071067811865475,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            -0.7071067811865476,
+            0.7071067811865476,
+            0
+          ]
+        ],
+        "mounting": "背面螺钉连接，避开净反射区"
+      },
+      {
+        "name": "F6 定位支座",
+        "assembly": "F6",
+        "center": [
+          90.74021292412517,
+          239.69568152098287,
+          105.52608918732534
+        ],
+        "size": [
+          10,
+          10,
+          171.05217837465068
+        ],
+        "attachesTo": [
+          "baseplate"
+        ],
+        "mounting": "底部两 M4＋圆销/菱形销；顶面垫片调整"
+      },
+      {
+        "name": "F6 支座底脚",
+        "assembly": "F6",
+        "center": [
+          90.74021292412517,
+          239.69568152098287,
+          17
+        ],
+        "size": [
+          28,
+          24,
+          6
+        ],
+        "attachesTo": [
+          "baseplate"
+        ]
+      },
+      {
+        "name": "R1 定位支座",
+        "assembly": "R1",
+        "center": [
+          230,
+          125.61667314546402,
+          27.5
+        ],
+        "size": [
+          14,
+          14,
+          15
+        ],
+        "attachesTo": [
+          "baseplate"
+        ],
+        "mounting": "底部两 M4＋圆销/菱形销；顶面垫片调整"
+      },
+      {
+        "name": "R1 支座底脚",
+        "assembly": "R1",
+        "center": [
+          230,
+          125.61667314546402,
+          17
+        ],
+        "size": [
+          28,
+          24,
+          6
+        ],
+        "attachesTo": [
+          "baseplate"
+        ]
+      },
+      {
+        "name": "R2 定位支座",
+        "assembly": "R2",
+        "center": [
+          196.3892700019564,
+          230.00000000000003,
+          27.5
+        ],
+        "size": [
+          14,
+          14,
+          15
+        ],
+        "attachesTo": [
+          "baseplate"
+        ],
+        "mounting": "底部两 M4＋圆销/菱形销；顶面垫片调整"
+      },
+      {
+        "name": "R2 支座底脚",
+        "assembly": "R2",
+        "center": [
+          196.3892700019564,
+          230.00000000000003,
+          17
+        ],
+        "size": [
+          28,
+          24,
+          6
+        ],
+        "attachesTo": [
+          "baseplate"
+        ]
+      },
+      {
+        "name": "P1 背部支臂",
+        "assembly": "P1",
+        "center": [
+          107.97449335551616,
+          196.61713487714093,
+          125.4395801827195
+        ],
+        "size": [
+          8,
+          8,
+          25
+        ],
+        "axes": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            -1,
+            0,
+            0
+          ]
+        ],
+        "mounting": "背面螺钉连接，避开净反射区"
+      },
+      {
+        "name": "P1 定位支座",
+        "assembly": "P1",
+        "center": [
+          95.47449335551616,
+          196.61713487714093,
+          72.71979009135976
+        ],
+        "size": [
+          14,
+          14,
+          105.4395801827195
+        ],
+        "attachesTo": [
+          "baseplate"
+        ],
+        "mounting": "底部两 M4＋圆销/菱形销；顶面垫片调整"
+      },
+      {
+        "name": "P1 支座底脚",
+        "assembly": "P1",
+        "center": [
+          95.47449335551616,
+          196.61713487714093,
+          17
+        ],
+        "size": [
+          28,
+          24,
+          6
+        ],
+        "attachesTo": [
+          "baseplate"
+        ]
+      },
+      {
+        "name": "跨壁法兰侧边",
+        "assembly": "output-carrier",
+        "center": [
+          263.5,
+          150,
+          112
+        ],
+        "size": [
+          10,
+          8,
+          116
+        ],
+        "attachesTo": []
+      },
+      {
+        "name": "跨壁法兰侧边",
+        "assembly": "output-carrier",
+        "center": [
+          263.5,
+          250,
+          112
+        ],
+        "size": [
+          10,
+          8,
+          116
+        ],
+        "attachesTo": []
+      },
+      {
+        "name": "跨壁法兰横边",
+        "assembly": "output-carrier",
+        "center": [
+          263.5,
+          200,
+          58
+        ],
+        "size": [
+          10,
+          92,
+          8
+        ],
+        "attachesTo": []
+      },
+      {
+        "name": "跨壁法兰横边",
+        "assembly": "output-carrier",
+        "center": [
+          263.5,
+          200,
+          166
+        ],
+        "size": [
+          10,
+          92,
+          8
+        ],
+        "attachesTo": []
+      },
+      {
+        "name": "output-carrier 背部支臂",
+        "assembly": "output-carrier",
+        "center": [
+          325.4846142369757,
+          190.20277452494292,
+          83.84128586503223
+        ],
+        "size": [
+          8,
+          8,
+          18.000000000000004
+        ],
+        "axes": [
+          [
+            0.12584159755971205,
+            0.9920503476757716,
+            0
+          ],
+          [
+            -0.5159412186062416,
+            0.06544714927869155,
+            0.8541202079300074
+          ],
+          [
+            0.8473302492338662,
+            -0.10748385147394557,
+            0.5200756391195429
+          ]
+        ],
+        "mounting": "背面螺钉连接，避开净反射区",
+        "attachesTo": [
+          "F7"
+        ]
+      },
+      {
+        "name": "output-carrier 背部支臂",
+        "assembly": "output-carrier",
+        "center": [
+          333.1105864800805,
+          219.6177099308387,
+          116.76098330855406
+        ],
+        "size": [
+          8,
+          8,
+          82.95843811322435
+        ],
+        "axes": [
+          [
+            -0.9999999999999999,
+            0,
+            0
+          ],
+          [
+            0,
+            -0.6807991407192218,
+            0.7324701563858894
+          ],
+          [
+            0,
+            0.7324701563858895,
+            0.6807991407192219
+          ]
+        ],
+        "mounting": "背面螺钉连接，避开净反射区"
+      },
+      {
+        "name": "output-carrier 背部支臂",
+        "assembly": "output-carrier",
+        "center": [
+          298.3052932400402,
+          250,
+          145
+        ],
+        "size": [
+          8,
+          8,
+          69.61058648008049
+        ],
+        "axes": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            -1,
+            0,
+            0
+          ]
+        ],
+        "mounting": "背面螺钉连接，避开净反射区"
+      },
+      {
+        "name": "出光镜筒外夹框",
+        "assembly": "output-carrier",
+        "center": [
+          280.08,
+          192.03,
+          -11.246285532862231
+        ],
+        "size": [
+          6,
+          68,
+          12
+        ],
+        "attachesTo": [
+          "O"
+        ]
+      },
+      {
+        "name": "出光镜筒外夹框",
+        "assembly": "output-carrier",
+        "center": [
+          311.08,
+          161.03,
+          -11.246285532862231
+        ],
+        "size": [
+          56,
+          6,
+          12
+        ],
+        "attachesTo": [
+          "O"
+        ]
+      },
+      {
+        "name": "出光镜筒外夹框",
+        "assembly": "output-carrier",
+        "center": [
+          342.08,
+          192.03,
+          -11.246285532862231
+        ],
+        "size": [
+          6,
+          68,
+          12
+        ],
+        "attachesTo": [
+          "O"
+        ]
+      },
+      {
+        "name": "出光镜筒外夹框",
+        "assembly": "output-carrier",
+        "center": [
+          311.08,
+          223.03,
+          -11.246285532862231
+        ],
+        "size": [
+          56,
+          6,
+          12
+        ],
+        "attachesTo": [
+          "O"
+        ]
+      },
+      {
+        "name": "出光镜筒外夹框",
+        "assembly": "output-carrier",
+        "center": [
+          280.08,
+          192.03,
+          -59.5
+        ],
+        "size": [
+          6,
+          68,
+          12
+        ],
+        "attachesTo": [
+          "W"
+        ]
+      },
+      {
+        "name": "出光镜筒外夹框",
+        "assembly": "output-carrier",
+        "center": [
+          311.08,
+          161.03,
+          -59.5
+        ],
+        "size": [
+          56,
+          6,
+          12
+        ],
+        "attachesTo": [
+          "W"
+        ]
+      },
+      {
+        "name": "出光镜筒外夹框",
+        "assembly": "output-carrier",
+        "center": [
+          342.08,
+          192.03,
+          -59.5
+        ],
+        "size": [
+          6,
+          68,
+          12
+        ],
+        "attachesTo": [
+          "W"
+        ]
+      },
+      {
+        "name": "出光镜筒外夹框",
+        "assembly": "output-carrier",
+        "center": [
+          311.08,
+          223.03,
+          -59.5
+        ],
+        "size": [
+          56,
+          6,
+          12
+        ],
+        "attachesTo": [
+          "W"
+        ]
+      },
+      {
+        "name": "物镜与窗口隔柱",
+        "assembly": "output-carrier",
+        "center": [
+          280.08,
+          161.03,
+          -35.373142766431116
+        ],
+        "size": [
+          6,
+          6,
+          48.25371446713777
+        ],
+        "attachesTo": [
+          "O",
+          "W"
+        ]
+      },
+      {
+        "name": "物镜与窗口隔柱",
+        "assembly": "output-carrier",
+        "center": [
+          280.08,
+          223.03,
+          -35.373142766431116
+        ],
+        "size": [
+          6,
+          6,
+          48.25371446713777
+        ],
+        "attachesTo": [
+          "O",
+          "W"
+        ]
+      },
+      {
+        "name": "物镜与窗口隔柱",
+        "assembly": "output-carrier",
+        "center": [
+          342.08,
+          161.03,
+          -35.373142766431116
+        ],
+        "size": [
+          6,
+          6,
+          48.25371446713777
+        ],
+        "attachesTo": [
+          "O",
+          "W"
+        ]
+      },
+      {
+        "name": "物镜与窗口隔柱",
+        "assembly": "output-carrier",
+        "center": [
+          342.08,
+          223.03,
+          -35.373142766431116
+        ],
+        "size": [
+          6,
+          6,
+          48.25371446713777
+        ],
+        "attachesTo": [
+          "O",
+          "W"
+        ]
+      },
+      {
+        "name": "output-carrier 背部支臂",
+        "assembly": "output-carrier",
+        "center": [
+          345.08,
+          221.015,
+          -11.246285532862231
+        ],
+        "size": [
+          8,
+          8,
+          57.97
+        ],
+        "axes": [
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "mounting": "背面螺钉连接，避开净反射区"
+      },
+      {
+        "name": "output-carrier 背部支臂",
+        "assembly": "output-carrier",
+        "center": [
+          304.28999999999996,
+          250,
+          23.376857233568884
+        ],
+        "size": [
+          8,
+          8,
+          107.00628233939672
+        ],
+        "axes": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            0.6471235521782788,
+            0,
+            0.7623851442782487
+          ],
+          [
+            -0.7623851442782487,
+            0,
+            0.6471235521782788
+          ]
+        ],
+        "mounting": "背面螺钉连接，避开净反射区"
+      }
+    ],
+    "mechanicalQualification": "分体可拆镜组与底板支座正在核对；定制球面处方和反射镜不表示已采购定型",
+    "limitations": [
+      "AOI 双程平移不设置聚焦镜；四实体执行轴、六次受控反射",
+      "中继内部束腰位于空段；各镜面负载仍须实测参数和镀膜证明",
+      "完整工作域、离轴衍射、公差和安装工艺分别验收"
+    ],
+    "clamps": [
+      {
+        "name": "M1 分体电机夹环",
+        "assembly": "M1",
+        "center": [
+          169.9748737341529,
+          77.02512626584708,
+          129
+        ],
+        "axis": [
+          0,
+          0,
+          1
+        ],
+        "radius": 22,
+        "innerRadius": 19,
+        "length": 12,
+        "isClamp": true
+      },
+      {
+        "name": "M2 分体电机夹环",
+        "assembly": "M2",
+        "center": [
+          109.52512626584708,
+          24,
+          71.52512626584708
+        ],
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "radius": 22,
+        "innerRadius": 19,
+        "length": 12,
+        "isClamp": true
+      },
+      {
+        "name": "M3 分体电机夹环",
+        "assembly": "M3",
+        "center": [
+          231.08516258516048,
+          63.135415116854645,
+          101.95706180173178
+        ],
+        "axis": [
+          0.030882469977609944,
+          0.030882469977609944,
+          -0.9990458178162621
+        ],
+        "radius": 22,
+        "innerRadius": 19,
+        "length": 12,
+        "isClamp": true
+      },
+      {
+        "name": "M4 分体电机夹环",
+        "assembly": "M4",
+        "center": [
+          127.64824703089108,
+          186.02969108373557,
+          55.834034984606255
+        ],
+        "axis": [
+          -0.17190355860177828,
+          -0.9846434580374614,
+          0.030437264727216348
+        ],
+        "radius": 22,
+        "innerRadius": 19,
+        "length": 12,
+        "isClamp": true
+      }
+    ],
+    "joints": [
+      {
+        "assembly": "M1",
+        "basePoint": [
+          194.9748737341529,
+          21.025126265847078,
+          14
+        ],
+        "fasteners": "2×M4，孔距 16 mm；1 圆销＋1 菱形销；预设计待强度/公差复核"
+      },
+      {
+        "assembly": "M2",
+        "basePoint": [
+          109.52512626584708,
+          24,
+          14
+        ],
+        "fasteners": "2×M4，孔距 16 mm；1 圆销＋1 菱形销；预设计待强度/公差复核"
+      },
+      {
+        "assembly": "M3",
+        "basePoint": [
+          231.08516258516048,
+          32.135415116854645,
+          14
+        ],
+        "fasteners": "2×M4，孔距 16 mm；1 圆销＋1 菱形销；预设计待强度/公差复核"
+      },
+      {
+        "assembly": "M4",
+        "basePoint": [
+          102.54355304156607,
+          125.43001616994556,
+          14
+        ],
+        "fasteners": "2×M4，孔距 16 mm；1 圆销＋1 菱形销；预设计待强度/公差复核"
+      },
+      {
+        "assembly": "F0a",
+        "basePoint": [
+          107.4924947576345,
+          67,
+          14
+        ],
+        "fasteners": "2×M4，孔距 16 mm；1 圆销＋1 菱形销；预设计待强度/公差复核"
+      },
+      {
+        "assembly": "F0b",
+        "basePoint": [
+          26.5075052423655,
+          132,
+          14
+        ],
+        "fasteners": "2×M4，孔距 16 mm；1 圆销＋1 菱形销；预设计待强度/公差复核"
+      },
+      {
+        "assembly": "F1",
+        "basePoint": [
+          198.38477631085024,
+          161.38477631085024,
+          14
+        ],
+        "fasteners": "2×M4，孔距 16 mm；1 圆销＋1 菱形销；预设计待强度/公差复核"
+      },
+      {
+        "assembly": "F2",
+        "basePoint": [
+          96.61522368914976,
+          161.38477631085024,
+          14
+        ],
+        "fasteners": "2×M4，孔距 16 mm；1 圆销＋1 菱形销；预设计待强度/公差复核"
+      },
+      {
+        "assembly": "F3",
+        "basePoint": [
+          51.61522368914976,
+          42,
+          14
+        ],
+        "fasteners": "2×M4，孔距 16 mm；1 圆销＋1 菱形销；预设计待强度/公差复核"
+      },
+      {
+        "assembly": "F4",
+        "basePoint": [
+          147.38477631085024,
+          27,
+          14
+        ],
+        "fasteners": "2×M4，孔距 16 mm；1 圆销＋1 菱形销；预设计待强度/公差复核"
+      },
+      {
+        "assembly": "F5",
+        "basePoint": [
+          223.38477631085024,
+          273.38477631085027,
+          14
+        ],
+        "fasteners": "2×M4，孔距 16 mm；1 圆销＋1 菱形销；预设计待强度/公差复核"
+      },
+      {
+        "assembly": "F6",
+        "basePoint": [
+          90.74021292412517,
+          239.69568152098287,
+          14
+        ],
+        "fasteners": "2×M4，孔距 16 mm；1 圆销＋1 菱形销；预设计待强度/公差复核"
+      },
+      {
+        "assembly": "R1",
+        "basePoint": [
+          230,
+          125.61667314546402,
+          14
+        ],
+        "fasteners": "2×M4，孔距 16 mm；1 圆销＋1 菱形销；预设计待强度/公差复核"
+      },
+      {
+        "assembly": "R2",
+        "basePoint": [
+          196.3892700019564,
+          230.00000000000003,
+          14
+        ],
+        "fasteners": "2×M4，孔距 16 mm；1 圆销＋1 菱形销；预设计待强度/公差复核"
+      },
+      {
+        "assembly": "P1",
+        "basePoint": [
+          95.47449335551616,
+          196.61713487714093,
+          14
+        ],
+        "fasteners": "2×M4，孔距 16 mm；1 圆销＋1 菱形销；预设计待强度/公差复核"
+      }
+    ],
+    "installation": [
+      {
+        "assembly": "M1",
+        "method": "分体夹环固定电机，短轴连接背部镜托；镜托预留角向调整，夹环从上方拆装",
+        "service": "电机沿轴向抽出前先拆镜托；线缆沿支座背面下行，不跨光路",
+        "status": "工程结构；电机实物、线缆接头与夹持长度待选型"
+      },
+      {
+        "assembly": "M2",
+        "method": "分体夹环固定电机，短轴连接背部镜托；镜托预留角向调整，夹环从上方拆装",
+        "service": "电机沿轴向抽出前先拆镜托；线缆沿支座背面下行，不跨光路",
+        "status": "工程结构；电机实物、线缆接头与夹持长度待选型"
+      },
+      {
+        "assembly": "M3",
+        "method": "分体夹环固定电机，短轴连接背部镜托；镜托预留角向调整，夹环从上方拆装",
+        "service": "电机沿轴向抽出前先拆镜托；线缆沿支座背面下行，不跨光路",
+        "status": "工程结构；电机实物、线缆接头与夹持长度待选型"
+      },
+      {
+        "assembly": "M4",
+        "method": "分体夹环固定电机，短轴连接背部镜托；镜托预留角向调整，夹环从上方拆装",
+        "service": "电机沿轴向抽出前先拆镜托；线缆沿支座背面下行，不跨光路",
+        "status": "工程结构；电机实物、线缆接头与夹持长度待选型"
+      },
+      {
+        "assembly": "F0a",
+        "method": "背面三点镜托＋短悬臂；两调节螺钉与弹性预紧；从顶盖装调后锁紧",
+        "status": "面形、预紧和热漂移待公差验证"
+      },
+      {
+        "assembly": "F0b",
+        "method": "背面三点镜托＋短悬臂；两调节螺钉与弹性预紧；从顶盖装调后锁紧",
+        "status": "面形、预紧和热漂移待公差验证"
+      },
+      {
+        "assembly": "F1",
+        "method": "背面三点镜托＋短悬臂；两调节螺钉与弹性预紧；从顶盖装调后锁紧",
+        "status": "面形、预紧和热漂移待公差验证"
+      },
+      {
+        "assembly": "F2",
+        "method": "背面三点镜托＋短悬臂；两调节螺钉与弹性预紧；从顶盖装调后锁紧",
+        "status": "面形、预紧和热漂移待公差验证"
+      },
+      {
+        "assembly": "F3",
+        "method": "背面三点镜托＋短悬臂；两调节螺钉与弹性预紧；从顶盖装调后锁紧",
+        "status": "面形、预紧和热漂移待公差验证"
+      },
+      {
+        "assembly": "F4",
+        "method": "背面三点镜托＋短悬臂；两调节螺钉与弹性预紧；从顶盖装调后锁紧",
+        "status": "面形、预紧和热漂移待公差验证"
+      },
+      {
+        "assembly": "F5",
+        "method": "背面三点镜托＋短悬臂；两调节螺钉与弹性预紧；从顶盖装调后锁紧",
+        "status": "面形、预紧和热漂移待公差验证"
+      },
+      {
+        "assembly": "F6",
+        "method": "背面三点镜托＋短悬臂；两调节螺钉与弹性预紧；从顶盖装调后锁紧",
+        "status": "面形、预紧和热漂移待公差验证"
+      },
+      {
+        "assembly": "R1",
+        "method": "可拆镜筒压圈＋分体抱箍，处方前顶点由轴肩和隔圈定位；整筒从顶盖吊出",
+        "status": "禁止压圈进入净口径；胶合与镀膜须确认脉冲负载"
+      },
+      {
+        "assembly": "R2",
+        "method": "可拆镜筒压圈＋分体抱箍，处方前顶点由轴肩和隔圈定位；整筒从顶盖吊出",
+        "status": "禁止压圈进入净口径；胶合与镀膜须确认脉冲负载"
+      },
+      {
+        "assembly": "P1",
+        "method": "可拆镜筒压圈＋分体抱箍，处方前顶点由轴肩和隔圈定位；整筒从顶盖吊出",
+        "status": "禁止压圈进入净口径；胶合与镀膜须确认脉冲负载"
+      },
+      {
+        "assembly": "output-carrier",
+        "method": "P2 跨壁法兰与外置固定镜头组件整体安装；环形净空容纳物镜/保护窗，窗口从底部拆换",
+        "status": "固定组件跨壁；法兰厚度、悬臂刚度、密封与定位公差待工程签核"
+      }
+    ],
+    "transferPort": {
+      "assembly": "P2",
+      "planeX": 263.5,
+      "center": [
+        263.5,
+        200,
+        112
+      ],
+      "size": [
+        6,
+        92,
+        100
+      ],
+      "clearanceMm": 3,
+      "description": "固定 P2 镜筒跨壁安装口，矩形开口 92×100 mm；外侧螺接法兰与可拆密封罩，所有振镜仍在箱内"
+    },
+    "serviceEnvelope": {
+      "center": [
+        131.75,
+        151.75,
+        316
+      ],
+      "size": [
+        243.5,
+        283.5,
+        80
+      ],
+      "description": "拆顶盖后的外部维修空间；不是扩大工作机箱"
+    },
+    "manufacturingReady": false
+  },
+  "surfaces": [
+    {
+      "role": "短前置 Z 移动负镜",
+      "vendor": "项目定制候选",
+      "part": "CUSTOM-Z25",
+      "shape": "平凹球面",
+      "material": "N-BK7",
+      "radius1Mm": -12.92,
+      "radius2Mm": null,
+      "conic1": 0,
+      "conic2": 0,
+      "centerThicknessMm": 1.25,
+      "edgeThicknessMm": 2.585,
+      "outerDiameterMm": 12.7,
+      "clearDiameterMm": 11.43,
+      "nominalEflMm": -25,
+      "nominalBflMm": -25.82,
+      "specificationWavelengthNm": 589,
+      "coating": "定制 515 nm AR；实际脉冲负载待鉴定",
+      "originalGlass": "BK7",
+      "originalWavelengthNm": 546.1,
+      "originalCoating": "ZEC_AR-14",
+      "sourceUrl": "https://www.edmundoptics.com/capabilities/laser-optics/manufacturing/",
+      "file": "CUSTOM-Z25-515-geometry.zmx",
+      "custom": true,
+      "referenceFolder": "v6-catalog",
+      "provenance": "KPC040 完整球面处方的 0.5 倍缩放设计起点，不是现货料号",
+      "name": "Z1 移动负镜 S1",
+      "kind": "lens",
+      "module": "z",
+      "center": [
+        18,
+        92,
+        49.4
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "moving": true,
+      "reversed": false,
+      "clearDiameter": 11.43,
+      "focalLength": -24.824197827768355,
+      "assemblyName": "Z1 移动负镜",
+      "face": 1,
+      "radiusMm": -12.92,
+      "conic": 0,
+      "indexBefore": 1,
+      "indexAfter": 1.5204599193754282,
+      "glassAfter": "N-BK7"
+    },
+    {
+      "role": "短前置 Z 移动负镜",
+      "vendor": "项目定制候选",
+      "part": "CUSTOM-Z25",
+      "shape": "平凹球面",
+      "material": "N-BK7",
+      "radius1Mm": -12.92,
+      "radius2Mm": null,
+      "conic1": 0,
+      "conic2": 0,
+      "centerThicknessMm": 1.25,
+      "edgeThicknessMm": 2.585,
+      "outerDiameterMm": 12.7,
+      "clearDiameterMm": 11.43,
+      "nominalEflMm": -25,
+      "nominalBflMm": -25.82,
+      "specificationWavelengthNm": 589,
+      "coating": "定制 515 nm AR；实际脉冲负载待鉴定",
+      "originalGlass": "BK7",
+      "originalWavelengthNm": 546.1,
+      "originalCoating": "ZEC_AR-14",
+      "sourceUrl": "https://www.edmundoptics.com/capabilities/laser-optics/manufacturing/",
+      "file": "CUSTOM-Z25-515-geometry.zmx",
+      "custom": true,
+      "referenceFolder": "v6-catalog",
+      "provenance": "KPC040 完整球面处方的 0.5 倍缩放设计起点，不是现货料号",
+      "name": "Z1 移动负镜 S2",
+      "kind": "lens",
+      "module": "z",
+      "center": [
+        19.25,
+        92,
+        49.4
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "moving": true,
+      "reversed": false,
+      "clearDiameter": 11.43,
+      "focalLength": -24.824197827768355,
+      "assemblyName": "Z1 移动负镜",
+      "face": 2,
+      "radiusMm": null,
+      "conic": 0,
+      "indexBefore": 1.5204599193754282,
+      "indexAfter": 1,
+      "glassAfter": "AIR"
+    },
+    {
+      "role": "Z2 短前置正镜",
+      "vendor": "Newport",
+      "part": "KPX088AR.14",
+      "shape": "平凸球面",
+      "material": "N-BK7",
+      "radius1Mm": 39.07,
+      "radius2Mm": null,
+      "conic1": 0,
+      "conic2": 0,
+      "centerThicknessMm": 5.122,
+      "edgeThicknessMm": 3,
+      "outerDiameterMm": 25.4,
+      "clearDiameterMm": 22.86,
+      "nominalEflMm": 75.6,
+      "nominalBflMm": 72.22,
+      "specificationWavelengthNm": 589,
+      "coating": "AR.14，430–700 nm",
+      "originalGlass": "BK7",
+      "originalWavelengthNm": 546.1,
+      "originalCoating": "ZEC_AR-14",
+      "sourceUrl": "https://www.newport.com/p/KPX088AR.14",
+      "file": "KPX088AR.14.zmx",
+      "referenceFolder": "v4-catalog",
+      "name": "Z2 扩束正镜 S1",
+      "kind": "lens",
+      "module": "z",
+      "center": [
+        68.67190302791239,
+        92,
+        49.4
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "moving": false,
+      "reversed": false,
+      "clearDiameter": 22.86,
+      "focalLength": 75.06822052096825,
+      "assemblyName": "Z2 扩束正镜",
+      "face": 1,
+      "radiusMm": 39.07,
+      "conic": 0,
+      "indexBefore": 1,
+      "indexAfter": 1.5204599193754282,
+      "glassAfter": "N-BK7"
+    },
+    {
+      "role": "Z2 短前置正镜",
+      "vendor": "Newport",
+      "part": "KPX088AR.14",
+      "shape": "平凸球面",
+      "material": "N-BK7",
+      "radius1Mm": 39.07,
+      "radius2Mm": null,
+      "conic1": 0,
+      "conic2": 0,
+      "centerThicknessMm": 5.122,
+      "edgeThicknessMm": 3,
+      "outerDiameterMm": 25.4,
+      "clearDiameterMm": 22.86,
+      "nominalEflMm": 75.6,
+      "nominalBflMm": 72.22,
+      "specificationWavelengthNm": 589,
+      "coating": "AR.14，430–700 nm",
+      "originalGlass": "BK7",
+      "originalWavelengthNm": 546.1,
+      "originalCoating": "ZEC_AR-14",
+      "sourceUrl": "https://www.newport.com/p/KPX088AR.14",
+      "file": "KPX088AR.14.zmx",
+      "referenceFolder": "v4-catalog",
+      "name": "Z2 扩束正镜 S2",
+      "kind": "lens",
+      "module": "z",
+      "center": [
+        73.79390302791239,
+        92,
+        49.4
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "moving": false,
+      "reversed": false,
+      "clearDiameter": 22.86,
+      "focalLength": 75.06822052096825,
+      "assemblyName": "Z2 扩束正镜",
+      "face": 2,
+      "radiusMm": null,
+      "conic": 0,
+      "indexBefore": 1.5204599193754282,
+      "indexAfter": 1,
+      "glassAfter": "AIR"
+    },
+    {
+      "name": "F0a 入光抬升",
+      "physicalId": "F0a 入光抬升",
+      "kind": "mirror",
+      "module": "z",
+      "center": [
+        84,
+        92,
+        49.4
+      ],
+      "normal": [
+        0.90355749067825,
+        0,
+        -0.4284668727442345
+      ],
+      "axis": null,
+      "apertureU": [
+        0,
+        1,
+        0
+      ],
+      "apertureV": [
+        0.42846687274423445,
+        0,
+        0.90355749067825
+      ],
+      "outerWidth": 24,
+      "outerHeight": 20,
+      "thickness": 2,
+      "edgeAllowance": 1,
+      "cornerCutMm": 1,
+      "part": "定制平面反射镜",
+      "mountSign": 1,
+      "outlineStatus": "切角 3 mm / 固定镜 1 mm；熔石英 2 mm 厚，独立安装边缘",
+      "clearRegionStatus": "周边 1 mm 禁入；背面装夹/胶合，515 nm 指定 AOI 镀膜待供应商验证",
+      "custom": true
+    },
+    {
+      "name": "F0b 入光水平",
+      "physicalId": "F0b 入光水平",
+      "kind": "mirror",
+      "module": "z",
+      "center": [
+        50,
+        92,
+        91
+      ],
+      "normal": [
+        -0.90355749067825,
+        0,
+        0.4284668727442345
+      ],
+      "axis": null,
+      "apertureU": [
+        0,
+        -1,
+        0
+      ],
+      "apertureV": [
+        0.42846687274423445,
+        0,
+        0.90355749067825
+      ],
+      "outerWidth": 24,
+      "outerHeight": 20,
+      "thickness": 2,
+      "edgeAllowance": 1,
+      "cornerCutMm": 1,
+      "part": "定制平面反射镜",
+      "mountSign": 1,
+      "outlineStatus": "切角 3 mm / 固定镜 1 mm；熔石英 2 mm 厚，独立安装边缘",
+      "clearRegionStatus": "周边 1 mm 禁入；背面装夹/胶合，515 nm 指定 AOI 镀膜待供应商验证",
+      "custom": true
+    },
+    {
+      "name": "M1 α 双程平移",
+      "physicalId": "M1 α 双程平移",
+      "kind": "mirror",
+      "module": "aoi",
+      "center": [
+        167.5,
+        79.5,
+        91
+      ],
+      "normal": [
+        0.7071067811865475,
+        -0.7071067811865475,
+        0
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "apertureU": [
+        0.7071067811865475,
+        0.7071067811865475,
+        0
+      ],
+      "apertureV": [
+        0,
+        0,
+        1
+      ],
+      "outerWidth": 88,
+      "outerHeight": 26,
+      "thickness": 2,
+      "edgeAllowance": 1,
+      "cornerCutMm": 3,
+      "part": "定制平面反射镜",
+      "mountSign": 1,
+      "outlineStatus": "切角 3 mm / 固定镜 1 mm；熔石英 2 mm 厚，独立安装边缘",
+      "clearRegionStatus": "周边 1 mm 禁入；背面装夹/胶合，515 nm 指定 AOI 镀膜待供应商验证",
+      "custom": true,
+      "pivot": [
+        169.9748737341529,
+        77.02512626584708,
+        104
+      ]
+    },
+    {
+      "name": "F1 α 屋脊一",
+      "physicalId": "F1 α 屋脊一",
+      "kind": "mirror",
+      "module": "aoi",
+      "center": [
+        180,
+        143,
+        91
+      ],
+      "normal": [
+        0.7071067811865475,
+        0.7071067811865475,
+        0
+      ],
+      "axis": null,
+      "apertureU": [
+        -0.7071067811865475,
+        0.7071067811865475,
+        0
+      ],
+      "apertureV": [
+        0,
+        0,
+        1
+      ],
+      "outerWidth": 34,
+      "outerHeight": 24,
+      "thickness": 2,
+      "edgeAllowance": 1,
+      "cornerCutMm": 1,
+      "part": "定制平面反射镜",
+      "mountSign": 1,
+      "outlineStatus": "切角 3 mm / 固定镜 1 mm；熔石英 2 mm 厚，独立安装边缘",
+      "clearRegionStatus": "周边 1 mm 禁入；背面装夹/胶合，515 nm 指定 AOI 镀膜待供应商验证",
+      "custom": true
+    },
+    {
+      "name": "F2 α 屋脊二",
+      "physicalId": "F2 α 屋脊二",
+      "kind": "mirror",
+      "module": "aoi",
+      "center": [
+        155,
+        143,
+        91
+      ],
+      "normal": [
+        -0.7071067811865475,
+        0.7071067811865475,
+        0
+      ],
+      "axis": null,
+      "apertureU": [
+        -0.7071067811865475,
+        -0.7071067811865475,
+        0
+      ],
+      "apertureV": [
+        0,
+        0,
+        1
+      ],
+      "outerWidth": 34,
+      "outerHeight": 24,
+      "thickness": 2,
+      "edgeAllowance": 1,
+      "cornerCutMm": 1,
+      "part": "定制平面反射镜",
+      "mountSign": 1,
+      "outlineStatus": "切角 3 mm / 固定镜 1 mm；熔石英 2 mm 厚，独立安装边缘",
+      "clearRegionStatus": "周边 1 mm 禁入；背面装夹/胶合，515 nm 指定 AOI 镀膜待供应商验证",
+      "custom": true
+    },
+    {
+      "name": "M1 α 双程平移",
+      "physicalId": "M1 α 双程平移",
+      "kind": "mirror",
+      "module": "aoi",
+      "center": [
+        167.5,
+        79.5,
+        91
+      ],
+      "normal": [
+        0.7071067811865475,
+        -0.7071067811865475,
+        0
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "apertureU": [
+        0.7071067811865475,
+        0.7071067811865475,
+        0
+      ],
+      "apertureV": [
+        0,
+        0,
+        1
+      ],
+      "outerWidth": 88,
+      "outerHeight": 26,
+      "thickness": 2,
+      "edgeAllowance": 1,
+      "cornerCutMm": 3,
+      "part": "定制平面反射镜",
+      "mountSign": 1,
+      "outlineStatus": "切角 3 mm / 固定镜 1 mm；熔石英 2 mm 厚，独立安装边缘",
+      "clearRegionStatus": "周边 1 mm 禁入；背面装夹/胶合，515 nm 指定 AOI 镀膜待供应商验证",
+      "custom": true,
+      "pivot": [
+        169.9748737341529,
+        77.02512626584708,
+        104
+      ]
+    },
+    {
+      "name": "M2 β 双程平移",
+      "physicalId": "M2 β 双程平移",
+      "kind": "mirror",
+      "module": "aoi",
+      "center": [
+        112,
+        67,
+        74
+      ],
+      "normal": [
+        -0.7071067811865475,
+        0,
+        -0.7071067811865475
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "apertureU": [
+        -0.7071067811865475,
+        0,
+        0.7071067811865475
+      ],
+      "apertureV": [
+        0,
+        1,
+        0
+      ],
+      "outerWidth": 104,
+      "outerHeight": 36,
+      "thickness": 2,
+      "edgeAllowance": 1,
+      "cornerCutMm": 3,
+      "part": "定制平面反射镜",
+      "mountSign": -1,
+      "outlineStatus": "切角 3 mm / 固定镜 1 mm；熔石英 2 mm 厚，独立安装边缘",
+      "clearRegionStatus": "周边 1 mm 禁入；背面装夹/胶合，515 nm 指定 AOI 镀膜待供应商验证",
+      "custom": true,
+      "pivot": [
+        109.52512626584708,
+        49,
+        71.52512626584708
+      ]
+    },
+    {
+      "name": "F3 β 屋脊一",
+      "physicalId": "F3 β 屋脊一",
+      "kind": "mirror",
+      "module": "aoi",
+      "center": [
+        95,
+        67,
+        163
+      ],
+      "normal": [
+        -0.7071067811865475,
+        0,
+        0.7071067811865475
+      ],
+      "axis": null,
+      "apertureU": [
+        0,
+        -1,
+        0
+      ],
+      "apertureV": [
+        0.7071067811865475,
+        0,
+        0.7071067811865478
+      ],
+      "outerWidth": 44,
+      "outerHeight": 34,
+      "thickness": 2,
+      "edgeAllowance": 1,
+      "cornerCutMm": 1,
+      "part": "定制平面反射镜",
+      "mountSign": 1,
+      "outlineStatus": "切角 3 mm / 固定镜 1 mm；熔石英 2 mm 厚，独立安装边缘",
+      "clearRegionStatus": "周边 1 mm 禁入；背面装夹/胶合，515 nm 指定 AOI 镀膜待供应商验证",
+      "custom": true
+    },
+    {
+      "name": "F4 β 屋脊二",
+      "physicalId": "F4 β 屋脊二",
+      "kind": "mirror",
+      "module": "aoi",
+      "center": [
+        129,
+        67,
+        163
+      ],
+      "normal": [
+        0.7071067811865475,
+        0,
+        0.7071067811865475
+      ],
+      "axis": null,
+      "apertureU": [
+        0,
+        1,
+        0
+      ],
+      "apertureV": [
+        -0.7071067811865475,
+        0,
+        0.7071067811865478
+      ],
+      "outerWidth": 44,
+      "outerHeight": 34,
+      "thickness": 2,
+      "edgeAllowance": 1,
+      "cornerCutMm": 1,
+      "part": "定制平面反射镜",
+      "mountSign": 1,
+      "outlineStatus": "切角 3 mm / 固定镜 1 mm；熔石英 2 mm 厚，独立安装边缘",
+      "clearRegionStatus": "周边 1 mm 禁入；背面装夹/胶合，515 nm 指定 AOI 镀膜待供应商验证",
+      "custom": true
+    },
+    {
+      "name": "M2 β 双程平移",
+      "physicalId": "M2 β 双程平移",
+      "kind": "mirror",
+      "module": "aoi",
+      "center": [
+        112,
+        67,
+        74
+      ],
+      "normal": [
+        -0.7071067811865475,
+        0,
+        -0.7071067811865475
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "apertureU": [
+        -0.7071067811865475,
+        0,
+        0.7071067811865475
+      ],
+      "apertureV": [
+        0,
+        1,
+        0
+      ],
+      "outerWidth": 104,
+      "outerHeight": 36,
+      "thickness": 2,
+      "edgeAllowance": 1,
+      "cornerCutMm": 3,
+      "part": "定制平面反射镜",
+      "mountSign": -1,
+      "outlineStatus": "切角 3 mm / 固定镜 1 mm；熔石英 2 mm 厚，独立安装边缘",
+      "clearRegionStatus": "周边 1 mm 禁入；背面装夹/胶合，515 nm 指定 AOI 镀膜待供应商验证",
+      "custom": true,
+      "pivot": [
+        109.52512626584708,
+        49,
+        71.52512626584708
+      ]
+    },
+    {
+      "name": "M3 Y 瞳面",
+      "physicalId": "M3 Y 瞳面",
+      "kind": "mirror",
+      "module": "xy",
+      "center": [
+        230,
+        67,
+        57
+      ],
+      "normal": [
+        0.7071067811865475,
+        -0.7071067811865475,
+        0
+      ],
+      "axis": [
+        0.030882469977609944,
+        0.030882469977609944,
+        -0.9990458178162621
+      ],
+      "apertureU": [
+        -0.7064320724939391,
+        -0.7064320724939391,
+        -0.04367440788191592
+      ],
+      "apertureV": [
+        0.030882469977609944,
+        0.030882469977609944,
+        -0.9990458178162621
+      ],
+      "outerWidth": 52,
+      "outerHeight": 40,
+      "thickness": 2,
+      "edgeAllowance": 1,
+      "cornerCutMm": 3,
+      "part": "定制平面反射镜",
+      "mountSign": -1,
+      "outlineStatus": "切角 3 mm / 固定镜 1 mm；熔石英 2 mm 厚，独立安装边缘",
+      "clearRegionStatus": "周边 1 mm 禁入；背面装夹/胶合，515 nm 指定 AOI 镀膜待供应商验证",
+      "custom": true,
+      "pivot": [
+        231.85722433460072,
+        63.90747686629489,
+        76.98091635632524
+      ]
+    },
+    {
+      "role": "紧凑中继，正反安装各两件",
+      "vendor": "项目定制候选",
+      "part": "CUSTOM-R60",
+      "shape": "胶合消色差双片",
+      "material": "N-BAF10/N-SF10",
+      "radius1Mm": 247.56,
+      "radius2Mm": -41.504000000000005,
+      "centerThicknessMm": 19.6,
+      "edgeThicknessMm": 13.656,
+      "outerDiameterMm": 40,
+      "clearDiameterMm": 38,
+      "nominalEflMm": 60,
+      "nominalBflMm": 48.936,
+      "specificationWavelengthNm": 587.6,
+      "coating": "定制 515 nm AR；适用脉宽/能量、吸收和胶合层负载待鉴定",
+      "sourceUrl": "https://www.edmundoptics.com/capabilities/laser-optics/manufacturing/",
+      "file": "CUSTOM-R60-515-geometry.zmx",
+      "referenceFolder": "v6-catalog",
+      "publishedPrescription": false,
+      "prescription": [
+        {
+          "radiusMm": 41.504000000000005,
+          "thicknessMm": 16,
+          "glassAfter": "N-BAF10",
+          "conic": -2.81
+        },
+        {
+          "radiusMm": -26.232,
+          "thicknessMm": 3.6,
+          "glassAfter": "N-SF10",
+          "conic": 0
+        },
+        {
+          "radiusMm": -247.56,
+          "thicknessMm": 0,
+          "glassAfter": "AIR",
+          "conic": -5.21
+        }
+      ],
+      "custom": true,
+      "provenance": "公开 49-292 球面处方等比例 0.8 缩放的设计起点；不是 Edmund 商品，不代表优化完成或厂家接受加工",
+      "name": "R1 XY 逆向中继 S1",
+      "kind": "lens",
+      "module": "xy",
+      "center": [
+        230,
+        115.81667314546402,
+        57
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "moving": false,
+      "reversed": true,
+      "clearDiameter": 38,
+      "focalLength": 59.90227987535338,
+      "assemblyName": "R1 XY 逆向中继",
+      "face": 1,
+      "radiusMm": 247.56,
+      "conic": -5.21,
+      "conic1": -5.21,
+      "conic2": -2.81,
+      "indexBefore": 1,
+      "indexAfter": 1.7399578765071058,
+      "glassAfter": "N-SF10"
+    },
+    {
+      "role": "紧凑中继，正反安装各两件",
+      "vendor": "项目定制候选",
+      "part": "CUSTOM-R60",
+      "shape": "胶合消色差双片",
+      "material": "N-BAF10/N-SF10",
+      "radius1Mm": 247.56,
+      "radius2Mm": -41.504000000000005,
+      "centerThicknessMm": 19.6,
+      "edgeThicknessMm": 13.656,
+      "outerDiameterMm": 40,
+      "clearDiameterMm": 38,
+      "nominalEflMm": 60,
+      "nominalBflMm": 48.936,
+      "specificationWavelengthNm": 587.6,
+      "coating": "定制 515 nm AR；适用脉宽/能量、吸收和胶合层负载待鉴定",
+      "sourceUrl": "https://www.edmundoptics.com/capabilities/laser-optics/manufacturing/",
+      "file": "CUSTOM-R60-515-geometry.zmx",
+      "referenceFolder": "v6-catalog",
+      "publishedPrescription": false,
+      "prescription": [
+        {
+          "radiusMm": 41.504000000000005,
+          "thicknessMm": 16,
+          "glassAfter": "N-BAF10",
+          "conic": -2.81
+        },
+        {
+          "radiusMm": -26.232,
+          "thicknessMm": 3.6,
+          "glassAfter": "N-SF10",
+          "conic": 0
+        },
+        {
+          "radiusMm": -247.56,
+          "thicknessMm": 0,
+          "glassAfter": "AIR",
+          "conic": -5.21
+        }
+      ],
+      "custom": true,
+      "provenance": "公开 49-292 球面处方等比例 0.8 缩放的设计起点；不是 Edmund 商品，不代表优化完成或厂家接受加工",
+      "name": "R1 XY 逆向中继 S2",
+      "kind": "lens",
+      "module": "xy",
+      "center": [
+        230,
+        119.41667314546402,
+        57
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "moving": false,
+      "reversed": true,
+      "clearDiameter": 38,
+      "focalLength": 59.90227987535338,
+      "assemblyName": "R1 XY 逆向中继",
+      "face": 2,
+      "radiusMm": 26.232,
+      "conic": 0,
+      "conic1": -5.21,
+      "conic2": -2.81,
+      "indexBefore": 1.7399578765071058,
+      "indexAfter": 1.6765204276553827,
+      "glassAfter": "N-BAF10"
+    },
+    {
+      "role": "紧凑中继，正反安装各两件",
+      "vendor": "项目定制候选",
+      "part": "CUSTOM-R60",
+      "shape": "胶合消色差双片",
+      "material": "N-BAF10/N-SF10",
+      "radius1Mm": 247.56,
+      "radius2Mm": -41.504000000000005,
+      "centerThicknessMm": 19.6,
+      "edgeThicknessMm": 13.656,
+      "outerDiameterMm": 40,
+      "clearDiameterMm": 38,
+      "nominalEflMm": 60,
+      "nominalBflMm": 48.936,
+      "specificationWavelengthNm": 587.6,
+      "coating": "定制 515 nm AR；适用脉宽/能量、吸收和胶合层负载待鉴定",
+      "sourceUrl": "https://www.edmundoptics.com/capabilities/laser-optics/manufacturing/",
+      "file": "CUSTOM-R60-515-geometry.zmx",
+      "referenceFolder": "v6-catalog",
+      "publishedPrescription": false,
+      "prescription": [
+        {
+          "radiusMm": 41.504000000000005,
+          "thicknessMm": 16,
+          "glassAfter": "N-BAF10",
+          "conic": -2.81
+        },
+        {
+          "radiusMm": -26.232,
+          "thicknessMm": 3.6,
+          "glassAfter": "N-SF10",
+          "conic": 0
+        },
+        {
+          "radiusMm": -247.56,
+          "thicknessMm": 0,
+          "glassAfter": "AIR",
+          "conic": -5.21
+        }
+      ],
+      "custom": true,
+      "provenance": "公开 49-292 球面处方等比例 0.8 缩放的设计起点；不是 Edmund 商品，不代表优化完成或厂家接受加工",
+      "name": "R1 XY 逆向中继 S3",
+      "kind": "lens",
+      "module": "xy",
+      "center": [
+        230,
+        135.41667314546402,
+        57
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "moving": false,
+      "reversed": true,
+      "clearDiameter": 38,
+      "focalLength": 59.90227987535338,
+      "assemblyName": "R1 XY 逆向中继",
+      "face": 3,
+      "radiusMm": -41.504000000000005,
+      "conic": -2.81,
+      "conic1": -5.21,
+      "conic2": -2.81,
+      "indexBefore": 1.6765204276553827,
+      "indexAfter": 1,
+      "glassAfter": "AIR"
+    },
+    {
+      "name": "F5 XY 中继折转",
+      "physicalId": "F5 XY 中继折转",
+      "kind": "mirror",
+      "module": "xy",
+      "center": [
+        230,
+        230.00000000000003,
+        57
+      ],
+      "normal": [
+        0.7071067811865475,
+        0.7071067811865475,
+        0
+      ],
+      "axis": null,
+      "apertureU": [
+        -0.7071067811865475,
+        0.7071067811865475,
+        0
+      ],
+      "apertureV": [
+        0,
+        0,
+        1
+      ],
+      "outerWidth": 44,
+      "outerHeight": 34,
+      "thickness": 2,
+      "edgeAllowance": 1,
+      "cornerCutMm": 1,
+      "part": "定制平面反射镜",
+      "mountSign": 1,
+      "outlineStatus": "切角 3 mm / 固定镜 1 mm；熔石英 2 mm 厚，独立安装边缘",
+      "clearRegionStatus": "周边 1 mm 禁入；背面装夹/胶合，515 nm 指定 AOI 镀膜待供应商验证",
+      "custom": true
+    },
+    {
+      "role": "紧凑中继，正反安装各两件",
+      "vendor": "项目定制候选",
+      "part": "CUSTOM-R60",
+      "shape": "胶合消色差双片",
+      "material": "N-BAF10/N-SF10",
+      "radius1Mm": 41.504000000000005,
+      "radius2Mm": -247.56,
+      "centerThicknessMm": 19.6,
+      "edgeThicknessMm": 13.656,
+      "outerDiameterMm": 40,
+      "clearDiameterMm": 38,
+      "nominalEflMm": 60,
+      "nominalBflMm": 48.936,
+      "specificationWavelengthNm": 587.6,
+      "coating": "定制 515 nm AR；适用脉宽/能量、吸收和胶合层负载待鉴定",
+      "sourceUrl": "https://www.edmundoptics.com/capabilities/laser-optics/manufacturing/",
+      "file": "CUSTOM-R60-515-geometry.zmx",
+      "referenceFolder": "v6-catalog",
+      "publishedPrescription": false,
+      "prescription": [
+        {
+          "radiusMm": 41.504000000000005,
+          "thicknessMm": 16,
+          "glassAfter": "N-BAF10",
+          "conic": -2.81
+        },
+        {
+          "radiusMm": -26.232,
+          "thicknessMm": 3.6,
+          "glassAfter": "N-SF10",
+          "conic": 0
+        },
+        {
+          "radiusMm": -247.56,
+          "thicknessMm": 0,
+          "glassAfter": "AIR",
+          "conic": -5.21
+        }
+      ],
+      "custom": true,
+      "provenance": "公开 49-292 球面处方等比例 0.8 缩放的设计起点；不是 Edmund 商品，不代表优化完成或厂家接受加工",
+      "name": "R2 XY 正向中继 S1",
+      "kind": "lens",
+      "module": "xy",
+      "center": [
+        206.1892700019564,
+        230.00000000000003,
+        57
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "moving": false,
+      "reversed": false,
+      "clearDiameter": 38,
+      "focalLength": 59.90227987535338,
+      "assemblyName": "R2 XY 正向中继",
+      "face": 1,
+      "radiusMm": 41.504000000000005,
+      "conic": -2.81,
+      "conic1": -2.81,
+      "conic2": -5.21,
+      "indexBefore": 1,
+      "indexAfter": 1.6765204276553827,
+      "glassAfter": "N-BAF10"
+    },
+    {
+      "role": "紧凑中继，正反安装各两件",
+      "vendor": "项目定制候选",
+      "part": "CUSTOM-R60",
+      "shape": "胶合消色差双片",
+      "material": "N-BAF10/N-SF10",
+      "radius1Mm": 41.504000000000005,
+      "radius2Mm": -247.56,
+      "centerThicknessMm": 19.6,
+      "edgeThicknessMm": 13.656,
+      "outerDiameterMm": 40,
+      "clearDiameterMm": 38,
+      "nominalEflMm": 60,
+      "nominalBflMm": 48.936,
+      "specificationWavelengthNm": 587.6,
+      "coating": "定制 515 nm AR；适用脉宽/能量、吸收和胶合层负载待鉴定",
+      "sourceUrl": "https://www.edmundoptics.com/capabilities/laser-optics/manufacturing/",
+      "file": "CUSTOM-R60-515-geometry.zmx",
+      "referenceFolder": "v6-catalog",
+      "publishedPrescription": false,
+      "prescription": [
+        {
+          "radiusMm": 41.504000000000005,
+          "thicknessMm": 16,
+          "glassAfter": "N-BAF10",
+          "conic": -2.81
+        },
+        {
+          "radiusMm": -26.232,
+          "thicknessMm": 3.6,
+          "glassAfter": "N-SF10",
+          "conic": 0
+        },
+        {
+          "radiusMm": -247.56,
+          "thicknessMm": 0,
+          "glassAfter": "AIR",
+          "conic": -5.21
+        }
+      ],
+      "custom": true,
+      "provenance": "公开 49-292 球面处方等比例 0.8 缩放的设计起点；不是 Edmund 商品，不代表优化完成或厂家接受加工",
+      "name": "R2 XY 正向中继 S2",
+      "kind": "lens",
+      "module": "xy",
+      "center": [
+        190.1892700019564,
+        230.00000000000003,
+        57
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "moving": false,
+      "reversed": false,
+      "clearDiameter": 38,
+      "focalLength": 59.90227987535338,
+      "assemblyName": "R2 XY 正向中继",
+      "face": 2,
+      "radiusMm": -26.232,
+      "conic": 0,
+      "conic1": -2.81,
+      "conic2": -5.21,
+      "indexBefore": 1.6765204276553827,
+      "indexAfter": 1.7399578765071058,
+      "glassAfter": "N-SF10"
+    },
+    {
+      "role": "紧凑中继，正反安装各两件",
+      "vendor": "项目定制候选",
+      "part": "CUSTOM-R60",
+      "shape": "胶合消色差双片",
+      "material": "N-BAF10/N-SF10",
+      "radius1Mm": 41.504000000000005,
+      "radius2Mm": -247.56,
+      "centerThicknessMm": 19.6,
+      "edgeThicknessMm": 13.656,
+      "outerDiameterMm": 40,
+      "clearDiameterMm": 38,
+      "nominalEflMm": 60,
+      "nominalBflMm": 48.936,
+      "specificationWavelengthNm": 587.6,
+      "coating": "定制 515 nm AR；适用脉宽/能量、吸收和胶合层负载待鉴定",
+      "sourceUrl": "https://www.edmundoptics.com/capabilities/laser-optics/manufacturing/",
+      "file": "CUSTOM-R60-515-geometry.zmx",
+      "referenceFolder": "v6-catalog",
+      "publishedPrescription": false,
+      "prescription": [
+        {
+          "radiusMm": 41.504000000000005,
+          "thicknessMm": 16,
+          "glassAfter": "N-BAF10",
+          "conic": -2.81
+        },
+        {
+          "radiusMm": -26.232,
+          "thicknessMm": 3.6,
+          "glassAfter": "N-SF10",
+          "conic": 0
+        },
+        {
+          "radiusMm": -247.56,
+          "thicknessMm": 0,
+          "glassAfter": "AIR",
+          "conic": -5.21
+        }
+      ],
+      "custom": true,
+      "provenance": "公开 49-292 球面处方等比例 0.8 缩放的设计起点；不是 Edmund 商品，不代表优化完成或厂家接受加工",
+      "name": "R2 XY 正向中继 S3",
+      "kind": "lens",
+      "module": "xy",
+      "center": [
+        186.5892700019564,
+        230.00000000000003,
+        57
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "moving": false,
+      "reversed": false,
+      "clearDiameter": 38,
+      "focalLength": 59.90227987535338,
+      "assemblyName": "R2 XY 正向中继",
+      "face": 3,
+      "radiusMm": -247.56,
+      "conic": -5.21,
+      "conic1": -2.81,
+      "conic2": -5.21,
+      "indexBefore": 1.7399578765071058,
+      "indexAfter": 1,
+      "glassAfter": "AIR"
+    },
+    {
+      "name": "M4 X 瞳面",
+      "physicalId": "M4 X 瞳面",
+      "kind": "mirror",
+      "module": "xy",
+      "center": [
+        137.77259685649236,
+        230.00000000000003,
+        57
+      ],
+      "normal": [
+        -0.682482768148932,
+        0.09675619869180552,
+        -0.7244691223195664
+      ],
+      "axis": [
+        -0.17190355860177828,
+        -0.9846434580374614,
+        0.030437264727216348
+      ],
+      "apertureU": [
+        0.710398787808521,
+        -0.14531172890975294,
+        -0.6886349277530457
+      ],
+      "apertureV": [
+        -0.17190355860177828,
+        -0.9846434580374614,
+        0.030437264727216348
+      ],
+      "outerWidth": 52,
+      "outerHeight": 40,
+      "thickness": 2,
+      "edgeAllowance": 1,
+      "cornerCutMm": 3,
+      "part": "定制平面反射镜",
+      "mountSign": 1,
+      "outlineStatus": "切角 3 mm / 固定镜 1 mm；熔石英 2 mm 厚，独立安装边缘",
+      "clearRegionStatus": "周边 1 mm 禁入；背面装夹/胶合，515 nm 指定 AOI 镀膜待供应商验证",
+      "custom": true,
+      "pivot": [
+        131.94583599593554,
+        210.6457775346721,
+        55.07310336642585
+      ]
+    },
+    {
+      "role": "定制末级中继",
+      "vendor": "项目定制候选",
+      "part": "CUSTOM-R75",
+      "shape": "胶合消色差双片",
+      "material": "N-BAF10/N-SF10",
+      "radius1Mm": 309.45,
+      "radius2Mm": -51.88,
+      "centerThicknessMm": 24.5,
+      "edgeThicknessMm": 17.07,
+      "outerDiameterMm": 50,
+      "clearDiameterMm": 49,
+      "nominalEflMm": 75,
+      "nominalBflMm": 61.17,
+      "specificationWavelengthNm": 587.6,
+      "coating": "515 nm AR；胶合层、脉冲负载待鉴定",
+      "sourceUrl": "https://www.edmundoptics.com/p/50mm-dia-x-75mm-fl-vis-0deg-coated-achromatic-lens-/9643/",
+      "file": "CUSTOM-R75-515-geometry.zmx",
+      "referenceFolder": "v6-catalog",
+      "publishedPrescription": false,
+      "prescription": [
+        {
+          "radiusMm": 51.88,
+          "thicknessMm": 20,
+          "glassAfter": "N-BAF10",
+          "conic": -1.99
+        },
+        {
+          "radiusMm": -32.79,
+          "thicknessMm": 4.5,
+          "glassAfter": "N-SF10",
+          "conic": 0
+        },
+        {
+          "radiusMm": -309.45,
+          "thicknessMm": 0,
+          "glassAfter": "AIR",
+          "conic": -4.73
+        }
+      ],
+      "custom": true,
+      "provenance": "以公开 49-292 为起点优化非球面，非厂家商品",
+      "name": "P1 出光逆向中继 S1",
+      "kind": "lens",
+      "module": "xy",
+      "center": [
+        133.59666349871088,
+        221.94104602062305,
+        117.34200800767402
+      ],
+      "axis": [
+        -0.06843454235954206,
+        -0.13206887663750302,
+        0.9888753840781699
+      ],
+      "moving": false,
+      "reversed": true,
+      "clearDiameter": 49,
+      "focalLength": 74.8778498441917,
+      "assemblyName": "P1 出光逆向中继",
+      "face": 1,
+      "radiusMm": 309.45,
+      "conic": -4.73,
+      "conic1": -4.73,
+      "conic2": -1.99,
+      "indexBefore": 1,
+      "indexAfter": 1.7399578765071058,
+      "glassAfter": "N-SF10"
+    },
+    {
+      "role": "定制末级中继",
+      "vendor": "项目定制候选",
+      "part": "CUSTOM-R75",
+      "shape": "胶合消色差双片",
+      "material": "N-BAF10/N-SF10",
+      "radius1Mm": 309.45,
+      "radius2Mm": -51.88,
+      "centerThicknessMm": 24.5,
+      "edgeThicknessMm": 17.07,
+      "outerDiameterMm": 50,
+      "clearDiameterMm": 49,
+      "nominalEflMm": 75,
+      "nominalBflMm": 61.17,
+      "specificationWavelengthNm": 587.6,
+      "coating": "515 nm AR；胶合层、脉冲负载待鉴定",
+      "sourceUrl": "https://www.edmundoptics.com/p/50mm-dia-x-75mm-fl-vis-0deg-coated-achromatic-lens-/9643/",
+      "file": "CUSTOM-R75-515-geometry.zmx",
+      "referenceFolder": "v6-catalog",
+      "publishedPrescription": false,
+      "prescription": [
+        {
+          "radiusMm": 51.88,
+          "thicknessMm": 20,
+          "glassAfter": "N-BAF10",
+          "conic": -1.99
+        },
+        {
+          "radiusMm": -32.79,
+          "thicknessMm": 4.5,
+          "glassAfter": "N-SF10",
+          "conic": 0
+        },
+        {
+          "radiusMm": -309.45,
+          "thicknessMm": 0,
+          "glassAfter": "AIR",
+          "conic": -4.73
+        }
+      ],
+      "custom": true,
+      "provenance": "以公开 49-292 为起点优化非球面，非厂家商品",
+      "name": "P1 出光逆向中继 S2",
+      "kind": "lens",
+      "module": "xy",
+      "center": [
+        133.28870805809294,
+        221.34673607575428,
+        121.79194723602579
+      ],
+      "axis": [
+        -0.06843454235954206,
+        -0.13206887663750302,
+        0.9888753840781699
+      ],
+      "moving": false,
+      "reversed": true,
+      "clearDiameter": 49,
+      "focalLength": 74.8778498441917,
+      "assemblyName": "P1 出光逆向中继",
+      "face": 2,
+      "radiusMm": 32.79,
+      "conic": 0,
+      "conic1": -4.73,
+      "conic2": -1.99,
+      "indexBefore": 1.7399578765071058,
+      "indexAfter": 1.6765204276553827,
+      "glassAfter": "N-BAF10"
+    },
+    {
+      "role": "定制末级中继",
+      "vendor": "项目定制候选",
+      "part": "CUSTOM-R75",
+      "shape": "胶合消色差双片",
+      "material": "N-BAF10/N-SF10",
+      "radius1Mm": 309.45,
+      "radius2Mm": -51.88,
+      "centerThicknessMm": 24.5,
+      "edgeThicknessMm": 17.07,
+      "outerDiameterMm": 50,
+      "clearDiameterMm": 49,
+      "nominalEflMm": 75,
+      "nominalBflMm": 61.17,
+      "specificationWavelengthNm": 587.6,
+      "coating": "515 nm AR；胶合层、脉冲负载待鉴定",
+      "sourceUrl": "https://www.edmundoptics.com/p/50mm-dia-x-75mm-fl-vis-0deg-coated-achromatic-lens-/9643/",
+      "file": "CUSTOM-R75-515-geometry.zmx",
+      "referenceFolder": "v6-catalog",
+      "publishedPrescription": false,
+      "prescription": [
+        {
+          "radiusMm": 51.88,
+          "thicknessMm": 20,
+          "glassAfter": "N-BAF10",
+          "conic": -1.99
+        },
+        {
+          "radiusMm": -32.79,
+          "thicknessMm": 4.5,
+          "glassAfter": "N-SF10",
+          "conic": 0
+        },
+        {
+          "radiusMm": -309.45,
+          "thicknessMm": 0,
+          "glassAfter": "AIR",
+          "conic": -4.73
+        }
+      ],
+      "custom": true,
+      "provenance": "以公开 49-292 为起点优化非球面，非厂家商品",
+      "name": "P1 出光逆向中继 S3",
+      "kind": "lens",
+      "module": "xy",
+      "center": [
+        131.9200172109021,
+        218.70535854300422,
+        141.56945491758918
+      ],
+      "axis": [
+        -0.06843454235954206,
+        -0.13206887663750302,
+        0.9888753840781699
+      ],
+      "moving": false,
+      "reversed": true,
+      "clearDiameter": 49,
+      "focalLength": 74.8778498441917,
+      "assemblyName": "P1 出光逆向中继",
+      "face": 3,
+      "radiusMm": -51.88,
+      "conic": -1.99,
+      "conic1": -4.73,
+      "conic2": -1.99,
+      "indexBefore": 1.6765204276553827,
+      "indexAfter": 1,
+      "glassAfter": "AIR"
+    },
+    {
+      "name": "F6 固定出光折转",
+      "physicalId": "F6 固定出光折转",
+      "kind": "mirror",
+      "module": "xy",
+      "center": [
+        130,
+        215,
+        169.3135983195035
+      ],
+      "normal": [
+        -0.5484533490721087,
+        -0.011704556885273594,
+        0.8360992328902753
+      ],
+      "axis": null,
+      "apertureU": [
+        0.02133616734616451,
+        -0.9997723580710642,
+        1.734723475976807e-18
+      ],
+      "apertureV": [
+        0.8359089016481185,
+        0.01783915315094669,
+        0.5485782284782119
+      ],
+      "outerWidth": 48,
+      "outerHeight": 38,
+      "thickness": 2,
+      "edgeAllowance": 1,
+      "cornerCutMm": 1,
+      "part": "定制平面反射镜",
+      "mountSign": 1,
+      "outlineStatus": "切角 3 mm / 固定镜 1 mm；熔石英 2 mm 厚，独立安装边缘",
+      "clearRegionStatus": "周边 1 mm 禁入；背面装夹/胶合，515 nm 指定 AOI 镀膜待供应商验证",
+      "custom": true
+    },
+    {
+      "role": "定制末级中继",
+      "vendor": "项目定制候选",
+      "part": "CUSTOM-R75",
+      "shape": "胶合消色差双片",
+      "material": "N-BAF10/N-SF10",
+      "radius1Mm": 51.88,
+      "radius2Mm": -309.45,
+      "centerThicknessMm": 24.5,
+      "edgeThicknessMm": 17.07,
+      "outerDiameterMm": 50,
+      "clearDiameterMm": 49,
+      "nominalEflMm": 75,
+      "nominalBflMm": 61.17,
+      "specificationWavelengthNm": 587.6,
+      "coating": "515 nm AR；胶合层、脉冲负载待鉴定",
+      "sourceUrl": "https://www.edmundoptics.com/p/50mm-dia-x-75mm-fl-vis-0deg-coated-achromatic-lens-/9643/",
+      "file": "CUSTOM-R75-515-geometry.zmx",
+      "referenceFolder": "v6-catalog",
+      "publishedPrescription": false,
+      "prescription": [
+        {
+          "radiusMm": 51.88,
+          "thicknessMm": 20,
+          "glassAfter": "N-BAF10",
+          "conic": -1.99
+        },
+        {
+          "radiusMm": -32.79,
+          "thicknessMm": 4.5,
+          "glassAfter": "N-SF10",
+          "conic": 0
+        },
+        {
+          "radiusMm": -309.45,
+          "thicknessMm": 0,
+          "glassAfter": "AIR",
+          "conic": -4.73
+        }
+      ],
+      "custom": true,
+      "provenance": "以公开 49-292 为起点优化非球面，非厂家商品",
+      "name": "P2 出光正向中继 S1",
+      "kind": "lens",
+      "module": "xy",
+      "center": [
+        235.7060659932667,
+        201.59118436124731,
+        114.25771446693071
+      ],
+      "axis": [
+        0.8813516418312495,
+        -0.11179946550068369,
+        -0.4590426591887972
+      ],
+      "moving": false,
+      "reversed": false,
+      "clearDiameter": 49,
+      "focalLength": 74.8778498441917,
+      "assemblyName": "P2 出光正向中继",
+      "face": 1,
+      "radiusMm": 51.88,
+      "conic": -1.99,
+      "conic1": -1.99,
+      "conic2": -4.73,
+      "indexBefore": 1,
+      "indexAfter": 1.6765204276553827,
+      "glassAfter": "N-BAF10"
+    },
+    {
+      "role": "定制末级中继",
+      "vendor": "项目定制候选",
+      "part": "CUSTOM-R75",
+      "shape": "胶合消色差双片",
+      "material": "N-BAF10/N-SF10",
+      "radius1Mm": 51.88,
+      "radius2Mm": -309.45,
+      "centerThicknessMm": 24.5,
+      "edgeThicknessMm": 17.07,
+      "outerDiameterMm": 50,
+      "clearDiameterMm": 49,
+      "nominalEflMm": 75,
+      "nominalBflMm": 61.17,
+      "specificationWavelengthNm": 587.6,
+      "coating": "515 nm AR；胶合层、脉冲负载待鉴定",
+      "sourceUrl": "https://www.edmundoptics.com/p/50mm-dia-x-75mm-fl-vis-0deg-coated-achromatic-lens-/9643/",
+      "file": "CUSTOM-R75-515-geometry.zmx",
+      "referenceFolder": "v6-catalog",
+      "publishedPrescription": false,
+      "prescription": [
+        {
+          "radiusMm": 51.88,
+          "thicknessMm": 20,
+          "glassAfter": "N-BAF10",
+          "conic": -1.99
+        },
+        {
+          "radiusMm": -32.79,
+          "thicknessMm": 4.5,
+          "glassAfter": "N-SF10",
+          "conic": 0
+        },
+        {
+          "radiusMm": -309.45,
+          "thicknessMm": 0,
+          "glassAfter": "AIR",
+          "conic": -4.73
+        }
+      ],
+      "custom": true,
+      "provenance": "以公开 49-292 为起点优化非球面，非厂家商品",
+      "name": "P2 出光正向中继 S2",
+      "kind": "lens",
+      "module": "xy",
+      "center": [
+        253.3330988298917,
+        199.35519505123364,
+        105.07686128315476
+      ],
+      "axis": [
+        0.8813516418312495,
+        -0.11179946550068369,
+        -0.4590426591887972
+      ],
+      "moving": false,
+      "reversed": false,
+      "clearDiameter": 49,
+      "focalLength": 74.8778498441917,
+      "assemblyName": "P2 出光正向中继",
+      "face": 2,
+      "radiusMm": -32.79,
+      "conic": 0,
+      "conic1": -1.99,
+      "conic2": -4.73,
+      "indexBefore": 1.6765204276553827,
+      "indexAfter": 1.7399578765071058,
+      "glassAfter": "N-SF10"
+    },
+    {
+      "role": "定制末级中继",
+      "vendor": "项目定制候选",
+      "part": "CUSTOM-R75",
+      "shape": "胶合消色差双片",
+      "material": "N-BAF10/N-SF10",
+      "radius1Mm": 51.88,
+      "radius2Mm": -309.45,
+      "centerThicknessMm": 24.5,
+      "edgeThicknessMm": 17.07,
+      "outerDiameterMm": 50,
+      "clearDiameterMm": 49,
+      "nominalEflMm": 75,
+      "nominalBflMm": 61.17,
+      "specificationWavelengthNm": 587.6,
+      "coating": "515 nm AR；胶合层、脉冲负载待鉴定",
+      "sourceUrl": "https://www.edmundoptics.com/p/50mm-dia-x-75mm-fl-vis-0deg-coated-achromatic-lens-/9643/",
+      "file": "CUSTOM-R75-515-geometry.zmx",
+      "referenceFolder": "v6-catalog",
+      "publishedPrescription": false,
+      "prescription": [
+        {
+          "radiusMm": 51.88,
+          "thicknessMm": 20,
+          "glassAfter": "N-BAF10",
+          "conic": -1.99
+        },
+        {
+          "radiusMm": -32.79,
+          "thicknessMm": 4.5,
+          "glassAfter": "N-SF10",
+          "conic": 0
+        },
+        {
+          "radiusMm": -309.45,
+          "thicknessMm": 0,
+          "glassAfter": "AIR",
+          "conic": -4.73
+        }
+      ],
+      "custom": true,
+      "provenance": "以公开 49-292 为起点优化非球面，非厂家商品",
+      "name": "P2 出光正向中继 S3",
+      "kind": "lens",
+      "module": "xy",
+      "center": [
+        257.2991812181323,
+        198.85209745648058,
+        103.01116931680518
+      ],
+      "axis": [
+        0.8813516418312495,
+        -0.11179946550068369,
+        -0.4590426591887972
+      ],
+      "moving": false,
+      "reversed": false,
+      "clearDiameter": 49,
+      "focalLength": 74.8778498441917,
+      "assemblyName": "P2 出光正向中继",
+      "face": 3,
+      "radiusMm": -309.45,
+      "conic": -4.73,
+      "conic1": -1.99,
+      "conic2": -4.73,
+      "indexBefore": 1.7399578765071058,
+      "indexAfter": 1,
+      "glassAfter": "AIR"
+    },
+    {
+      "name": "F7 固定出光折转",
+      "physicalId": "F7 固定出光折转",
+      "kind": "mirror",
+      "module": "xy",
+      "center": [
+        311.08,
+        192.03,
+        75
+      ],
+      "normal": [
+        0.847330249233866,
+        -0.1074838514739447,
+        0.5200756391195432
+      ],
+      "axis": null,
+      "apertureU": [
+        0.12584159755971105,
+        0.9920503476757718,
+        6.938893903907227e-18
+      ],
+      "apertureV": [
+        -0.5159412186062422,
+        0.0654471492786911,
+        0.8541202079300073
+      ],
+      "outerWidth": 72,
+      "outerHeight": 60,
+      "thickness": 2,
+      "edgeAllowance": 1,
+      "cornerCutMm": 1,
+      "part": "定制平面反射镜",
+      "mountSign": 1,
+      "outlineStatus": "切角 3 mm / 固定镜 1 mm；熔石英 2 mm 厚，独立安装边缘",
+      "clearRegionStatus": "周边 1 mm 禁入；背面装夹/胶合，515 nm 指定 AOI 镀膜待供应商验证",
+      "custom": true
+    },
+    {
+      "role": "定制物镜",
+      "vendor": "项目定制候选",
+      "part": "CUSTOM-O75",
+      "shape": "胶合消色差双片",
+      "material": "N-BAF10/N-SF10",
+      "radius1Mm": 51.88,
+      "radius2Mm": -309.45,
+      "centerThicknessMm": 24.5,
+      "edgeThicknessMm": 17.07,
+      "outerDiameterMm": 50,
+      "clearDiameterMm": 49,
+      "nominalEflMm": 75,
+      "nominalBflMm": 61.17,
+      "specificationWavelengthNm": 587.6,
+      "coating": "515 nm AR；胶合层、脉冲负载待鉴定",
+      "sourceUrl": "https://www.edmundoptics.com/p/50mm-dia-x-75mm-fl-vis-0deg-coated-achromatic-lens-/9643/",
+      "file": "CUSTOM-O75-515-geometry.zmx",
+      "referenceFolder": "v6-catalog",
+      "publishedPrescription": false,
+      "prescription": [
+        {
+          "radiusMm": 51.88,
+          "thicknessMm": 20,
+          "glassAfter": "N-BAF10",
+          "conic": -0.62
+        },
+        {
+          "radiusMm": -32.79,
+          "thicknessMm": 4.5,
+          "glassAfter": "N-SF10",
+          "conic": 0
+        },
+        {
+          "radiusMm": -309.45,
+          "thicknessMm": 0,
+          "glassAfter": "AIR",
+          "conic": -3.67
+        }
+      ],
+      "custom": true,
+      "provenance": "以公开 49-292 为起点优化非球面，非厂家商品",
+      "name": "O 75 mm 固定物镜候选 S1",
+      "kind": "lens",
+      "module": "objective",
+      "center": [
+        311.08,
+        192.03,
+        1.003714467137769
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "moving": false,
+      "reversed": false,
+      "clearDiameter": 49,
+      "focalLength": 74.8778498441917,
+      "assemblyName": "O 75 mm 固定物镜候选",
+      "face": 1,
+      "radiusMm": 51.88,
+      "conic": -0.62,
+      "conic1": -0.62,
+      "conic2": -3.67,
+      "indexBefore": 1,
+      "indexAfter": 1.6765204276553827,
+      "glassAfter": "N-BAF10"
+    },
+    {
+      "role": "定制物镜",
+      "vendor": "项目定制候选",
+      "part": "CUSTOM-O75",
+      "shape": "胶合消色差双片",
+      "material": "N-BAF10/N-SF10",
+      "radius1Mm": 51.88,
+      "radius2Mm": -309.45,
+      "centerThicknessMm": 24.5,
+      "edgeThicknessMm": 17.07,
+      "outerDiameterMm": 50,
+      "clearDiameterMm": 49,
+      "nominalEflMm": 75,
+      "nominalBflMm": 61.17,
+      "specificationWavelengthNm": 587.6,
+      "coating": "515 nm AR；胶合层、脉冲负载待鉴定",
+      "sourceUrl": "https://www.edmundoptics.com/p/50mm-dia-x-75mm-fl-vis-0deg-coated-achromatic-lens-/9643/",
+      "file": "CUSTOM-O75-515-geometry.zmx",
+      "referenceFolder": "v6-catalog",
+      "publishedPrescription": false,
+      "prescription": [
+        {
+          "radiusMm": 51.88,
+          "thicknessMm": 20,
+          "glassAfter": "N-BAF10",
+          "conic": -0.62
+        },
+        {
+          "radiusMm": -32.79,
+          "thicknessMm": 4.5,
+          "glassAfter": "N-SF10",
+          "conic": 0
+        },
+        {
+          "radiusMm": -309.45,
+          "thicknessMm": 0,
+          "glassAfter": "AIR",
+          "conic": -3.67
+        }
+      ],
+      "custom": true,
+      "provenance": "以公开 49-292 为起点优化非球面，非厂家商品",
+      "name": "O 75 mm 固定物镜候选 S2",
+      "kind": "lens",
+      "module": "objective",
+      "center": [
+        311.08,
+        192.03,
+        -18.99628553286223
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "moving": false,
+      "reversed": false,
+      "clearDiameter": 49,
+      "focalLength": 74.8778498441917,
+      "assemblyName": "O 75 mm 固定物镜候选",
+      "face": 2,
+      "radiusMm": -32.79,
+      "conic": 0,
+      "conic1": -0.62,
+      "conic2": -3.67,
+      "indexBefore": 1.6765204276553827,
+      "indexAfter": 1.7399578765071058,
+      "glassAfter": "N-SF10"
+    },
+    {
+      "role": "定制物镜",
+      "vendor": "项目定制候选",
+      "part": "CUSTOM-O75",
+      "shape": "胶合消色差双片",
+      "material": "N-BAF10/N-SF10",
+      "radius1Mm": 51.88,
+      "radius2Mm": -309.45,
+      "centerThicknessMm": 24.5,
+      "edgeThicknessMm": 17.07,
+      "outerDiameterMm": 50,
+      "clearDiameterMm": 49,
+      "nominalEflMm": 75,
+      "nominalBflMm": 61.17,
+      "specificationWavelengthNm": 587.6,
+      "coating": "515 nm AR；胶合层、脉冲负载待鉴定",
+      "sourceUrl": "https://www.edmundoptics.com/p/50mm-dia-x-75mm-fl-vis-0deg-coated-achromatic-lens-/9643/",
+      "file": "CUSTOM-O75-515-geometry.zmx",
+      "referenceFolder": "v6-catalog",
+      "publishedPrescription": false,
+      "prescription": [
+        {
+          "radiusMm": 51.88,
+          "thicknessMm": 20,
+          "glassAfter": "N-BAF10",
+          "conic": -0.62
+        },
+        {
+          "radiusMm": -32.79,
+          "thicknessMm": 4.5,
+          "glassAfter": "N-SF10",
+          "conic": 0
+        },
+        {
+          "radiusMm": -309.45,
+          "thicknessMm": 0,
+          "glassAfter": "AIR",
+          "conic": -3.67
+        }
+      ],
+      "custom": true,
+      "provenance": "以公开 49-292 为起点优化非球面，非厂家商品",
+      "name": "O 75 mm 固定物镜候选 S3",
+      "kind": "lens",
+      "module": "objective",
+      "center": [
+        311.08,
+        192.03,
+        -23.49628553286223
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "moving": false,
+      "reversed": false,
+      "clearDiameter": 49,
+      "focalLength": 74.8778498441917,
+      "assemblyName": "O 75 mm 固定物镜候选",
+      "face": 3,
+      "radiusMm": -309.45,
+      "conic": -3.67,
+      "conic1": -0.62,
+      "conic2": -3.67,
+      "indexBefore": 1.7399578765071058,
+      "indexAfter": 1,
+      "glassAfter": "AIR"
+    },
+    {
+      "role": "W 保护窗候选",
+      "vendor": "Edmund Optics",
+      "part": "72-416",
+      "material": "Corning 7980",
+      "radius1Mm": null,
+      "radius2Mm": null,
+      "conic1": 0,
+      "conic2": 0,
+      "centerThicknessMm": 3,
+      "outerDiameterMm": 50,
+      "clearDiameterMm": 45,
+      "coating": "VIS 0°，425–675 nm",
+      "sourceUrl": "https://www.edmundoptics.com/p/50mm-dia-3mm-thick-vis-0-coated-4-fused-silica-window/53776/",
+      "file": null,
+      "materialRecipe": {
+        "equation": "n²−1 = Σ B_i·λ²/(λ²−C_i)，λ 用 μm",
+        "temperatureC": 22,
+        "b": [
+          0.683740494,
+          0.420323613,
+          0.58502748
+        ],
+        "cUmSquared": [
+          0.00460352869,
+          0.0133968856,
+          64.4932732
+        ],
+        "sourceUrl": "https://www.corning.com/media/worldwide/csm/documents/HPFS_7980_Germicidal_Irradiation.pdf"
+      },
+      "name": "W 保护窗 S1",
+      "kind": "window",
+      "module": "objective",
+      "center": [
+        311.08,
+        192.03,
+        -58
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "moving": false,
+      "reversed": false,
+      "clearDiameter": 45,
+      "focalLength": null,
+      "assemblyName": "W 保护窗",
+      "face": 1,
+      "radiusMm": null,
+      "conic": 0,
+      "indexBefore": 1,
+      "indexAfter": 1.4615355747342382,
+      "glassAfter": "Corning 7980"
+    },
+    {
+      "role": "W 保护窗候选",
+      "vendor": "Edmund Optics",
+      "part": "72-416",
+      "material": "Corning 7980",
+      "radius1Mm": null,
+      "radius2Mm": null,
+      "conic1": 0,
+      "conic2": 0,
+      "centerThicknessMm": 3,
+      "outerDiameterMm": 50,
+      "clearDiameterMm": 45,
+      "coating": "VIS 0°，425–675 nm",
+      "sourceUrl": "https://www.edmundoptics.com/p/50mm-dia-3mm-thick-vis-0-coated-4-fused-silica-window/53776/",
+      "file": null,
+      "materialRecipe": {
+        "equation": "n²−1 = Σ B_i·λ²/(λ²−C_i)，λ 用 μm",
+        "temperatureC": 22,
+        "b": [
+          0.683740494,
+          0.420323613,
+          0.58502748
+        ],
+        "cUmSquared": [
+          0.00460352869,
+          0.0133968856,
+          64.4932732
+        ],
+        "sourceUrl": "https://www.corning.com/media/worldwide/csm/documents/HPFS_7980_Germicidal_Irradiation.pdf"
+      },
+      "name": "W 保护窗 S2",
+      "kind": "window",
+      "module": "objective",
+      "center": [
+        311.08,
+        192.03,
+        -61
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "moving": false,
+      "reversed": false,
+      "clearDiameter": 45,
+      "focalLength": null,
+      "assemblyName": "W 保护窗",
+      "face": 2,
+      "radiusMm": null,
+      "conic": 0,
+      "indexBefore": 1.4615355747342382,
+      "indexAfter": 1,
+      "glassAfter": "AIR"
+    }
+  ],
+  "mirrorPolygons": [
+    {
+      "physicalId": "M1 α 双程平移",
+      "outer": [
+        [
+          -41,
+          -13
+        ],
+        [
+          41,
+          -13
+        ],
+        [
+          44,
+          -10
+        ],
+        [
+          44,
+          10
+        ],
+        [
+          41,
+          13
+        ],
+        [
+          -41,
+          13
+        ],
+        [
+          -44,
+          10
+        ],
+        [
+          -44,
+          -10
+        ]
+      ],
+      "engineeringNet": [
+        [
+          -40.58578643762691,
+          -12
+        ],
+        [
+          40.58578643762691,
+          -12
+        ],
+        [
+          43,
+          -9.585786437626904
+        ],
+        [
+          43,
+          9.585786437626904
+        ],
+        [
+          40.58578643762691,
+          12
+        ],
+        [
+          -40.58578643762691,
+          12
+        ],
+        [
+          -43,
+          9.585786437626904
+        ],
+        [
+          -43,
+          -9.585786437626904
+        ]
+      ],
+      "qualification": "工程切角和边缘预留，非厂家实际净反射区"
+    },
+    {
+      "physicalId": "M2 β 双程平移",
+      "outer": [
+        [
+          -49,
+          -18
+        ],
+        [
+          49,
+          -18
+        ],
+        [
+          52,
+          -15
+        ],
+        [
+          52,
+          15
+        ],
+        [
+          49,
+          18
+        ],
+        [
+          -49,
+          18
+        ],
+        [
+          -52,
+          15
+        ],
+        [
+          -52,
+          -15
+        ]
+      ],
+      "engineeringNet": [
+        [
+          -48.58578643762691,
+          -17
+        ],
+        [
+          48.58578643762691,
+          -17
+        ],
+        [
+          51.00000000000001,
+          -14.585786437626904
+        ],
+        [
+          51.00000000000001,
+          14.585786437626904
+        ],
+        [
+          48.58578643762691,
+          17
+        ],
+        [
+          -48.58578643762691,
+          17
+        ],
+        [
+          -51.00000000000001,
+          14.585786437626904
+        ],
+        [
+          -51.00000000000001,
+          -14.585786437626904
+        ]
+      ],
+      "qualification": "工程切角和边缘预留，非厂家实际净反射区"
+    },
+    {
+      "physicalId": "M3 Y 瞳面",
+      "outer": [
+        [
+          -23,
+          -20
+        ],
+        [
+          23,
+          -20
+        ],
+        [
+          26,
+          -17
+        ],
+        [
+          26,
+          17
+        ],
+        [
+          23,
+          20
+        ],
+        [
+          -23,
+          20
+        ],
+        [
+          -26,
+          17
+        ],
+        [
+          -26,
+          -17
+        ]
+      ],
+      "engineeringNet": [
+        [
+          -22.585786437626904,
+          -19
+        ],
+        [
+          22.585786437626904,
+          -19
+        ],
+        [
+          24.999999999999996,
+          -16.585786437626908
+        ],
+        [
+          24.999999999999996,
+          16.585786437626908
+        ],
+        [
+          22.585786437626904,
+          19
+        ],
+        [
+          -22.585786437626904,
+          19
+        ],
+        [
+          -24.999999999999996,
+          16.585786437626908
+        ],
+        [
+          -24.999999999999996,
+          -16.585786437626908
+        ]
+      ],
+      "qualification": "工程切角和边缘预留，非厂家实际净反射区"
+    },
+    {
+      "physicalId": "M4 X 瞳面",
+      "outer": [
+        [
+          -23,
+          -20
+        ],
+        [
+          23,
+          -20
+        ],
+        [
+          26,
+          -17
+        ],
+        [
+          26,
+          17
+        ],
+        [
+          23,
+          20
+        ],
+        [
+          -23,
+          20
+        ],
+        [
+          -26,
+          17
+        ],
+        [
+          -26,
+          -17
+        ]
+      ],
+      "engineeringNet": [
+        [
+          -22.585786437626904,
+          -19
+        ],
+        [
+          22.585786437626904,
+          -19
+        ],
+        [
+          24.999999999999996,
+          -16.585786437626908
+        ],
+        [
+          24.999999999999996,
+          16.585786437626908
+        ],
+        [
+          22.585786437626904,
+          19
+        ],
+        [
+          -22.585786437626904,
+          19
+        ],
+        [
+          -24.999999999999996,
+          16.585786437626908
+        ],
+        [
+          -24.999999999999996,
+          -16.585786437626908
+        ]
+      ],
+      "qualification": "工程切角和边缘预留，非厂家实际净反射区"
+    },
+    {
+      "physicalId": "F0a 入光抬升",
+      "outer": [
+        [
+          -11,
+          -10
+        ],
+        [
+          11,
+          -10
+        ],
+        [
+          12,
+          -9
+        ],
+        [
+          12,
+          9
+        ],
+        [
+          11,
+          10
+        ],
+        [
+          -11,
+          10
+        ],
+        [
+          -12,
+          9
+        ],
+        [
+          -12,
+          -9
+        ]
+      ],
+      "engineeringNet": [
+        [
+          -10.585786437626904,
+          -9
+        ],
+        [
+          10.585786437626904,
+          -9
+        ],
+        [
+          11,
+          -8.585786437626906
+        ],
+        [
+          11,
+          8.585786437626906
+        ],
+        [
+          10.585786437626904,
+          9
+        ],
+        [
+          -10.585786437626904,
+          9
+        ],
+        [
+          -11,
+          8.585786437626906
+        ],
+        [
+          -11,
+          -8.585786437626906
+        ]
+      ],
+      "qualification": "工程切角和边缘预留，非厂家实际净反射区"
+    },
+    {
+      "physicalId": "F0b 入光水平",
+      "outer": [
+        [
+          -11,
+          -10
+        ],
+        [
+          11,
+          -10
+        ],
+        [
+          12,
+          -9
+        ],
+        [
+          12,
+          9
+        ],
+        [
+          11,
+          10
+        ],
+        [
+          -11,
+          10
+        ],
+        [
+          -12,
+          9
+        ],
+        [
+          -12,
+          -9
+        ]
+      ],
+      "engineeringNet": [
+        [
+          -10.585786437626904,
+          -9
+        ],
+        [
+          10.585786437626904,
+          -9
+        ],
+        [
+          11,
+          -8.585786437626906
+        ],
+        [
+          11,
+          8.585786437626906
+        ],
+        [
+          10.585786437626904,
+          9
+        ],
+        [
+          -10.585786437626904,
+          9
+        ],
+        [
+          -11,
+          8.585786437626906
+        ],
+        [
+          -11,
+          -8.585786437626906
+        ]
+      ],
+      "qualification": "工程切角和边缘预留，非厂家实际净反射区"
+    },
+    {
+      "physicalId": "F1 α 屋脊一",
+      "outer": [
+        [
+          -16,
+          -12
+        ],
+        [
+          16,
+          -12
+        ],
+        [
+          17,
+          -11
+        ],
+        [
+          17,
+          11
+        ],
+        [
+          16,
+          12
+        ],
+        [
+          -16,
+          12
+        ],
+        [
+          -17,
+          11
+        ],
+        [
+          -17,
+          -11
+        ]
+      ],
+      "engineeringNet": [
+        [
+          -15.585786437626902,
+          -11
+        ],
+        [
+          15.585786437626902,
+          -11
+        ],
+        [
+          16,
+          -10.585786437626902
+        ],
+        [
+          16,
+          10.585786437626902
+        ],
+        [
+          15.585786437626902,
+          11
+        ],
+        [
+          -15.585786437626902,
+          11
+        ],
+        [
+          -16,
+          10.585786437626902
+        ],
+        [
+          -16,
+          -10.585786437626902
+        ]
+      ],
+      "qualification": "工程切角和边缘预留，非厂家实际净反射区"
+    },
+    {
+      "physicalId": "F2 α 屋脊二",
+      "outer": [
+        [
+          -16,
+          -12
+        ],
+        [
+          16,
+          -12
+        ],
+        [
+          17,
+          -11
+        ],
+        [
+          17,
+          11
+        ],
+        [
+          16,
+          12
+        ],
+        [
+          -16,
+          12
+        ],
+        [
+          -17,
+          11
+        ],
+        [
+          -17,
+          -11
+        ]
+      ],
+      "engineeringNet": [
+        [
+          -15.585786437626902,
+          -11
+        ],
+        [
+          15.585786437626902,
+          -11
+        ],
+        [
+          16,
+          -10.585786437626902
+        ],
+        [
+          16,
+          10.585786437626902
+        ],
+        [
+          15.585786437626902,
+          11
+        ],
+        [
+          -15.585786437626902,
+          11
+        ],
+        [
+          -16,
+          10.585786437626902
+        ],
+        [
+          -16,
+          -10.585786437626902
+        ]
+      ],
+      "qualification": "工程切角和边缘预留，非厂家实际净反射区"
+    },
+    {
+      "physicalId": "F3 β 屋脊一",
+      "outer": [
+        [
+          -21,
+          -17
+        ],
+        [
+          21,
+          -17
+        ],
+        [
+          22,
+          -16
+        ],
+        [
+          22,
+          16
+        ],
+        [
+          21,
+          17
+        ],
+        [
+          -21,
+          17
+        ],
+        [
+          -22,
+          16
+        ],
+        [
+          -22,
+          -16
+        ]
+      ],
+      "engineeringNet": [
+        [
+          -20.585786437626904,
+          -16
+        ],
+        [
+          20.585786437626904,
+          -16
+        ],
+        [
+          21,
+          -15.585786437626902
+        ],
+        [
+          21,
+          15.585786437626902
+        ],
+        [
+          20.585786437626904,
+          16
+        ],
+        [
+          -20.585786437626904,
+          16
+        ],
+        [
+          -21,
+          15.585786437626902
+        ],
+        [
+          -21,
+          -15.585786437626902
+        ]
+      ],
+      "qualification": "工程切角和边缘预留，非厂家实际净反射区"
+    },
+    {
+      "physicalId": "F4 β 屋脊二",
+      "outer": [
+        [
+          -21,
+          -17
+        ],
+        [
+          21,
+          -17
+        ],
+        [
+          22,
+          -16
+        ],
+        [
+          22,
+          16
+        ],
+        [
+          21,
+          17
+        ],
+        [
+          -21,
+          17
+        ],
+        [
+          -22,
+          16
+        ],
+        [
+          -22,
+          -16
+        ]
+      ],
+      "engineeringNet": [
+        [
+          -20.585786437626904,
+          -16
+        ],
+        [
+          20.585786437626904,
+          -16
+        ],
+        [
+          21,
+          -15.585786437626902
+        ],
+        [
+          21,
+          15.585786437626902
+        ],
+        [
+          20.585786437626904,
+          16
+        ],
+        [
+          -20.585786437626904,
+          16
+        ],
+        [
+          -21,
+          15.585786437626902
+        ],
+        [
+          -21,
+          -15.585786437626902
+        ]
+      ],
+      "qualification": "工程切角和边缘预留，非厂家实际净反射区"
+    },
+    {
+      "physicalId": "F5 XY 中继折转",
+      "outer": [
+        [
+          -21,
+          -17
+        ],
+        [
+          21,
+          -17
+        ],
+        [
+          22,
+          -16
+        ],
+        [
+          22,
+          16
+        ],
+        [
+          21,
+          17
+        ],
+        [
+          -21,
+          17
+        ],
+        [
+          -22,
+          16
+        ],
+        [
+          -22,
+          -16
+        ]
+      ],
+      "engineeringNet": [
+        [
+          -20.585786437626904,
+          -16
+        ],
+        [
+          20.585786437626904,
+          -16
+        ],
+        [
+          21,
+          -15.585786437626902
+        ],
+        [
+          21,
+          15.585786437626902
+        ],
+        [
+          20.585786437626904,
+          16
+        ],
+        [
+          -20.585786437626904,
+          16
+        ],
+        [
+          -21,
+          15.585786437626902
+        ],
+        [
+          -21,
+          -15.585786437626902
+        ]
+      ],
+      "qualification": "工程切角和边缘预留，非厂家实际净反射区"
+    },
+    {
+      "physicalId": "F6 固定出光折转",
+      "outer": [
+        [
+          -23,
+          -19
+        ],
+        [
+          23,
+          -19
+        ],
+        [
+          24,
+          -18
+        ],
+        [
+          24,
+          18
+        ],
+        [
+          23,
+          19
+        ],
+        [
+          -23,
+          19
+        ],
+        [
+          -24,
+          18
+        ],
+        [
+          -24,
+          -18
+        ]
+      ],
+      "engineeringNet": [
+        [
+          -22.585786437626904,
+          -18
+        ],
+        [
+          22.585786437626904,
+          -18
+        ],
+        [
+          23.000000000000004,
+          -17.585786437626904
+        ],
+        [
+          23.000000000000004,
+          17.585786437626904
+        ],
+        [
+          22.585786437626904,
+          18
+        ],
+        [
+          -22.585786437626904,
+          18
+        ],
+        [
+          -23.000000000000004,
+          17.585786437626904
+        ],
+        [
+          -23.000000000000004,
+          -17.585786437626904
+        ]
+      ],
+      "qualification": "工程切角和边缘预留，非厂家实际净反射区"
+    },
+    {
+      "physicalId": "F7 固定出光折转",
+      "outer": [
+        [
+          -35,
+          -30
+        ],
+        [
+          35,
+          -30
+        ],
+        [
+          36,
+          -29
+        ],
+        [
+          36,
+          29
+        ],
+        [
+          35,
+          30
+        ],
+        [
+          -35,
+          30
+        ],
+        [
+          -36,
+          29
+        ],
+        [
+          -36,
+          -29
+        ]
+      ],
+      "engineeringNet": [
+        [
+          -34.585786437626915,
+          -29
+        ],
+        [
+          34.5857864376269,
+          -29
+        ],
+        [
+          35,
+          -28.585786437626904
+        ],
+        [
+          35,
+          28.585786437626915
+        ],
+        [
+          34.585786437626915,
+          29
+        ],
+        [
+          -34.5857864376269,
+          29
+        ],
+        [
+          -35,
+          28.585786437626904
+        ],
+        [
+          -35,
+          -28.585786437626915
+        ]
+      ],
+      "qualification": "工程切角和边缘预留，非厂家实际净反射区"
+    }
+  ],
+  "controlledReflections": "四实体转轴；M1/M2 各双程，M3/M4 各单程；Z1 沿 X 直线移动",
+  "qualification": "全局顶点/法线/转轴供坐标折转配置；不是已在 OpticStudio 跑通的整机 ZMX"
+}

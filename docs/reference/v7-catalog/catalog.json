@@ -1,0 +1,284 @@
+{
+  "revision": "new-4p1-separated-roofs-v7",
+  "wavelengthNm": 515,
+  "lenses": [
+    {
+      "role": "紧凑中继，正反安装各两件",
+      "vendor": "项目定制候选",
+      "part": "CUSTOM-R60",
+      "shape": "胶合消色差双片",
+      "material": "N-BAF10/N-SF10",
+      "radius1Mm": 41.504,
+      "radius2Mm": -247.56,
+      "centerThicknessMm": 19.6,
+      "edgeThicknessMm": 13.656,
+      "outerDiameterMm": 40,
+      "clearDiameterMm": 38,
+      "nominalEflMm": 60,
+      "nominalBflMm": 48.936,
+      "specificationWavelengthNm": 587.6,
+      "coating": "定制 515 nm AR；适用脉宽/能量、吸收和胶合层负载待鉴定",
+      "sourceUrl": "https://www.edmundoptics.com/capabilities/laser-optics/manufacturing/",
+      "file": "CUSTOM-R60-515-geometry.zmx",
+      "referenceFolder": "v6-catalog",
+      "publishedPrescription": false,
+      "prescription": [
+        {
+          "radiusMm": 41.504000000000005,
+          "thicknessMm": 16,
+          "glassAfter": "N-BAF10",
+          "conic": -2.81
+        },
+        {
+          "radiusMm": -26.232,
+          "thicknessMm": 3.6,
+          "glassAfter": "N-SF10",
+          "conic": 0
+        },
+        {
+          "radiusMm": -247.56,
+          "thicknessMm": 0,
+          "glassAfter": "AIR",
+          "conic": -5.21
+        }
+      ],
+      "custom": true,
+      "provenance": "公开 49-292 球面处方等比例 0.8 缩放的设计起点；不是 Edmund 商品，不代表优化完成或厂家接受加工",
+      "paraxial515": {
+        "wavelengthNm": 515,
+        "refractiveIndex": 1.6765204276553827,
+        "effectiveFocalLengthMm": 59.90227987535338,
+        "frontFocalDistanceMm": 59.197028426289805,
+        "backFocalLengthMm": 48.81667314546402,
+        "matrix": {
+          "a": 0.8149384839282137,
+          "b": 11.660343276577397,
+          "c": -0.016693855427219677,
+          "d": 0.9882266342694955
+        }
+      }
+    },
+    {
+      "role": "定制末级中继",
+      "vendor": "项目定制候选",
+      "part": "CUSTOM-R75",
+      "shape": "胶合消色差双片",
+      "material": "N-BAF10/N-SF10",
+      "radius1Mm": 51.88,
+      "radius2Mm": -309.45,
+      "centerThicknessMm": 24.5,
+      "edgeThicknessMm": 17.07,
+      "outerDiameterMm": 50,
+      "clearDiameterMm": 49,
+      "nominalEflMm": 75,
+      "nominalBflMm": 61.17,
+      "specificationWavelengthNm": 587.6,
+      "coating": "515 nm AR；胶合层、脉冲负载待鉴定",
+      "sourceUrl": "https://www.edmundoptics.com/p/50mm-dia-x-75mm-fl-vis-0deg-coated-achromatic-lens-/9643/",
+      "file": "CUSTOM-R75-515-geometry.zmx",
+      "referenceFolder": "v6-catalog",
+      "publishedPrescription": false,
+      "prescription": [
+        {
+          "radiusMm": 51.88,
+          "thicknessMm": 20,
+          "glassAfter": "N-BAF10",
+          "conic": -1.99
+        },
+        {
+          "radiusMm": -32.79,
+          "thicknessMm": 4.5,
+          "glassAfter": "N-SF10",
+          "conic": 0
+        },
+        {
+          "radiusMm": -309.45,
+          "thicknessMm": 0,
+          "glassAfter": "AIR",
+          "conic": -4.73
+        }
+      ],
+      "custom": true,
+      "provenance": "以公开 49-292 为起点优化非球面，非厂家商品",
+      "paraxial515": {
+        "wavelengthNm": 515,
+        "refractiveIndex": 1.6765204276553827,
+        "effectiveFocalLengthMm": 74.8778498441917,
+        "frontFocalDistanceMm": 73.99628553286223,
+        "backFocalLengthMm": 61.02084143183001,
+        "matrix": {
+          "a": 0.8149384839282136,
+          "b": 14.575429095721747,
+          "c": -0.013355084341775745,
+          "d": 0.9882266342694955
+        }
+      }
+    },
+    {
+      "role": "定制物镜",
+      "vendor": "项目定制候选",
+      "part": "CUSTOM-O75",
+      "shape": "胶合消色差双片",
+      "material": "N-BAF10/N-SF10",
+      "radius1Mm": 51.88,
+      "radius2Mm": -309.45,
+      "centerThicknessMm": 24.5,
+      "edgeThicknessMm": 17.07,
+      "outerDiameterMm": 50,
+      "clearDiameterMm": 49,
+      "nominalEflMm": 75,
+      "nominalBflMm": 61.17,
+      "specificationWavelengthNm": 587.6,
+      "coating": "515 nm AR；胶合层、脉冲负载待鉴定",
+      "sourceUrl": "https://www.edmundoptics.com/p/50mm-dia-x-75mm-fl-vis-0deg-coated-achromatic-lens-/9643/",
+      "file": "CUSTOM-O75-515-geometry.zmx",
+      "referenceFolder": "v6-catalog",
+      "publishedPrescription": false,
+      "prescription": [
+        {
+          "radiusMm": 51.88,
+          "thicknessMm": 20,
+          "glassAfter": "N-BAF10",
+          "conic": -0.62
+        },
+        {
+          "radiusMm": -32.79,
+          "thicknessMm": 4.5,
+          "glassAfter": "N-SF10",
+          "conic": 0
+        },
+        {
+          "radiusMm": -309.45,
+          "thicknessMm": 0,
+          "glassAfter": "AIR",
+          "conic": -3.67
+        }
+      ],
+      "custom": true,
+      "provenance": "以公开 49-292 为起点优化非球面，非厂家商品",
+      "paraxial515": {
+        "wavelengthNm": 515,
+        "refractiveIndex": 1.6765204276553827,
+        "effectiveFocalLengthMm": 74.8778498441917,
+        "frontFocalDistanceMm": 73.99628553286223,
+        "backFocalLengthMm": 61.02084143183001,
+        "matrix": {
+          "a": 0.8149384839282136,
+          "b": 14.575429095721747,
+          "c": -0.013355084341775745,
+          "d": 0.9882266342694955
+        }
+      }
+    },
+    {
+      "role": "短前置 Z 移动负镜",
+      "vendor": "项目定制候选",
+      "part": "CUSTOM-Z25",
+      "shape": "平凹球面",
+      "material": "N-BK7",
+      "radius1Mm": -12.92,
+      "radius2Mm": null,
+      "conic1": 0,
+      "conic2": 0,
+      "centerThicknessMm": 1.25,
+      "edgeThicknessMm": 2.585,
+      "outerDiameterMm": 12.7,
+      "clearDiameterMm": 11.43,
+      "nominalEflMm": -25,
+      "nominalBflMm": -25.82,
+      "specificationWavelengthNm": 589,
+      "coating": "定制 515 nm AR；实际脉冲负载待鉴定",
+      "originalGlass": "BK7",
+      "originalWavelengthNm": 546.1,
+      "originalCoating": "ZEC_AR-14",
+      "sourceUrl": "https://www.edmundoptics.com/capabilities/laser-optics/manufacturing/",
+      "file": "CUSTOM-Z25-515-geometry.zmx",
+      "custom": true,
+      "referenceFolder": "v6-catalog",
+      "provenance": "KPC040 完整球面处方的 0.5 倍缩放设计起点，不是现货料号",
+      "paraxial515": {
+        "wavelengthNm": 515,
+        "refractiveIndex": 1.5204599193754282,
+        "effectiveFocalLengthMm": -24.824197827768355,
+        "frontFocalDistanceMm": -24.824197827768355,
+        "backFocalLengthMm": -25.646317493055864,
+        "matrix": {
+          "a": 1.033117672965363,
+          "b": 0.822119665287509,
+          "c": 0.0402832754934542,
+          "d": 1
+        }
+      }
+    },
+    {
+      "role": "Z2 短前置正镜",
+      "vendor": "Newport",
+      "part": "KPX088AR.14",
+      "shape": "平凸球面",
+      "material": "N-BK7",
+      "radius1Mm": 39.07,
+      "radius2Mm": null,
+      "conic1": 0,
+      "conic2": 0,
+      "centerThicknessMm": 5.122,
+      "edgeThicknessMm": 3,
+      "outerDiameterMm": 25.4,
+      "clearDiameterMm": 22.86,
+      "nominalEflMm": 75.6,
+      "nominalBflMm": 72.22,
+      "specificationWavelengthNm": 589,
+      "coating": "AR.14，430–700 nm",
+      "originalGlass": "BK7",
+      "originalWavelengthNm": 546.1,
+      "originalCoating": "ZEC_AR-14",
+      "sourceUrl": "https://www.newport.com/p/KPX088AR.14",
+      "file": "KPX088AR.14.zmx",
+      "referenceFolder": "v4-catalog",
+      "paraxial515": {
+        "wavelengthNm": 515,
+        "refractiveIndex": 1.5204599193754282,
+        "effectiveFocalLengthMm": 75.06822052096825,
+        "frontFocalDistanceMm": 75.06822052096825,
+        "backFocalLengthMm": 71.69950298048616,
+        "matrix": {
+          "a": 0.9551245851159994,
+          "b": 3.368717540482097,
+          "c": -0.013321216262488564,
+          "d": 1
+        }
+      }
+    }
+  ],
+  "protectiveWindow": {
+    "role": "W 保护窗候选",
+    "vendor": "Edmund Optics",
+    "part": "72-416",
+    "material": "Corning 7980",
+    "radius1Mm": null,
+    "radius2Mm": null,
+    "conic1": 0,
+    "conic2": 0,
+    "centerThicknessMm": 3,
+    "outerDiameterMm": 50,
+    "clearDiameterMm": 45,
+    "coating": "VIS 0°，425–675 nm",
+    "sourceUrl": "https://www.edmundoptics.com/p/50mm-dia-3mm-thick-vis-0-coated-4-fused-silica-window/53776/",
+    "file": null,
+    "materialRecipe": {
+      "equation": "n²−1 = Σ B_i·λ²/(λ²−C_i)，λ 用 μm",
+      "temperatureC": 22,
+      "b": [
+        0.683740494,
+        0.420323613,
+        0.58502748
+      ],
+      "cUmSquared": [
+        0.00460352869,
+        0.0133968856,
+        64.4932732
+      ],
+      "sourceUrl": "https://www.corning.com/media/worldwide/csm/documents/HPFS_7980_Germicidal_Irradiation.pdf"
+    }
+  },
+  "prescriptionPrecision": "定制件包含 R、圆锥系数 K、厚度、材料和净口径；胶合界面保持球面，制造与负载尚未签核"
+}
